@@ -26,7 +26,41 @@
 | Forbes Life (вино) | forbes.ru/forbeslife | Сайт | Несколько раз в неделю |
 | Vinoteka | vinoteka.ru/magazine | Сайт | Еженедельно |
 
+## Twitter / X
+
+### Издания и платформы
+
+| Аккаунт | Кто | Фокус |
+|---|---|---|
+| @Decanter | Decanter Magazine | Новости, регионы, оценки |
+| @WineSpectator | Wine Spectator | Новости индустрии, оценки |
+| @wine_searcher | Wine-Searcher | Цены, новости, релизы |
+| @WineEnthusiast | Wine Enthusiast | Новости, стиль, культура |
+| @TheDrinksBiz | The Drinks Business | Индустрия, сделки, тренды |
+
+### Журналисты и критики
+
+| Аккаунт | Кто | Фокус |
+|---|---|---|
+| @JancisRobinson | Jancis Robinson | Классика, Европа, глубокий анализ |
+| @jamiegoode | Jamie Goode | Натуральное вино, производители |
+| @alicefeiring | Alice Feiring | Натуральное вино, Луара, Грузия |
+| @Timatkin | Tim Atkin MW | Испания, ЮАР, Аргентина |
+| @EricAsimov | Eric Asimov (NYT) | Культура вина, производители |
+| @nealmartin | Neal Martin | Бордо, Бургундия |
+| @WineFolly | Madeline Puckette | Инфографика, образование |
+| @1WineDude | Joe Roberts | Независимый взгляд, индустрия |
+| @vinography | Alder Yarrow | Производители, дегустации |
+
+### Производители и виноделы
+
+| Аккаунт | Кто | Фокус |
+|---|---|---|
+| @RandallGrahm | Randall Grahm (Bonny Doon) | Философия, терруар, эксперименты |
+| @LauraCatena | Laura Catena | Аргентина, исследования |
+
 ## Приоритет для еженедельного мониторинга
 
-**EN:** Wine-Searcher, The Drinks Business, Decanter, Harpers  
-**RU:** Simple Wine News, Invisible Wine, WineRetail
+**Сайты EN:** Wine-Searcher, The Drinks Business, Decanter, Harpers  
+**Сайты RU:** Simple Wine News, Invisible Wine, WineRetail  
+**Twitter EN:** @Decanter, @TheDrinksBiz, @jamiegoode, @alicefeiring, @EricAsimov
