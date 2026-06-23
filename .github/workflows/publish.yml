@@ -2,8 +2,14 @@ name: Публикация в Telegram
 
 on:
   schedule:
-    - cron: '34 9 * * *'  # 12:34 МСК (UTC+3)
-  workflow_dispatch:       # ручной запуск из GitHub
+    - cron: '34 9 * * *'   # 12:34 МСК — слот 1
+    - cron: '45 10 * * *'  # 13:45 МСК — слот 2
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: 'Слот (1 или 2)'
+        required: false
+        default: '1'
 
 jobs:
   publish:
@@ -27,6 +33,7 @@ jobs:
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
+          SLOT: ${{ github.event.inputs.slot }}
         run: python bot/publish.py
 
       - name: Сохранить изменения статусов
@@ -34,5 +41,5 @@ jobs:
           git config user.name "Content Factory Bot"
           git config user.email "bot@content-factory"
           git add posts/ published/
-          git diff --cached --quiet || git commit -m "Опубликован пост $(date +'%Y-%m-%d')"
+          git diff --cached --quiet || git commit -m "Опубликован пост $(date +'%Y-%m-%d') слот ${{ github.event.inputs.slot || 'auto' }}"
           git push

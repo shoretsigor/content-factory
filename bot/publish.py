@@ -1,8 +1,8 @@
 import os
 import re
 import shutil
+from datetime import date, datetime, timezone
 from pathlib import Path
-from datetime import date
 
 import requests
 from dotenv import load_dotenv
@@ -15,6 +15,15 @@ POSTS_DIR = Path(__file__).parent.parent / "posts"
 PUBLISHED_DIR = Path(__file__).parent.parent / "published"
 
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".webp")
+
+
+def get_slot() -> str:
+    """Определяет слот по переменной окружения или текущему UTC-часу."""
+    slot = os.environ.get("SLOT")
+    if slot in ("1", "2"):
+        return slot
+    hour = datetime.now(timezone.utc).hour
+    return "2" if hour == 10 else "1"
 
 
 def parse_post(path: Path) -> tuple[str, dict]:
@@ -64,30 +73,30 @@ def archive(post_path: Path, image: Path | None) -> None:
 
 def main():
     today = date.today().isoformat()
-    candidates = sorted(POSTS_DIR.glob("*.md"))
+    slot = get_slot()
+    filename = f"{today}-{slot}.md"
+    post_path = POSTS_DIR / filename
 
-    published = 0
-    for post_path in candidates:
-        _, meta = parse_post(post_path)
-        if meta.get("status") != "ready":
-            continue
-        if meta.get("date", "") > today:
-            continue
+    if not post_path.exists():
+        print(f"Нет поста для слота {slot}: {filename}")
+        return
 
-        body, _ = parse_post(post_path)
-        image = find_image(post_path)
+    _, meta = parse_post(post_path)
+    if meta.get("status") != "ready":
+        print(f"Статус не ready: {filename}")
+        return
 
-        if send_message(body, image):
-            update_status(post_path)
-            archive(post_path, image)
-            label = f"с фото ({image.name})" if image else "без фото"
-            print(f"✓ Опубликован {label}: {post_path.name}")
-            published += 1
-        else:
-            print(f"✗ Ошибка публикации: {post_path.name}")
+    body, _ = parse_post(post_path)
+    image = find_image(post_path)
 
-    if published == 0:
-        print("Нет постов со статусом ready для публикации сегодня.")
+    if send_message(body, image):
+        update_status(post_path)
+        archive(post_path, image)
+        label = f"с фото ({image.name})" if image else "без фото"
+        print(f"✓ Опубликован слот {slot} {label}: {filename}")
+    else:
+        print(f"✗ Ошибка публикации: {filename}")
+        exit(1)
 
 
 if __name__ == "__main__":
