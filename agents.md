@@ -18,7 +18,7 @@
 Content-factory/
 ├── agents.md           # этот файл
 ├── content_plan.md     # список идей с датами и статусами
-├── posts/              # черновики и готовые посты (YYYY-MM-DD.md)
+├── posts/              # черновики и готовые посты (YYYY-MM-DD-{slot}.md)
 └── published/          # посты после публикации
 ```
 

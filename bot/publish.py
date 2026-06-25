@@ -81,12 +81,10 @@ def main():
         print(f"Нет поста для слота {slot}: {filename}")
         return
 
-    _, meta = parse_post(post_path)
+    body, meta = parse_post(post_path)
     if meta.get("status") != "ready":
         print(f"Статус не ready: {filename}")
         return
-
-    body, _ = parse_post(post_path)
     image = find_image(post_path)
 
     if send_message(body, image):
