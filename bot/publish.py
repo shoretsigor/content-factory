@@ -23,7 +23,7 @@ def get_slot() -> str:
     if slot in ("1", "2"):
         return slot
     hour = datetime.now(timezone.utc).hour
-    return "2" if hour == 10 else "1"
+    return "2" if hour >= 10 else "1"
 
 
 def parse_post(path: Path) -> tuple[str, dict]:
@@ -51,10 +51,11 @@ def send_message(text: str, image: Path | None = None) -> bool:
                 url,
                 data={"chat_id": CHANNEL_ID, "caption": text, "parse_mode": "HTML"},
                 files={"photo": f},
+                timeout=30,
             )
     else:
         url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
-        resp = requests.post(url, json={"chat_id": CHANNEL_ID, "text": text, "parse_mode": "HTML"})
+        resp = requests.post(url, json={"chat_id": CHANNEL_ID, "text": text, "parse_mode": "HTML"}, timeout=30)
     return resp.ok
 
 
