@@ -21,6 +21,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Определить слот
+        run: |
+          if [ "${{ github.event.schedule }}" = "34 9 * * *" ]; then
+            echo "SLOT=1" >> $GITHUB_ENV
+          elif [ "${{ github.event.schedule }}" = "45 10 * * *" ]; then
+            echo "SLOT=2" >> $GITHUB_ENV
+          else
+            echo "SLOT=${{ github.event.inputs.slot || '1' }}" >> $GITHUB_ENV
+          fi
+
       - name: Python
         uses: actions/setup-python@v5
         with:
@@ -33,7 +43,6 @@ jobs:
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
-          SLOT: ${{ github.event.inputs.slot }}
         run: python bot/publish.py
 
       - name: Сохранить изменения статусов
@@ -41,5 +50,5 @@ jobs:
           git config user.name "Content Factory Bot"
           git config user.email "bot@content-factory"
           git add posts/ published/
-          git diff --cached --quiet || git commit -m "Опубликован пост $(date +'%Y-%m-%d') слот ${{ github.event.inputs.slot || 'auto' }}"
+          git diff --cached --quiet || git commit -m "Опубликован пост $(date +'%Y-%m-%d') слот ${SLOT}"
           git push

@@ -1,7 +1,7 @@
 import os
 import re
 import shutil
-from datetime import date, datetime, timezone
+from datetime import date
 from pathlib import Path
 
 import requests
@@ -18,12 +18,10 @@ IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".webp")
 
 
 def get_slot() -> str:
-    """Определяет слот по переменной окружения или текущему UTC-часу."""
     slot = os.environ.get("SLOT")
-    if slot in ("1", "2"):
-        return slot
-    hour = datetime.now(timezone.utc).hour
-    return "2" if hour >= 10 else "1"
+    if slot not in ("1", "2"):
+        raise ValueError(f"Переменная SLOT должна быть '1' или '2', получено: {slot!r}")
+    return slot
 
 
 def parse_post(path: Path) -> tuple[str, dict]:
