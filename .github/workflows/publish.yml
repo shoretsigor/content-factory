@@ -10,6 +10,10 @@ on:
         description: 'Слот (1 или 2)'
         required: false
         default: '1'
+      date:
+        description: 'Дата поста (YYYY-MM-DD), если нужно опубликовать пропущенный'
+        required: false
+        default: ''
 
 jobs:
   publish:
@@ -43,6 +47,7 @@ jobs:
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
+          DATE: ${{ github.event.inputs.date }}
         run: python bot/publish.py
 
       - name: Сохранить изменения статусов

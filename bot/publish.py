@@ -71,7 +71,7 @@ def archive(post_path: Path, image: Path | None) -> None:
 
 
 def main():
-    today = date.today().isoformat()
+    today = os.environ.get("DATE") or date.today().isoformat()
     slot = get_slot()
     filename = f"{today}-{slot}.md"
     post_path = POSTS_DIR / filename
