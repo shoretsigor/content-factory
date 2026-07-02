@@ -57,7 +57,8 @@ state: dict = {}
 
 
 def tg(method: str, **kwargs) -> dict:
-    resp = requests.post(f"{API_URL}/{method}", json=kwargs, timeout=10)
+    http_timeout = kwargs.get("timeout", 10) + 5
+    resp = requests.post(f"{API_URL}/{method}", json=kwargs, timeout=http_timeout)
     return resp.json()
 
 
