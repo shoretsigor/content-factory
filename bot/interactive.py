@@ -10,6 +10,15 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+logging.basicConfig(level=logging.INFO, format="%(asctime)s %(message)s")
+log = logging.getLogger(__name__)
+
+REQUIRED_ENV_VARS = ("BOT_TOKEN", "CHANNEL_ID", "ANTHROPIC_API_KEY")
+missing = [name for name in REQUIRED_ENV_VARS if not os.environ.get(name)]
+if missing:
+    log.error(f"Не заданы переменные окружения: {', '.join(missing)}")
+    raise SystemExit(1)
+
 BOT_TOKEN = os.environ["BOT_TOKEN"]
 CHANNEL_ID = os.environ["CHANNEL_ID"]
 ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
@@ -17,9 +26,6 @@ ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
 API_URL = f"https://api.telegram.org/bot{BOT_TOKEN}"
 POSTS_DIR = Path(__file__).parent.parent / "posts"
 PUBLISHED_DIR = Path(__file__).parent.parent / "published"
-
-logging.basicConfig(level=logging.INFO, format="%(asctime)s %(message)s")
-log = logging.getLogger(__name__)
 
 TOV = """
 Ты редактор Telegram-канала о вине «Шепот виноградной лозы». Пишешь посты для российской аудитории любителей вина.
@@ -92,7 +98,7 @@ def apply_edits(original: str, edits: str) -> str:
             "content-type": "application/json",
         },
         json={
-            "model": "claude-sonnet-4-6",
+            "model": "claude-sonnet-5",
             "max_tokens": 1500,
             "system": TOV,
             "messages": [
@@ -116,7 +122,7 @@ def generate_variants(idea: str) -> list[str]:
             "content-type": "application/json",
         },
         json={
-            "model": "claude-sonnet-4-6",
+            "model": "claude-sonnet-5",
             "max_tokens": 2000,
             "system": TOV,
             "messages": [
