@@ -57,7 +57,8 @@ state: dict = {}
 
 
 def tg(method: str, **kwargs) -> dict:
-    resp = requests.post(f"{API_URL}/{method}", json=kwargs, timeout=10)
+    http_timeout = kwargs.get("timeout", 10) + 5
+    resp = requests.post(f"{API_URL}/{method}", json=kwargs, timeout=http_timeout)
     return resp.json()
 
 
@@ -291,10 +292,18 @@ def handle_callback(cb: dict) -> None:
 
 def main() -> None:
     log.info("Бот запущен")
+    deleted = tg("deleteWebhook", drop_pending_updates=False)
+    if not deleted.get("ok"):
+        log.error(f"Не удалось снять webhook: {deleted}")
+
     offset = 0
     while True:
         try:
             resp = tg("getUpdates", offset=offset, timeout=30)
+            if not resp.get("ok"):
+                log.error(f"Telegram API вернул ошибку: {resp}")
+                time.sleep(5)
+                continue
             for update in resp.get("result", []):
                 offset = update["update_id"] + 1
                 if "message" in update:
