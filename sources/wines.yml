@@ -93,6 +93,7 @@ wines:
   color: Шампанское
   group: Франция
   raw: Brut Royal Grand Cru Millésime Pommery 2008
+  used: '2026-10-02'
 - id: w013
   name: Extra Brut Sigma Blanc de Blancs 20 4.0 Valentin Leflaive
   vintage: NV
@@ -488,6 +489,7 @@ wines:
   color: Белое
   group: Остальная Европа
   raw: Weissburgunder Steingewann Hees 2023, Nahe, Germany
+  used: '2026-10-08'
 - id: w069
   name: Furmint Mandolas Oremus
   vintage: '2021'
@@ -608,6 +610,7 @@ wines:
   color: Красное
   group: Италия
   raw: Barbera Tenuta Carretta 2024, Piemonte
+  used: '2026-10-04'
 - id: w086
   name: Valpolicella Ripasso Superiore Pasqua
   vintage: '2022'
@@ -629,6 +632,7 @@ wines:
   color: Красное
   group: Италия
   raw: Lacryma Christi del Vesuvio Rosso Feudi di San Gregorio 2023, Campania
+  used: '2026-10-06'
 - id: w089
   name: Valpolicella Morandina Pra
   vintage: '2022'
@@ -1212,6 +1216,7 @@ wines:
   color: Оранжевое
   group: Оранжевое
   raw: Hors Serie №1 Pays d'Aude Cazaban 2022, Languedoc, France
+  note: Прайс относит к оранжевым, но производитель описывает как розе прямым прессованием целых гроздей без мацерации, сорта гренаш/сира/мурведр. Категорию нужно уточнить у поставщика
 - id: w172
   name: Traminer Uncensored Bikicki
   vintage: '2021'
