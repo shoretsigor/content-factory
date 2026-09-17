@@ -21,6 +21,6 @@ slots:
 # Генератор готовит пакет на две недели вперёд, 1 и 15 числа.
 generation:
   batch_days: 14
-  producers_file: sources/producers.md
+  wines_file: sources/wines.yml
 
 publication_mode: auto
