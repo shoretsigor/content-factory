@@ -1,25 +1,1305 @@
-# Бутылки для канала. Генератор берёт темы ТОЛЬКО отсюда.
+# Каталог бутылочных позиций. Прислан владельцем 17.09.2026.
 #
-# Политика, раздел 21.4: список вин задаёт владелец, придумывать бутылки нельзя.
-# Пустой список означает, что генератору не о чем писать: он остановится
-# и скажет об этом, а не выберет бутылки сам.
+# Единственный источник тем для канала. Бутылки выбираются отсюда
+# случайно и без повторов: использованная позиция получает поле used
+# с датой публикации и больше не берётся.
 #
-# Обязательные поля: producer, wine.
-# vintage можно не указывать — тогда генератор напишет о кюве в целом
-# и не станет приписывать бутылке случайный год (политика 7.2).
-#
-# Пример заполнения:
-#
-#   - producer: FONTERENZA
-#     wine: "Rosso di Montalcino"
-#     vintage: 2022
-#     note: "необязательно: что подчеркнуть или на чём сделать акцент"
-#
-#   - producer: PIERO BUSSO
-#     wine: "Barbaresco Gallina"
-#     vintage: 2019
-#
-# Производители портфеля — в sources/producers.md, это справочник,
-# а не список тем.
+# raw — исходная строка из прайса, не менять. name/vintage/origin —
+# разбор для удобства. Пустой vintage означает NV или год не указан:
+# в таком случае пишем о кюве в целом, год не придумываем (политика 7.2).
 
-wines: []
+wines:
+- id: w001
+  name: Prosecco Argeo Ruggeri
+  vintage: NV
+  origin: Veneto, Italy
+  color: Игристое
+  group: Италия
+  raw: Prosecco Argeo Ruggeri NV, Veneto, Italy
+- id: w002
+  name: Cherubini Sui Generis
+  vintage: '2019'
+  origin: Lombardia
+  color: Игристое
+  group: Италия
+  raw: Cherubini Sui Generis 2019, Lombardia
+- id: w003
+  name: Franciacorta Teatro alla Scala Bellavista
+  vintage: '2020'
+  origin: Lombardia
+  color: Игристое
+  group: Италия
+  raw: Franciacorta Teatro alla Scala Bellavista 2020, Lombardia
+- id: w004
+  name: Franciacorta Extra Brut Vintage Collection Ca'Del Bosco
+  vintage: '2020'
+  origin: Lombardia
+  color: Игристое
+  group: Италия
+  raw: Franciacorta Extra Brut Vintage Collection Ca'Del Bosco 2020, Lombardia
+- id: w005
+  name: Rose Brut Soldati La Scolca
+  vintage: NV
+  origin: Piemonte
+  color: Розовое игристое
+  group: Италия
+  raw: Rose Brut Soldati La Scolca NV, Piemonte
+- id: w006
+  name: Rose Franciacorta Grande Cuvée Alma Bellavista
+  vintage: NV
+  origin: Lombardia
+  color: Розовое игристое
+  group: Италия
+  raw: Rose Franciacorta Grande Cuvée Alma Bellavista NV, Lombardia
+- id: w007
+  name: Rose Brut Franciacorta Cuvee Prestige Ca'Del Bosco
+  vintage: NV
+  origin: Lombardia
+  color: Розовое игристое
+  group: Италия
+  raw: Rose Brut Franciacorta Cuvee Prestige Ca'Del Bosco NV, Lombardia
+- id: w008
+  name: Brut Petronille Alain Bailly
+  vintage: NV
+  origin: Франция
+  color: Шампанское
+  group: Франция
+  raw: Brut Petronille Alain Bailly NV
+- id: w009
+  name: Blanc de Blancs Brut Grand Cru Soutiran
+  vintage: NV
+  origin: Франция
+  color: Шампанское
+  group: Франция
+  raw: Blanc de Blancs Brut Grand Cru Soutiran NV
+- id: w010
+  name: Herve Brisson Les Regales Blanc de Blancs
+  vintage: NV
+  origin: Франция
+  color: Шампанское
+  group: Франция
+  raw: Herve Brisson Les Regales Blanc de Blancs NV
+- id: w011
+  name: Brut R de Ruinart
+  vintage: NV
+  origin: Франция
+  color: Шампанское
+  group: Франция
+  raw: Brut R de Ruinart NV
+- id: w012
+  name: Brut Royal Grand Cru Millésime Pommery
+  vintage: '2008'
+  origin: Франция
+  color: Шампанское
+  group: Франция
+  raw: Brut Royal Grand Cru Millésime Pommery 2008
+- id: w013
+  name: Extra Brut Sigma Blanc de Blancs 20 4.0 Valentin Leflaive
+  vintage: NV
+  origin: Франция
+  color: Шампанское
+  group: Франция
+  raw: Extra Brut Sigma Blanc de Blancs 20 4.0 Valentin Leflaive NV
+- id: w014
+  name: Blanc de Blancs Extra Brut Grand Cru Billecart-Salmon
+  vintage: NV
+  origin: Франция
+  color: Шампанское
+  group: Франция
+  raw: Blanc de Blancs Extra Brut Grand Cru Billecart-Salmon NV
+- id: w015
+  name: Agrapart Mineral Grand Cru
+  vintage: '2021'
+  origin: Франция
+  color: Шампанское
+  group: Франция
+  raw: Agrapart Mineral Grand Cru 2021
+- id: w016
+  name: Brut Vintage Louis Roederer
+  vintage: '2016'
+  origin: Франция
+  color: Шампанское
+  group: Франция
+  raw: Brut Vintage Louis Roederer 2016
+- id: w017
+  name: Extra Brut Les Premices Egly-Ouriet
+  vintage: NV
+  origin: Франция
+  color: Шампанское
+  group: Франция
+  raw: Extra Brut Les Premices Egly-Ouriet NV
+- id: w018
+  name: Ruinart Blanc de Blancs
+  vintage: NV
+  origin: Франция
+  color: Шампанское
+  group: Франция
+  raw: Ruinart Blanc de Blancs NV
+- id: w019
+  name: Dom Perignon
+  vintage: '2013'
+  origin: Франция
+  color: Шампанское
+  group: Франция
+  raw: Dom Perignon 2013
+- id: w020
+  name: Rose Brut Chanoine Freres
+  vintage: NV
+  origin: Франция
+  color: Розовое игристое
+  group: Франция
+  raw: Rose Brut Chanoine Freres NV
+- id: w021
+  name: Brut Rose de Saignee Premier Cru Geoffroy
+  vintage: NV
+  origin: Франция
+  color: Розовое игристое
+  group: Франция
+  raw: Brut Rose de Saignee Premier Cru Geoffroy NV
+- id: w022
+  name: Rose de Saignee La Villeseniere
+  vintage: '2016'
+  origin: Франция
+  color: Розовое игристое
+  group: Франция
+  raw: Rose de Saignee La Villeseniere 2016
+- id: w023
+  name: Blanc de Blancs Brut Tete de Cheval
+  vintage: NV
+  origin: Kuban, Russia
+  color: Игристое
+  group: Игристое
+  raw: Blanc de Blancs Brut Tete de Cheval NV, Kuban, Russia
+- id: w024
+  name: Cap Classique Brut Neethlingshof
+  vintage: NV
+  origin: South Africa
+  color: Игристое
+  group: Игристое
+  raw: Cap Classique Brut Neethlingshof NV, South Africa
+- id: w025
+  name: Cremant de Limoux Eugenie Brut Antech
+  vintage: NV
+  origin: Languedoc, France
+  color: Игристое
+  group: Игристое
+  raw: Cremant de Limoux Eugenie Brut Antech NV, Languedoc, France
+- id: w026
+  name: Cava Brut Reserva Sumarroca
+  vintage: '2021'
+  origin: Catalunia, Spain
+  color: Игристое
+  group: Игристое
+  raw: Cava Brut Reserva Sumarroca 2021, Catalunia, Spain
+- id: w027
+  name: Blanc de Noirs Brut Usadba Divnomorskoe
+  vintage: NV
+  origin: Kuban, Russia
+  color: Игристое
+  group: Игристое
+  raw: Blanc de Noirs Brut Usadba Divnomorskoe NV, Kuban, Russia
+- id: w028
+  name: Cremant De Bourgogne Brut Zero Baptiste Bienvenu
+  vintage: '2023'
+  origin: Chablis, France
+  color: Игристое
+  group: Игристое
+  raw: Cremant De Bourgogne Brut Zero Baptiste Bienvenu 2023, Chablis, France
+- id: w029
+  name: Brut Blanc De Blancs Temelion
+  vintage: '2018'
+  origin: Kuban, Russia
+  color: Игристое
+  group: Игристое
+  raw: Brut Blanc De Blancs Temelion 2018, Kuban, Russia
+- id: w030
+  name: Brut Rose Vintage Temelion
+  vintage: '2020'
+  origin: Kuban, Russia
+  color: Розовое игристое
+  group: Игристое
+  raw: Brut Rose Vintage Temelion 2020, Kuban, Russia
+  used: '2026-09-20'
+- id: w031
+  name: Vermentino La Cala Sella & Mosca
+  vintage: '2024'
+  origin: Sardegna
+  color: Белое
+  group: Италия
+  raw: Vermentino La Cala Sella & Mosca 2024, Sardegna
+- id: w032
+  name: Grechetto “Poggio Della Costa” Sergio Mottura
+  vintage: '2019'
+  origin: Lazio
+  color: Белое
+  group: Италия
+  raw: Grechetto “Poggio Della Costa” Sergio Mottura 2019, Lazio
+- id: w033
+  name: Soave Classico Otto Pra
+  vintage: '2024'
+  origin: Veneto
+  color: Белое
+  group: Италия
+  raw: Soave Classico Otto Pra 2024, Veneto
+- id: w034
+  name: Pinot Bianco Cantina Terlan
+  vintage: '2023'
+  origin: Alto Adige
+  color: Белое
+  group: Италия
+  raw: Pinot Bianco Cantina Terlan 2023, Alto Adige
+- id: w035
+  name: Sauvignon Collio Marco Felluga
+  vintage: '2020'
+  origin: Friuli
+  color: Белое
+  group: Италия
+  raw: Sauvignon Collio Marco Felluga 2020, Friuli
+- id: w036
+  name: Chardonnay Langhe Mauro Molino
+  vintage: '2024'
+  origin: Piemonte
+  color: Белое
+  group: Италия
+  raw: Chardonnay Langhe Mauro Molino 2024, Piemonte
+- id: w037
+  name: Sauvignon "Porphyr & Kalk" Ignaz Niedrist
+  vintage: '2021'
+  origin: Alto Adidge
+  color: Белое
+  group: Италия
+  raw: Sauvignon "Porphyr & Kalk" Ignaz Niedrist 2021, Alto Adidge
+- id: w038
+  name: Curtefranca Uccellanda Bellavista
+  vintage: '2021'
+  origin: Lombardia
+  color: Белое
+  group: Италия
+  raw: Curtefranca Uccellanda Bellavista 2021, Lombardia
+- id: w039
+  name: Lafoa Sauvignon Colterenzio
+  vintage: '2023'
+  origin: Alto Adige
+  color: Белое
+  group: Италия
+  raw: Lafoa Sauvignon Colterenzio 2023, Alto Adige
+- id: w040
+  name: Gavi dei Gavi Etichetta Nera La Scolca
+  vintage: '2024'
+  origin: Piemonte
+  color: Белое
+  group: Италия
+  raw: Gavi dei Gavi Etichetta Nera La Scolca 2024, Piemonte
+- id: w041
+  name: Cervaro della Sala Castello Della Sala
+  vintage: '2022'
+  origin: Umbria
+  color: Белое
+  group: Италия
+  raw: Cervaro della Sala Castello Della Sala 2022, Umbria
+- id: w042
+  name: Sauvignon Blanc Quarz Terlano
+  vintage: '2023'
+  origin: Alto Adige
+  color: Белое
+  group: Италия
+  raw: Sauvignon Blanc Quarz Terlano 2023, Alto Adige
+  used: '2026-09-26'
+- id: w043
+  name: Chardonnay Rossj-Bass Gaja
+  vintage: '2024'
+  origin: Piemonte
+  color: Белое
+  group: Италия
+  raw: Chardonnay Rossj-Bass Gaja 2024, Piemonte
+- id: w044
+  name: Chardonnay Beyond the Clouds ELENA WALCH
+  vintage: '2021'
+  origin: Alto Adige
+  color: Белое
+  group: Италия
+  raw: Chardonnay Beyond the Clouds ELENA WALCH 2021, Alto Adige
+- id: w045
+  name: Chenin Blanc Saumur Coq’licot
+  vintage: '2023'
+  origin: Loire
+  color: Белое
+  group: Франция
+  raw: Chenin Blanc Saumur Coq’licot 2023, Loire
+- id: w046
+  name: Chardonnay Belles de Vigne Cazaban
+  vintage: '2022'
+  origin: Languedoc, France
+  color: Белое
+  group: Франция
+  raw: Chardonnay Belles de Vigne Cazaban 2022, Languedoc, France
+- id: w047
+  name: Muscadet Sevre et Maine sur Lie la Mariniere
+  vintage: '2023'
+  origin: Loire
+  color: Белое
+  group: Франция
+  raw: Muscadet Sevre et Maine sur Lie la Mariniere 2023, Loire
+- id: w048
+  name: Bourgogne Aligote Les Fortunes Chanzy
+  vintage: '2023'
+  origin: Bourgogne
+  color: Белое
+  group: Франция
+  raw: Bourgogne Aligote Les Fortunes Chanzy 2023, Bourgogne
+- id: w049
+  name: Pinot Blanc Eclectic Charles Frey
+  vintage: '2024'
+  origin: Alsace
+  color: Белое
+  group: Франция
+  raw: Pinot Blanc Eclectic Charles Frey 2024, Alsace
+- id: w050
+  name: Bourgone Chardonnay Le Duche Moillard
+  vintage: '2022'
+  origin: Bourgogne
+  color: Белое
+  group: Франция
+  raw: Bourgone Chardonnay Le Duche Moillard 2022, Bourgogne
+- id: w051
+  name: Pouilly-Fume Les Deux Cailloux Fournier Pere et Fis
+  vintage: '2023'
+  origin: Loire
+  color: Белое
+  group: Франция
+  raw: Pouilly-Fume Les Deux Cailloux Fournier Pere et Fis 2023, Loire
+- id: w052
+  name: Sancerre La Clef du Recit
+  vintage: '2023'
+  origin: Loire
+  color: Белое
+  group: Франция
+  raw: Sancerre La Clef du Recit 2023, Loire
+- id: w053
+  name: Bourgogne Hautes-Cotes de Beaune Domaine Henri Delagrange
+  vintage: '2022'
+  origin: Bourgogne
+  color: Белое
+  group: Франция
+  raw: Bourgogne Hautes-Cotes de Beaune Domaine Henri Delagrange 2022, Bourgogne
+  used: '2026-09-24'
+- id: w054
+  name: Chablis Herve Azo
+  vintage: '2023'
+  origin: Bourgogne
+  color: Белое
+  group: Франция
+  raw: Chablis Herve Azo 2023, Bourgogne
+- id: w055
+  name: Saint-Veran Maison Auvigue
+  vintage: '2022'
+  origin: Bourgogne
+  color: Белое
+  group: Франция
+  raw: Saint-Veran Maison Auvigue 2022, Bourgogne
+- id: w056
+  name: Bourgogne Cote d'Or Blanc Frederic Magnien
+  vintage: '2019'
+  origin: Bourgogne
+  color: Белое
+  group: Франция
+  raw: Bourgogne Cote d'Or Blanc Frederic Magnien 2019, Bourgogne
+- id: w057
+  name: Rully Clos La Folie Domaine de la Folie
+  vintage: '2019'
+  origin: Bourgogne
+  color: Белое
+  group: Франция
+  raw: Rully Clos La Folie Domaine de la Folie 2019, Bourgogne
+- id: w058
+  name: Chablis 1er Cru Montmains Domaine Des Malandes
+  vintage: '2023'
+  origin: Bourgogne
+  color: Белое
+  group: Франция
+  raw: Chablis 1er Cru Montmains Domaine Des Malandes 2023, Bourgogne
+- id: w059
+  name: Puligny-Montrachet Domaine Patrick Miolane
+  vintage: '2023'
+  origin: Bourgogne
+  color: Белое
+  group: Франция
+  raw: Puligny-Montrachet Domaine Patrick Miolane 2023, Bourgogne
+- id: w060
+  name: Chassagne-Montrachet Domaine Michel Niellon
+  vintage: '2023'
+  origin: Bourgogne
+  color: Белое
+  group: Франция
+  raw: Chassagne-Montrachet Domaine Michel Niellon 2023, Bourgogne
+- id: w061
+  name: Meursault Les Tillets Domaine Patrick Javillier
+  vintage: '2022'
+  origin: Bourgogne
+  color: Белое
+  group: Франция
+  raw: Meursault Les Tillets Domaine Patrick Javillier 2022, Bourgogne
+- id: w062
+  name: Puligny Montrachet Premier Cru "Les Referts" Domaine J.M. Boillot
+  vintage: '2023'
+  origin: Bourgogne
+  color: Белое
+  group: Франция
+  raw: Puligny Montrachet Premier Cru "Les Referts" Domaine J.M. Boillot 2023, Bourgogne
+- id: w063
+  name: Meursault Bois de Blagny Domaine Comtesse de Cherisey
+  vintage: '2019'
+  origin: Bourgogne
+  color: Белое
+  group: Франция
+  raw: Meursault Bois de Blagny Domaine Comtesse de Cherisey 2019, Bourgogne
+- id: w064
+  name: Chassagne-Montrachet Les Concis du Champs Domaine Hubert Lamy
+  vintage: '2021'
+  origin: Bourgogne
+  color: Белое
+  group: Франция
+  raw: Chassagne-Montrachet Les Concis du Champs Domaine Hubert Lamy 2021, Bourgogne
+- id: w065
+  name: Corton-Charlemagne Grand Cru Domaine Antonin Guyon
+  vintage: '2022'
+  origin: Bourgogne
+  color: Белое
+  group: Франция
+  raw: Corton-Charlemagne Grand Cru Domaine Antonin Guyon 2022, Bourgogne
+- id: w066
+  name: Albarino Pazo das Bruxas
+  vintage: '2022'
+  origin: Rias Baixas, Spain
+  color: Белое
+  group: Остальная Европа
+  raw: Albarino Pazo das Bruxas 2022, Rias Baixas, Spain
+- id: w067
+  name: Gruner Veltliner Sonnhof
+  vintage: '2022'
+  origin: Austria
+  color: Белое
+  group: Остальная Европа
+  raw: Gruner Veltliner Sonnhof 2022, Austria
+- id: w068
+  name: Weissburgunder Steingewann Hees
+  vintage: '2023'
+  origin: Nahe, Germany
+  color: Белое
+  group: Остальная Европа
+  raw: Weissburgunder Steingewann Hees 2023, Nahe, Germany
+- id: w069
+  name: Furmint Mandolas Oremus
+  vintage: '2021'
+  origin: Tokaji, Hungary
+  color: Белое
+  group: Остальная Европа
+  raw: Furmint Mandolas Oremus 2021, Tokaji, Hungary
+- id: w070
+  name: Riesling Beurer
+  vintage: '2022'
+  origin: Württemberg, Germany
+  color: Белое
+  group: Остальная Европа
+  raw: Riesling Beurer 2022, Württemberg, Germany
+- id: w071
+  name: Riesling GG Herrenberg Pfeffingen
+  vintage: '2022'
+  origin: Pfalz, Germany
+  color: Белое
+  group: Остальная Европа
+  raw: Riesling GG Herrenberg Pfeffingen 2022, Pfalz, Germany
+- id: w072
+  name: Chardonnay Reserve Golubitskoe
+  vintage: '2022'
+  origin: Kuban
+  color: Белое
+  group: Россия
+  raw: Chardonnay Reserve Golubitskoe 2022, Kuban
+- id: w073
+  name: Mtsvane Marchenko
+  vintage: '2023'
+  origin: Kuban
+  color: Белое
+  group: Россия
+  raw: Mtsvane Marchenko 2023, Kuban
+- id: w074
+  name: Riesling Lipko
+  vintage: '2024'
+  origin: Crymea
+  color: Белое
+  group: Россия
+  raw: Riesling Lipko 2024, Crymea
+- id: w075
+  name: Sauvignon Blanc Skalysty Bereg
+  vintage: '2023'
+  origin: Kuban, Russia
+  color: Белое
+  group: Россия
+  raw: Sauvignon Blanc Skalysty Bereg 2023, Kuban, Russia
+- id: w076
+  name: Sibyrkovy Gusev
+  vintage: '2024'
+  origin: Lower Volga
+  color: Белое
+  group: Россия
+  raw: Sibyrkovy Gusev 2024, Lower Volga
+- id: w077
+  name: Chardonnay Galitsky & Galitsky
+  vintage: '2022'
+  origin: Kuban, Russia
+  color: Белое
+  group: Россия
+  raw: Chardonnay Galitsky & Galitsky 2022, Kuban, Russia
+- id: w078
+  name: Gewurtztraminer Neethlingshof
+  vintage: '2023'
+  origin: South Africa
+  color: Белое
+  group: Новый свет
+  raw: Gewurtztraminer Neethlingshof 2023, South Africa
+- id: w079
+  name: Chenin Blanc Courageous The Dry Land Collection
+  vintage: '2024'
+  origin: Paarl, South Africa
+  color: Белое
+  group: Новый свет
+  raw: Chenin Blanc Courageous The Dry Land Collection 2024, Paarl, South Africa
+- id: w080
+  name: Sauvignon Blanc The Ned Marisco Vineyards
+  vintage: '2024'
+  origin: New Zealand
+  color: Белое
+  group: Новый свет
+  raw: Sauvignon Blanc The Ned Marisco Vineyards 2024, New Zealand
+- id: w081
+  name: Chardonnay Tura Winery
+  vintage: '2017'
+  origin: Samaria, Israel
+  color: Белое
+  group: Новый свет
+  raw: Chardonnay Tura Winery 2017, Samaria, Israel
+- id: w082
+  name: Chardonnay Pure Bred
+  vintage: '2023'
+  origin: Lodi, USA
+  color: Белое
+  group: Новый свет
+  raw: Chardonnay Pure Bred 2023, Lodi, USA
+- id: w083
+  name: Sauvignon Blanc Chapel Peak
+  vintage: '2023'
+  origin: New Zealand
+  color: Белое
+  group: Новый свет
+  raw: Sauvignon Blanc Chapel Peak 2023, New Zealand
+- id: w084
+  name: Chardonnay Buena Vista
+  vintage: '2020'
+  origin: California, USA
+  color: Белое
+  group: Новый свет
+  raw: Chardonnay Buena Vista 2020, California, USA
+- id: w085
+  name: Barbera Tenuta Carretta
+  vintage: '2024'
+  origin: Piemonte
+  color: Красное
+  group: Италия
+  raw: Barbera Tenuta Carretta 2024, Piemonte
+- id: w086
+  name: Valpolicella Ripasso Superiore Pasqua
+  vintage: '2022'
+  origin: Veneto
+  color: Красное
+  group: Италия
+  raw: Valpolicella Ripasso Superiore Pasqua 2022, Veneto
+- id: w087
+  name: Chianti Classico Castello di Bossi
+  vintage: '2022'
+  origin: Toscana
+  color: Красное
+  group: Италия
+  raw: Chianti Classico Castello di Bossi 2022, Toscana
+- id: w088
+  name: Lacryma Christi del Vesuvio Rosso Feudi di San Gregorio
+  vintage: '2023'
+  origin: Campania
+  color: Красное
+  group: Италия
+  raw: Lacryma Christi del Vesuvio Rosso Feudi di San Gregorio 2023, Campania
+- id: w089
+  name: Valpolicella Morandina Pra
+  vintage: '2022'
+  origin: Veneto
+  color: Красное
+  group: Италия
+  raw: Valpolicella Morandina Pra 2022, Veneto
+- id: w090
+  name: Vino Nobile di Montepulciano Silineo Fattoria del Cerro
+  vintage: '2021'
+  origin: Toscana
+  color: Красное
+  group: Италия
+  raw: Vino Nobile di Montepulciano Silineo Fattoria del Cerro 2021, Toscana
+- id: w091
+  name: Montessu Isola dei Nuraghi Agricola Punica
+  vintage: '2022'
+  origin: Puglia
+  color: Красное
+  group: Италия
+  raw: Montessu Isola dei Nuraghi Agricola Punica 2022, Puglia
+- id: w092
+  name: Dolcetto d'Alba "Priavino" Roberto Voerzio
+  vintage: '2017'
+  origin: Piemonte
+  color: Красное
+  group: Италия
+  raw: Dolcetto d'Alba "Priavino" Roberto Voerzio 2017, Piemonte
+- id: w093
+  name: Ghemme La Piemontina
+  vintage: '2020'
+  origin: Piemonte
+  color: Красное
+  group: Италия
+  raw: Ghemme La Piemontina 2020, Piemonte
+- id: w094
+  name: Primitivo di Manduria Giravolta Felline
+  vintage: '2020'
+  origin: Puglia
+  color: Красное
+  group: Италия
+  raw: Primitivo di Manduria Giravolta Felline 2020, Puglia
+  used: '2026-09-22'
+- id: w095
+  name: Nero D’Avola Terre di Conventazzo Giovanni Sallemi
+  vintage: '2017'
+  origin: Sicilia
+  color: Красное
+  group: Италия
+  raw: Nero D’Avola Terre di Conventazzo Giovanni Sallemi 2017, Sicilia
+- id: w096
+  name: Barolo Bel Colle
+  vintage: '2021'
+  origin: Piemonte
+  color: Красное
+  group: Италия
+  raw: Barolo Bel Colle 2021, Piemonte
+- id: w097
+  name: Syrah Syracide Sergio Mottura
+  vintage: '2016'
+  origin: Lazio
+  color: Красное
+  group: Италия
+  raw: Syrah Syracide Sergio Mottura 2016, Lazio
+- id: w098
+  name: Sassi Chiusi Bertinga
+  vintage: '2019'
+  origin: Toscana
+  color: Красное
+  group: Италия
+  raw: Sassi Chiusi Bertinga 2019, Toscana
+- id: w099
+  name: Villa Donoratico Tenuta Argentiera
+  vintage: '2022'
+  origin: Toscsana
+  color: Красное
+  group: Италия
+  raw: Villa Donoratico Tenuta Argentiera 2022, Toscsana
+- id: w100
+  name: Gattinara Travaglini
+  vintage: '2021'
+  origin: Piemonte
+  color: Красное
+  group: Италия
+  raw: Gattinara Travaglini 2021, Piemonte
+- id: w101
+  name: FL (Frappato di Vittoria) Arianna Occhipinti
+  vintage: '2017'
+  origin: Sicily
+  color: Красное
+  group: Италия
+  raw: FL (Frappato di Vittoria) Arianna Occhipinti 2017, Sicily
+- id: w102
+  name: Rosso Girolamo Castello Di Bossi
+  vintage: '2021'
+  origin: Toscana
+  color: Красное
+  group: Италия
+  raw: Rosso Girolamo Castello Di Bossi 2021, Toscana
+- id: w103
+  name: Solare Capannelle
+  vintage: '2016'
+  origin: Toscana
+  color: Красное
+  group: Италия
+  raw: Solare Capannelle 2016, Toscana
+- id: w104
+  name: Amarone della Valpolicella Classico Morar Valentina Cubi
+  vintage: '2010'
+  origin: Veneto
+  color: Красное
+  group: Италия
+  raw: Amarone della Valpolicella Classico Morar Valentina Cubi 2010, Veneto
+- id: w105
+  name: Barolo Bussia Giacomo Fenocchio
+  vintage: '2018'
+  origin: Piemonte
+  color: Красное
+  group: Италия
+  raw: Barolo Bussia Giacomo Fenocchio 2018, Piemonte
+- id: w106
+  name: Vignavento (Sangiovese Grosso) Enrico Fossi
+  vintage: '2018'
+  origin: Toscana
+  color: Красное
+  group: Италия
+  raw: Vignavento (Sangiovese Grosso) Enrico Fossi 2018, Toscana
+- id: w107
+  name: Brunello di Montalcino Montosoli Baricci
+  vintage: '2019'
+  origin: Toscana
+  color: Красное
+  group: Италия
+  raw: Brunello di Montalcino Montosoli Baricci 2019, Toscana
+- id: w108
+  name: Barolo Pio Cesare
+  vintage: '2018'
+  origin: Piemonte
+  color: Красное
+  group: Италия
+  raw: Barolo Pio Cesare 2018, Piemonte
+- id: w109
+  name: Barbaresco San Stunet Piero Busso
+  vintage: '2021'
+  origin: Piemonte
+  color: Красное
+  group: Италия
+  raw: Barbaresco San Stunet Piero Busso 2021, Piemonte
+- id: w110
+  name: Tignanello Antinori
+  vintage: '2021'
+  origin: Toscana
+  color: Красное
+  group: Италия
+  raw: Tignanello Antinori 2021, Toscana
+- id: w111
+  name: Kurni
+  vintage: '2022'
+  origin: Marche
+  color: Красное
+  group: Италия
+  raw: Kurni 2022, Marche
+- id: w112
+  name: Barbaresco Gaia
+  vintage: '2019'
+  origin: Piemonte
+  color: Красное
+  group: Италия
+  raw: Barbaresco Gaia 2019, Piemonte
+- id: w113
+  name: Cabernet Franc Saumur Coq’licot
+  vintage: '2022'
+  origin: Loire
+  color: Красное
+  group: Франция
+  raw: Cabernet Franc Saumur Coq’licot 2022, Loire
+- id: w114
+  name: Pinot Noir Tradition Cave de Turckheim
+  vintage: '2024'
+  origin: Alsace
+  color: Красное
+  group: Франция
+  raw: Pinot Noir Tradition Cave de Turckheim 2024, Alsace
+- id: w115
+  name: Malbec du Clos Cahors Clos Triguedina
+  vintage: '2022'
+  origin: Sud Oest
+  color: Красное
+  group: Франция
+  raw: Malbec du Clos Cahors Clos Triguedina 2022, Sud Oest
+- id: w116
+  name: Gamay Michel Guignier
+  vintage: '2023'
+  origin: Beaujolais
+  color: Красное
+  group: Франция
+  raw: Gamay Michel Guignier 2023, Beaujolais
+- id: w117
+  name: Domaine de Viaud
+  vintage: '2001'
+  origin: Bordeaux
+  color: Красное
+  group: Франция
+  raw: Domaine de Viaud 2001, Bordeaux
+- id: w118
+  name: Syrah Les Vignes d'a Cote Collines Rhodaniennes Yves Cuilleron
+  vintage: '2023'
+  origin: Rhone
+  color: Красное
+  group: Франция
+  raw: Syrah Les Vignes d'a Cote Collines Rhodaniennes Yves Cuilleron 2023, Rhone
+- id: w119
+  name: Marcillac V.V. Domaine du Cros
+  vintage: '2018'
+  origin: Sud Oest
+  color: Красное
+  group: Франция
+  raw: Marcillac V.V. Domaine du Cros 2018, Sud Oest
+- id: w120
+  name: Bourgogne Pinot Noir Domaine Bony Gachot
+  vintage: '2023'
+  origin: Bourgogne
+  color: Красное
+  group: Франция
+  raw: Bourgogne Pinot Noir Domaine Bony Gachot 2023, Bourgogne
+- id: w121
+  name: Chateau Citran
+  vintage: '2021'
+  origin: Bordeaux
+  color: Красное
+  group: Франция
+  raw: Chateau Citran 2021, Bordeaux
+- id: w122
+  name: Chateau D'Aiguilhe
+  vintage: '2016'
+  origin: Cotes de Castillon, Bordeaux
+  color: Красное
+  group: Франция
+  raw: Chateau D'Aiguilhe 2016, Cotes de Castillon, Bordeaux
+- id: w123
+  name: Moulin-a-Vent Domaine Anne-Francoise Gros
+  vintage: '2022'
+  origin: Beaujolais
+  color: Красное
+  group: Франция
+  raw: Moulin-a-Vent Domaine Anne-Francoise Gros 2022, Beaujolais
+- id: w124
+  name: Closerie Saint Roc
+  vintage: '2019'
+  origin: Bordeaux
+  color: Красное
+  group: Франция
+  raw: Closerie Saint Roc 2019, Bordeaux
+- id: w125
+  name: Crozes-Hermitage Rouge Domaine Marc Sorrel
+  vintage: '2023'
+  origin: Rhone
+  color: Красное
+  group: Франция
+  raw: Crozes-Hermitage Rouge Domaine Marc Sorrel 2023, Rhone
+- id: w126
+  name: Volnay V.V. Henri Delagrange
+  vintage: '2022'
+  origin: Bourgogne
+  color: Красное
+  group: Франция
+  raw: Volnay V.V. Henri Delagrange 2022, Bourgogne
+- id: w127
+  name: Gevrey Chambirtin Moillard
+  vintage: '2021'
+  origin: Bourgogne
+  color: Красное
+  group: Франция
+  raw: Gevrey Chambirtin Moillard 2021, Bourgogne
+- id: w128
+  name: Cote-Rotie "Mon Village" Domaine Stephane Ogier
+  vintage: '2019'
+  origin: Rhone
+  color: Красное
+  group: Франция
+  raw: Cote-Rotie "Mon Village" Domaine Stephane Ogier 2019, Rhone
+- id: w129
+  name: Chateau Giscours
+  vintage: '2019'
+  origin: Margaux, Bordeaux
+  color: Красное
+  group: Франция
+  raw: Chateau Giscours 2019, Margaux, Bordeaux
+- id: w130
+  name: Chambolle-Musigny David Duband
+  vintage: '2023'
+  origin: Bourgogne
+  color: Красное
+  group: Франция
+  raw: Chambolle-Musigny David Duband 2023, Bourgogne
+- id: w131
+  name: Chateau Brane-Cantenac
+  vintage: '2019'
+  origin: Margaux, Bordeaux
+  color: Красное
+  group: Франция
+  raw: Chateau Brane-Cantenac 2019, Margaux, Bordeaux
+- id: w132
+  name: Vosne-Romanee Chapms-Perdrix Frederic Magnien
+  vintage: '2021'
+  origin: Bourgogne
+  color: Красное
+  group: Франция
+  raw: Vosne-Romanee Chapms-Perdrix Frederic Magnien 2021, Bourgogne
+- id: w133
+  name: Chateau Pape-Clement
+  vintage: '2014'
+  origin: Pessac-Leognan, Bordeaux
+  color: Красное
+  group: Франция
+  raw: Chateau Pape-Clement 2014, Pessac-Leognan, Bordeaux
+- id: w134
+  name: Corton-Marechaudes Grand Cru Domaine Doudet - Naudin
+  vintage: '2021'
+  origin: Bourgogne
+  color: Красное
+  group: Франция
+  raw: Corton-Marechaudes Grand Cru Domaine Doudet - Naudin 2021, Bourgogne
+- id: w135
+  name: Gevrey-Chambertin 1er Cru Lavaut Saint-Jacques Frederic Magnien
+  vintage: '2020'
+  origin: Bourgogne
+  color: Красное
+  group: Франция
+  raw: Gevrey-Chambertin 1er Cru Lavaut Saint-Jacques Frederic Magnien 2020, Bourgogne
+- id: w136
+  name: Chambolle Musigny Premier Cru Les Hauts Doix Domaine Gerard Peirazeau & Fils
+  vintage: '2022'
+  origin: Bourgogne
+  color: Красное
+  group: Франция
+  raw: Chambolle Musigny Premier Cru Les Hauts Doix Domaine Gerard Peirazeau & Fils 2022, Bourgogne
+- id: w137
+  name: Crianza Marques de Abadia
+  vintage: '2021'
+  origin: Rioja, Spain
+  color: Красное
+  group: Остальная Европа
+  raw: Crianza Marques de Abadia 2021, Rioja, Spain
+- id: w138
+  name: Gold Label Bodegas Piqueras
+  vintage: '2022'
+  origin: Castilla La Mancha, Spain
+  color: Красное
+  group: Остальная Европа
+  raw: Gold Label Bodegas Piqueras 2022, Castilla La Mancha, Spain
+- id: w139
+  name: Blauer Spatburgunder Weingut Ziereisen
+  vintage: '2022'
+  origin: Baden, Germany
+  color: Красное
+  group: Остальная Европа
+  raw: Blauer Spatburgunder Weingut Ziereisen 2022, Baden, Germany
+- id: w140
+  name: Pittacum
+  vintage: '2016'
+  origin: Bierso, Spain
+  color: Красное
+  group: Остальная Европа
+  raw: Pittacum 2016, Bierso, Spain
+- id: w141
+  name: Blauer Zweigelt Nittnaus
+  vintage: '2020'
+  origin: Burgenland, Austria
+  color: Красное
+  group: Остальная Европа
+  raw: Blauer Zweigelt Nittnaus 2020, Burgenland, Austria
+- id: w142
+  name: Blaufrankish Prellenkirchen Samt & Seide Dorli Muhr
+  vintage: '2022'
+  origin: Carnuntum, Austria
+  color: Красное
+  group: Остальная Европа
+  raw: Blaufrankish Prellenkirchen Samt & Seide Dorli Muhr 2022, Carnuntum, Austria
+- id: w143
+  name: Protos '27
+  vintage: null
+  origin: Ribera Del Duero, Spain
+  color: Красное
+  group: Остальная Европа
+  raw: Protos '27, Ribera Del Duero, Spain
+- id: w144
+  name: Spätburgunder Auf der Hohl GG Weingut Herbert Meßmer
+  vintage: '2014'
+  origin: Pfalz, Germany
+  color: Красное
+  group: Остальная Европа
+  raw: Spätburgunder Auf der Hohl GG Weingut Herbert Meßmer 2014, Pfalz, Germany
+- id: w145
+  name: Lemberger Untere Bunte Mergel Beurer
+  vintage: '2017'
+  origin: Baden, Germany
+  color: Красное
+  group: Остальная Европа
+  raw: Lemberger Untere Bunte Mergel Beurer 2017, Baden, Germany
+- id: w146
+  name: Gran Reserva Marques de Murrieta
+  vintage: '2012'
+  origin: Rioja, Spain
+  color: Красное
+  group: Остальная Европа
+  raw: Gran Reserva Marques de Murrieta 2012, Rioja, Spain
+- id: w147
+  name: Alion Bodegas Vega Sicilia
+  vintage: '2020'
+  origin: Ribera del Duero, Spain
+  color: Красное
+  group: Остальная Европа
+  raw: Alion Bodegas Vega Sicilia 2020, Ribera del Duero, Spain
+- id: w148
+  name: Valbuena 5° Bodegas Vega Sicilia
+  vintage: '2018'
+  origin: Ribera del Duero, Spain
+  color: Красное
+  group: Остальная Европа
+  raw: Valbuena 5° Bodegas Vega Sicilia 2018, Ribera del Duero, Spain
+- id: w149
+  name: Cabernet Sauvignon Reserve Golubitskoe Estate
+  vintage: '2022'
+  origin: Kuban
+  color: Красное
+  group: Россия
+  raw: Cabernet Sauvignon Reserve Golubitskoe Estate 2022, Kuban
+  used: '2026-09-18'
+- id: w150
+  name: Malbec Gunko
+  vintage: '2023'
+  origin: Kuban
+  color: Красное
+  group: Россия
+  raw: Malbec Gunko 2023, Kuban
+- id: w151
+  name: Gavras Karmir
+  vintage: '2021'
+  origin: Crymea
+  color: Красное
+  group: Россия
+  raw: Gavras Karmir 2021, Crymea
+- id: w152
+  name: Krasnostop Gusev
+  vintage: '2022'
+  origin: Lower Volga
+  color: Красное
+  group: Россия
+  raw: Krasnostop Gusev 2022, Lower Volga
+- id: w153
+  name: Syrah Nikolaev & Sons
+  vintage: '2023'
+  origin: Kuban
+  color: Красное
+  group: Россия
+  raw: Syrah Nikolaev & Sons 2023, Kuban
+- id: w154
+  name: Cosaque Galitsky & Galitsky
+  vintage: '2023'
+  origin: Kuban, Russia
+  color: Красное
+  group: Россия
+  raw: Cosaque Galitsky & Galitsky 2023, Kuban, Russia
+- id: w155
+  name: Cabernet Sauvignon Saperavi 60/40 Dzitoev
+  vintage: null
+  origin: North Osetia
+  color: Красное
+  group: Россия
+  raw: Cabernet Sauvignon Saperavi 60/40 Dzitoev, North Osetia
+- id: w156
+  name: Tsymlansky Cherny Arpachina
+  vintage: '2020'
+  origin: Don Valley
+  color: Красное
+  group: Россия
+  raw: Tsymlansky Cherny Arpachina 2020, Don Valley
+- id: w157
+  name: Malbec Felino Vina Cobos
+  vintage: '2022'
+  origin: Mendoza, Argentina
+  color: Красное
+  group: Новый свет
+  raw: Malbec Felino Vina Cobos 2022, Mendoza, Argentina
+- id: w158
+  name: Ela Galil Mountain
+  vintage: '2021'
+  origin: Israel
+  color: Красное
+  group: Новый свет
+  raw: Ela Galil Mountain 2021, Israel
+- id: w159
+  name: Shiraz Angels Share Two Hands
+  vintage: '2022'
+  origin: McLaren Vale, Australia
+  color: Красное
+  group: Новый свет
+  raw: Shiraz Angels Share Two Hands 2022, McLaren Vale, Australia
+- id: w160
+  name: Red Blend Tiara Simonsig
+  vintage: '2023'
+  origin: Stellenbosch, South Africa
+  color: Красное
+  group: Новый свет
+  raw: Red Blend Tiara Simonsig 2023, Stellenbosch, South Africa
+- id: w161
+  name: Yarden 2T Golan Heights
+  vintage: '2021'
+  origin: Israel
+  color: Красное
+  group: Новый свет
+  raw: Yarden 2T Golan Heights 2021, Israel
+- id: w162
+  name: Pinot Noir Volcanique J. Christopher
+  vintage: '2019'
+  origin: Oregon, USA
+  color: Красное
+  group: Новый свет
+  raw: Pinot Noir Volcanique J. Christopher 2019, Oregon, USA
+- id: w163
+  name: Pais Soulpit Pedro Parra y Familia
+  vintage: '2021'
+  origin: Itata, Chilie
+  color: Красное
+  group: Новый свет
+  raw: Pais Soulpit Pedro Parra y Familia 2021, Itata, Chilie
+- id: w164
+  name: Pinot Noir Vineyard Yamhill-Carlton Resonance
+  vintage: '2017'
+  origin: Oregon, USA
+  color: Красное
+  group: Новый свет
+  raw: Pinot Noir Vineyard Yamhill-Carlton Resonance 2017, Oregon, USA
+- id: w165
+  name: La Piu Belle Vic
+  vintage: '2020'
+  origin: Millahue, Chilie
+  color: Красное
+  group: Новый свет
+  raw: La Piu Belle Vic 2020, Millahue, Chilie
+- id: w166
+  name: Cabernet Sauvignon Artemis Stags Leap
+  vintage: '2021'
+  origin: Napa Valley, USA
+  color: Красное
+  group: Новый свет
+  raw: Cabernet Sauvignon Artemis Stags Leap 2021, Napa Valley, USA
+- id: w167
+  name: Pinot Noir Ribbon Ridge Beaux Frères
+  vintage: '2019'
+  origin: Oregon, USA
+  color: Красное
+  group: Новый свет
+  raw: Pinot Noir Ribbon Ridge Beaux Frères 2019, Oregon, USA
+- id: w168
+  name: Sena
+  vintage: '2017'
+  origin: Aconcagua Valley, Chilie
+  color: Красное
+  group: Новый свет
+  raw: Sena 2017, Aconcagua Valley, Chilie
+- id: w169
+  name: Riesling Orange Golubitskoe
+  vintage: '2023'
+  origin: Kuban, Russia
+  color: Оранжевое
+  group: Оранжевое
+  raw: Riesling Orange Golubitskoe 2023, Kuban, Russia
+- id: w170
+  name: Rkatsiteli Loco Cimbali
+  vintage: '2021'
+  origin: Crymea, Russia
+  color: Оранжевое
+  group: Оранжевое
+  raw: Rkatsiteli Loco Cimbali 2021, Crymea, Russia
+- id: w171
+  name: Hors Serie №1 Pays d'Aude Cazaban
+  vintage: '2022'
+  origin: Languedoc, France
+  color: Оранжевое
+  group: Оранжевое
+  raw: Hors Serie №1 Pays d'Aude Cazaban 2022, Languedoc, France
+- id: w172
+  name: Traminer Uncensored Bikicki
+  vintage: '2021'
+  origin: Srem, Serbia
+  color: Оранжевое
+  group: Оранжевое
+  raw: Traminer Uncensored Bikicki 2021, Srem, Serbia
+- id: w173
+  name: Pinot Noir Rose Noble Selection Golubitskoe Estate
+  vintage: '2023'
+  origin: Kuban, Russia
+  color: Розовое
+  group: Розовое
+  raw: Pinot Noir Rose Noble Selection Golubitskoe Estate 2023, Kuban, Russia
+- id: w174
+  name: Pinot Grigio Ramato Attems
+  vintage: '2024'
+  origin: Friuli, Italy
+  color: Розовое
+  group: Розовое
+  raw: Pinot Grigio Ramato Attems 2024, Friuli, Italy
+  used: '2026-09-30'
+- id: w175
+  name: Cotes de Provence Coeur du Rouet
+  vintage: '2024'
+  origin: France
+  color: Розовое
+  group: Розовое
+  raw: Cotes de Provence Coeur du Rouet 2024, France
+- id: w176
+  name: Susucaru Rosato Frank Cornelissen
+  vintage: '2024'
+  origin: Sicilia, Italy
+  color: Розовое
+  group: Розовое
+  raw: Susucaru Rosato Frank Cornelissen 2024, Sicilia, Italy
+- id: w177
+  name: Cava Brut Josep Ventosa
+  vintage: NV
+  origin: Spain
+  color: Магнум
+  group: Магнум
+  raw: Cava Brut Josep Ventosa NV, Spain
+- id: w178
+  name: Champagne Brut Grande Cuvée Premier Cru Arlaux
+  vintage: '2020'
+  origin: France
+  color: Магнум
+  group: Магнум
+  raw: Champagne Brut Grande Cuvée Premier Cru Arlaux 2020, France
+- id: w179
+  name: Riesling Walhalla Loosen Barry
+  vintage: '2019'
+  origin: Mozel, Germany
+  color: Магнум
+  group: Магнум
+  raw: Riesling Walhalla Loosen Barry 2019, Mozel, Germany
+- id: w180
+  name: Catena Malbec
+  vintage: '2022'
+  origin: Mendoza, Argentina
+  color: Магнум
+  group: Магнум
+  raw: Catena Malbec 2022, Mendoza, Argentina
+- id: w181
+  name: Reserva Vina Real
+  vintage: '2014'
+  origin: Rioja, Spain
+  color: Магнум
+  group: Магнум
+  raw: Reserva Vina Real 2014, Rioja, Spain
+- id: w182
+  name: Reserva Protos
+  vintage: '2015'
+  origin: Ribera Del Duero, Spain
+  color: Магнум
+  group: Магнум
+  raw: Reserva Protos 2015, Ribera Del Duero, Spain
+- id: w183
+  name: Langhe Nebbiolo Perbacco Vietti
+  vintage: '2021'
+  origin: Piemonte
+  color: Магнум
+  group: Магнум
+  raw: Langhe Nebbiolo Perbacco Vietti 2021, Piemonte
+- id: w184
+  name: Chianti Classico Gran Selezione Castello di Bossi
+  vintage: '2015'
+  origin: Toscana, Italy
+  color: Магнум
+  group: Магнум
+  raw: Chianti Classico Gran Selezione Castello di Bossi 2015, Toscana, Italy

@@ -4,7 +4,7 @@
 # Точка отсчёта ритма «через день». Активные дни: start_date + 2 x n.
 # Смена месяца отсчёт не обнуляет. Менять только осознанно: сдвиг start_date
 # переставляет весь календарь.
-start_date: 2026-09-19
+start_date: 2026-09-18
 timezone: Europe/Moscow
 publication_day_interval: 2
 
@@ -18,7 +18,7 @@ slots:
     time: "19:00"
     cron_utc: "0 16 * * *"
 
-# Генератор готовит пакет на две недели вперёд, 1 и 15 числа.
+# Контент готовится вручную в сессии Claude Code, пакетом на две недели.
 generation:
   batch_days: 14
   wines_file: sources/wines.yml
