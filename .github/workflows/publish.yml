@@ -1,17 +1,21 @@
 name: Публикация в Telegram
 
+# Запускается каждый день в оба слота, но publish.py сам решает, публикационный
+# ли сегодня день (start_date + 2 x n из channel.yml). В неактивный день выходит молча.
 on:
   schedule:
-    - cron: '34 9 * * *'   # 12:34 МСК — слот 1
-    - cron: '45 10 * * *'  # 13:45 МСК — слот 2
+    - cron: '0 9 * * *'    # 12:00 МСК — основной пост
+    - cron: '0 16 * * *'   # 19:00 МСК — дополнение, если оно подготовлено
   workflow_dispatch:
     inputs:
       slot:
-        description: 'Слот (1 или 2)'
+        description: 'Слот'
         required: false
-        default: '1'
+        default: 'main'
+        type: choice
+        options: [main, companion]
       date:
-        description: 'Дата поста (YYYY-MM-DD), если нужно опубликовать пропущенный'
+        description: 'Дата поста (YYYY-MM-DD) — для пропущенного выпуска'
         required: false
         default: ''
 
@@ -27,12 +31,12 @@ jobs:
 
       - name: Определить слот
         run: |
-          if [ "${{ github.event.schedule }}" = "34 9 * * *" ]; then
-            echo "SLOT=1" >> $GITHUB_ENV
-          elif [ "${{ github.event.schedule }}" = "45 10 * * *" ]; then
-            echo "SLOT=2" >> $GITHUB_ENV
+          if [ "${{ github.event.schedule }}" = "0 9 * * *" ]; then
+            echo "SLOT=main" >> $GITHUB_ENV
+          elif [ "${{ github.event.schedule }}" = "0 16 * * *" ]; then
+            echo "SLOT=companion" >> $GITHUB_ENV
           else
-            echo "SLOT=${{ github.event.inputs.slot || '1' }}" >> $GITHUB_ENV
+            echo "SLOT=${{ github.event.inputs.slot || 'main' }}" >> $GITHUB_ENV
           fi
 
       - name: Python
@@ -50,10 +54,10 @@ jobs:
           DATE: ${{ github.event.inputs.date }}
         run: python bot/publish.py
 
-      - name: Сохранить изменения статусов
+      - name: Сохранить журнал
         run: |
           git config user.name "Content Factory Bot"
           git config user.email "bot@content-factory"
           git add posts/ published/
-          git diff --cached --quiet || git commit -m "Опубликован пост $(date +'%Y-%m-%d') слот ${SLOT}"
+          git diff --cached --quiet || git commit -m "Опубликован пост $(date +'%Y-%m-%d'), слот ${SLOT}"
           git push
