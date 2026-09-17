@@ -23,6 +23,7 @@ wines:
   color: Игристое
   group: Италия
   raw: Cherubini Sui Generis 2019, Lombardia
+  photo_ambiguous: true
 - id: w003
   name: Franciacorta Teatro alla Scala Bellavista
   vintage: '2020'
@@ -74,12 +75,16 @@ wines:
   raw: Blanc de Blancs Brut Grand Cru Soutiran NV
 - id: w010
   name: Herve Brisson Les Regales Blanc de Blancs
-  vintage: NV
+  vintage: '2021'
   origin: Франция
   color: Шампанское
   group: Франция
   raw: Herve Brisson Les Regales Blanc de Blancs NV
   used: '2026-10-02'
+  note: В текстовом списке значилось NV; по прайсу (арт. 442) — 2021
+  art: '442'
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Champagne_Herve_Brisson_Les_Regales_Blanc_de_Blancs_.png
+  price_name: Эрве Бриссон Ле Рогаль Блан де Блан/Herve Brisson Les Regales Blanc de Blancs, бел эк.брют 12,5% 0,75л 2021
 - id: w011
   name: Brut R de Ruinart
   vintage: NV
@@ -192,6 +197,7 @@ wines:
   color: Игристое
   group: Игристое
   raw: Cava Brut Reserva Sumarroca 2021, Catalunia, Spain
+  photo_ambiguous: true
 - id: w027
   name: Blanc de Noirs Brut Usadba Divnomorskoe
   vintage: NV
@@ -206,6 +212,10 @@ wines:
   color: Игристое
   group: Игристое
   raw: Cremant De Bourgogne Brut Zero Baptiste Bienvenu 2023, Chablis, France
+  art: '350'
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Cremant_De_Bourgogne_Brut_Zero_Baptiste_Bienvenu.png
+  price_name: Креман Де Бургонь Брют Зеро Баптист Бьенвеню/Cremant De Bourgogne Brut Zero Baptiste Bienvenu, бел эк.брют 12,5% 0,75л 2023
+  used: '2026-10-12'
 - id: w029
   name: Brut Blanc De Blancs Temelion
   vintage: '2018'
@@ -327,6 +337,9 @@ wines:
   color: Белое
   group: Франция
   raw: Chenin Blanc Saumur Coq’licot 2023, Loire
+  art: '425'
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Chenin_Blanc_Saumur_Coqlicot.png
+  price_name: Шенен Блан Сомюр Коклико/Chenin Blanc Saumur Coq’licot, бел сух 11,0% 0,75л 2023
 - id: w046
   name: Chardonnay Belles de Vigne Cazaban
   vintage: '2022'
@@ -355,6 +368,9 @@ wines:
   color: Белое
   group: Франция
   raw: Pinot Blanc Eclectic Charles Frey 2024, Alsace
+  art: '437'
+  photo: https://cs.hedonistwine.ru/PriceIMG/18png/Pinot_Blanc_Alsace_Eclectic_Charles_Frey_.png
+  price_name: Пино Блан Эклектик Шарль Фрей/Pinot Blanc Eclectic Charles Frey, бел сух 12,0% 0,75л 2024
 - id: w050
   name: Bourgone Chardonnay Le Duche Moillard
   vintage: '2022'
@@ -405,6 +421,7 @@ wines:
   color: Белое
   group: Франция
   raw: Bourgogne Cote d'Or Blanc Frederic Magnien 2019, Bourgogne
+  photo_ambiguous: true
 - id: w057
   name: Rully Clos La Folie Domaine de la Folie
   vintage: '2019'
@@ -441,6 +458,7 @@ wines:
   group: Франция
   raw: Meursault Les Tillets Domaine Patrick Javillier 2022, Bourgogne
   used: '2026-10-08'
+  photo_ambiguous: true
 - id: w062
   name: Puligny Montrachet Premier Cru "Les Referts" Domaine J.M. Boillot
   vintage: '2023'
@@ -455,6 +473,7 @@ wines:
   color: Белое
   group: Франция
   raw: Meursault Bois de Blagny Domaine Comtesse de Cherisey 2019, Bourgogne
+  photo_ambiguous: true
 - id: w064
   name: Chassagne-Montrachet Les Concis du Champs Domaine Hubert Lamy
   vintage: '2021'
@@ -462,6 +481,7 @@ wines:
   color: Белое
   group: Франция
   raw: Chassagne-Montrachet Les Concis du Champs Domaine Hubert Lamy 2021, Bourgogne
+  photo_ambiguous: true
 - id: w065
   name: Corton-Charlemagne Grand Cru Domaine Antonin Guyon
   vintage: '2022'
@@ -469,6 +489,9 @@ wines:
   color: Белое
   group: Франция
   raw: Corton-Charlemagne Grand Cru Domaine Antonin Guyon 2022, Bourgogne
+  art: '701'
+  photo: https://cs.hedonistwine.ru/PriceIMG/25png/Corton_Charlemagne_Grand_Cru_Domaine_Julien_Gros_1.png
+  price_name: Кортон Шарлемань Гран Крю Домен Жюльен Гро/Corton Charlemagne Grand Cru Domaine Julien Gros, бел сух 14,7% 0,75л 2022
 - id: w066
   name: Albarino Pazo das Bruxas
   vintage: '2022'
@@ -490,6 +513,9 @@ wines:
   color: Белое
   group: Остальная Европа
   raw: Weissburgunder Steingewann Hees 2023, Nahe, Germany
+  art: '199'
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Weissburgunder_Steingewann_Hees_.png
+  price_name: Вайсбургундер Штайнгеванн Хис/Weissburgunder Steingewann Hees, бел сух 12,0% 0,75л 2023
 - id: w069
   name: Furmint Mandolas Oremus
   vintage: '2021'
@@ -512,6 +538,9 @@ wines:
   group: Остальная Европа
   raw: Riesling GG Herrenberg Pfeffingen 2022, Pfalz, Germany
   used: '2026-09-28'
+  art: '480'
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Herrenberg_Riesling_GG_Pfeffingen.png
+  price_name: Рислинг ГГ Херренберг Пфеффинген/Riesling GG Herrenberg Pfeffingen, бел сух 13,0% 0,75л 2022
 - id: w072
   name: Chardonnay Reserve Golubitskoe
   vintage: '2022'
@@ -568,6 +597,7 @@ wines:
   color: Белое
   group: Новый свет
   raw: Chenin Blanc Courageous The Dry Land Collection 2024, Paarl, South Africa
+  photo_ambiguous: true
 - id: w080
   name: Sauvignon Blanc The Ned Marisco Vineyards
   vintage: '2024'
@@ -617,6 +647,7 @@ wines:
   color: Красное
   group: Италия
   raw: Valpolicella Ripasso Superiore Pasqua 2022, Veneto
+  photo_ambiguous: true
 - id: w087
   name: Chianti Classico Castello di Bossi
   vintage: '2022'
@@ -659,6 +690,9 @@ wines:
   color: Красное
   group: Италия
   raw: Dolcetto d'Alba "Priavino" Roberto Voerzio 2017, Piemonte
+  art: '371'
+  photo: https://cs.hedonistwine.ru/PriceIMG/24png/Dolcetto_d_Alba_Pian_Balbo_Poderi_Colla.png
+  price_name: Дольчетто д'Альба Пиан Бальбо Подери Колла/Dolcetto d'Alba Pian Balbo Poderi Colla, крас сух 12,5% 0,75л 2024
 - id: w093
   name: Ghemme La Piemontina
   vintage: '2020'
@@ -674,6 +708,7 @@ wines:
   group: Италия
   raw: Primitivo di Manduria Giravolta Felline 2020, Puglia
   used: '2026-09-22'
+  photo_ambiguous: true
 - id: w095
   name: Nero D’Avola Terre di Conventazzo Giovanni Sallemi
   vintage: '2017'
@@ -681,6 +716,10 @@ wines:
   color: Красное
   group: Италия
   raw: Nero D’Avola Terre di Conventazzo Giovanni Sallemi 2017, Sicilia
+  art: '169'
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Nero_DAvola_Terre_di_Conventazzo_Giovanni_Sallemi_.png
+  price_name: Неро Д’Авола Терре ди Конвентаццо Джованни Саллеми/Nero D’Avola Terre di Conventazzo Giovanni Sallemi, крас сух 13,5% 0,75л 2017
+  used: '2026-10-14'
 - id: w096
   name: Barolo Bel Colle
   vintage: '2021'
@@ -744,6 +783,10 @@ wines:
   color: Красное
   group: Италия
   raw: Amarone della Valpolicella Classico Morar Valentina Cubi 2010, Veneto
+  art: '95'
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Amarone_della_Valpolicella_Classico_Morar_Valentina_Cubi_.png
+  price_name: Амароне делла Вальполичелла Классико Морар Валентина Куби/Amarone della Valpolicella Classico Morar Valentina Cubi, крас сух 15,5% 0,75л 2010
+  used: '2026-10-10'
 - id: w105
   name: Barolo Bussia Giacomo Fenocchio
   vintage: '2018'
@@ -751,6 +794,7 @@ wines:
   color: Красное
   group: Италия
   raw: Barolo Bussia Giacomo Fenocchio 2018, Piemonte
+  photo_ambiguous: true
 - id: w106
   name: Vignavento (Sangiovese Grosso) Enrico Fossi
   vintage: '2018'
@@ -779,6 +823,7 @@ wines:
   color: Красное
   group: Италия
   raw: Barbaresco San Stunet Piero Busso 2021, Piemonte
+  photo_ambiguous: true
 - id: w110
   name: Tignanello Antinori
   vintage: '2021'
@@ -808,6 +853,9 @@ wines:
   group: Франция
   raw: Cabernet Franc Saumur Coq’licot 2022, Loire
   used: '2026-10-04'
+  art: '593'
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Cabernet_Franc_Saumur_Coqlicot_.png
+  price_name: Каберне Фран Сомюр Коклико/Cabernet Franc Saumur Coq’licot, крас сух 13,0% 0,75л 2023
 - id: w114
   name: Pinot Noir Tradition Cave de Turckheim
   vintage: '2024'
@@ -830,6 +878,9 @@ wines:
   group: Франция
   raw: Gamay Michel Guignier 2023, Beaujolais
   used: '2026-10-06'
+  art: '618'
+  photo: https://cs.hedonistwine.ru/PriceIMG/7png/Beaujolais_Michel_Guignier_1.png
+  price_name: Божоле Мишель Гинье/Beaujolais Michel Guignier, крас сух 12,5% 0,75л 2024
 - id: w117
   name: Domaine de Viaud
   vintage: '2001'
@@ -914,6 +965,7 @@ wines:
   color: Красное
   group: Франция
   raw: Cote-Rotie "Mon Village" Domaine Stephane Ogier 2019, Rhone
+  photo_ambiguous: true
 - id: w129
   name: Chateau Giscours
   vintage: '2019'
@@ -928,6 +980,7 @@ wines:
   color: Красное
   group: Франция
   raw: Chambolle-Musigny David Duband 2023, Bourgogne
+  photo_ambiguous: true
 - id: w131
   name: Chateau Brane-Cantenac
   vintage: '2019'
@@ -956,6 +1009,7 @@ wines:
   color: Красное
   group: Франция
   raw: Corton-Marechaudes Grand Cru Domaine Doudet - Naudin 2021, Bourgogne
+  photo_ambiguous: true
 - id: w135
   name: Gevrey-Chambertin 1er Cru Lavaut Saint-Jacques Frederic Magnien
   vintage: '2020'
@@ -970,6 +1024,7 @@ wines:
   color: Красное
   group: Франция
   raw: Chambolle Musigny Premier Cru Les Hauts Doix Domaine Gerard Peirazeau & Fils 2022, Bourgogne
+  photo_ambiguous: true
 - id: w137
   name: Crianza Marques de Abadia
   vintage: '2021'
@@ -1217,6 +1272,7 @@ wines:
   group: Оранжевое
   raw: Hors Serie №1 Pays d'Aude Cazaban 2022, Languedoc, France
   note: Прайс относит к оранжевым, но производитель описывает как розе прямым прессованием целых гроздей без мацерации, сорта гренаш/сира/мурведр. Категорию нужно уточнить у поставщика
+  blocked: 'Категория в прайсе не совпадает с описанием производителя: значится оранжевым, по факту розе. Не брать до уточнения'
 - id: w172
   name: Traminer Uncensored Bikicki
   vintage: '2021'

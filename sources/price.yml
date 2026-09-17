@@ -1,0 +1,4153 @@
+# Выгрузка прайса Гедониста от 14.09.2026. Служебный файл для сверки фактов
+# и привязки фотографий. В тексты постов эти данные не переносятся.
+
+items:
+- art: '440'
+  producer: HERVE BRISSON
+  name: Эрве Бриссон Лез Ольн/Champagne Herve Brisson Les Aulnes, бел эк.брют 12,5% 0,75л 2021
+  region: Cезане, Долина Петит Морен
+  grapes: Шардоне 100%
+  vintage: null
+  price: 13372
+  stock: 462
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Herve_Brisson_Les_Aulnes_2021.png
+- art: '441'
+  producer: HERVE BRISSON
+  name: Эрве Бриссон Ле Лон Дю Шеман Блан де Блан/Herve Brisson Le Long Du Chemin Blanc de Blancs, бел эк.брют 12,5% 0,75л 2021
+  region: Cезане, Долина Петит Морен
+  grapes: Шардоне 100%
+  vintage: '2021'
+  price: 19920
+  stock: 190
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Champagne_Herve_Brisson_Le_Long_Du_Chemin_Blanc_de_Blancs.png
+- art: '442'
+  producer: HERVE BRISSON
+  name: Эрве Бриссон Ле Рогаль Блан де Блан/Herve Brisson Les Regales Blanc de Blancs, бел эк.брют 12,5% 0,75л 2021
+  region: Cезане, Долина Петит Морен
+  grapes: Шардоне 100%
+  vintage: '2021'
+  price: 19920
+  stock: 132
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Champagne_Herve_Brisson_Les_Regales_Blanc_de_Blancs_.png
+- art: '104'
+  producer: HERVE BRISSON
+  name: Эрве Бриссон Ле Лон Дю Шеман Блан де Блан/Herve Brisson Le Long Du Chemin Blanc de Blancs, бел эк.брют 12,5% 0,75л 2020
+  region: Cезане, Долина Петит Морен
+  grapes: Шардоне 100%
+  vintage: '2020'
+  price: 19920
+  stock: 2
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Champagne_Herve_Brisson_Le_Long_Du_Chemin_Blanc_de_Blancs.png
+- art: '456'
+  producer: SYLVIE MOREAU
+  name: Сильви Моро Расин/Sylvie Moreau Racines, бел эк.брют 12,0% 0,75л 2021
+  region: Петит Монтань
+  grapes: Менье 50%, Шардоне 30%, Пино Нуар 20%
+  vintage: null
+  price: 12193
+  stock: 79
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Champagne_Sylvie_Moreau_Racines.png
+- art: '457'
+  producer: SYLVIE MOREAU
+  name: Сильви Моро Карре Ор/Sylvie Moreau Carre Or, бел эк.брют 12,0% 0,75л 2011
+  region: Петит Монтань
+  grapes: Менье 50%, Шардоне 30%, Пино Нуар 20%
+  vintage: null
+  price: 13872
+  stock: 268
+  photo: https://cs.hedonistwine.ru/PriceIMG/18png/Champagne_Sylvie_Moreau_Carre_Or_.png
+- art: '455'
+  producer: SYLVIE MOREAU
+  name: Сильви Моро Эмерод/Sylvie Moreau Emeraude, бел эк.брют 12,0% 0,75л 2017
+  region: Петит Монтань
+  grapes: Пино Нуар 50%, Шардоне 50%
+  vintage: '2017'
+  price: 14989
+  stock: 102
+  photo: https://cs.hedonistwine.ru/PriceIMG/18png/Champagne_Sylvie_Moreau_Emeraude_.png
+- art: '50'
+  producer: SYLVIE MOREAU
+  name: Сильви Моро Эмерод/Sylvie Moreau Emeraude, бел эк.брют 12,0% 0,75л 2016
+  region: Петит Монтань
+  grapes: Пино Нуар 50%, Шардоне 50%
+  vintage: '2016'
+  price: 14989
+  stock: 3
+  photo: https://cs.hedonistwine.ru/PriceIMG/18png/Champagne_Sylvie_Moreau_Emeraude_.png
+- art: '454'
+  producer: SYLVIE MOREAU
+  name: Сильви Моро Блан де Нуар/Sylvie Moreau Blanc de Noirs, бел эк.брют 12,0% 0,75л 2019
+  region: Петит Монтань
+  grapes: Пино Нуар 80%, Менье 20%
+  vintage: '2019'
+  price: 16583
+  stock: 74
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Champagne_Sylvie_Moreau_Blanc_de_Noirs_.png
+- art: '69'
+  producer: SYLVIE MOREAU
+  name: Сильви Моро Пото де Кулом/Sylvie Moreau Poteau de Coulommes, бел эк.брют 12,0% 0,75л 2020
+  region: Петит Монтань
+  grapes: Менье 100%
+  vintage: '2020'
+  price: 16864
+  stock: 20
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Champagne_Sylvie_Moreau_Poteau_de_Coulommes_.png
+- art: '635'
+  producer: SOPHIE COSSY
+  name: Софи Косси Премьер Крю Пино Нуар де Парньи Миллезим/Sophie Cossy Premier Cru Pinot Noir de Pargny Millesime, бел эк.брют 12,5% 0,75л 2022
+  region: Парньи-ле-Реймс
+  grapes: Пино Нуар 100%
+  vintage: '2022'
+  price: 23695
+  stock: 118
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Sophie_Cossy_Pinot_Noir_de_Pargny_Millesime_2022.png
+- art: '236'
+  producer: SOPHIE COSSY
+  name: Софи Косси Премьер Крю Пино Нуар де Парньи Миллезим/Sophie Cossy Premier Cru Pinot Noir de Pargny Millesime, бел эк.брют 12,5% 0,75л 2020
+  region: Парньи-ле-Реймс
+  grapes: Пино Нуар 100%
+  vintage: '2020'
+  price: 23695
+  stock: 42
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Sophie_Cossy_Pinot_Noir_de_Pargny_Millesime_2020.png
+- art: '237'
+  producer: SOPHIE COSSY
+  name: Софи Косси Премьер Крю Расинс де Парньи Миллезим/Sophie Cossy Premier Cru Raisins de Pargny Millesime, бел эк.брют 12,5% 0,75л 2020
+  region: Парньи-ле-Реймс
+  grapes: Шардоне 50%, Пино Нуар 50%
+  vintage: '2020'
+  price: 23695
+  stock: 116
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Sophie_Cossy_Raisins_de_Pargny_Millesime_2020.png
+- art: '238'
+  producer: SOPHIE COSSY
+  name: Кото Шампенуа Софи Косси Блан/Coteaux Champenois Sophie Cossy Blanc, бел сух 12,0% 0,75л 2022
+  region: Парньи-ле-Реймс
+  grapes: Шардоне 100%
+  vintage: '2022'
+  price: 18258
+  stock: 120
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Coteaux_Champenois_Sophie_Cossy_Blanc_2022.png
+- art: '287'
+  producer: REMI GEORGETON
+  name: Реми Жоржтон Премье Крю Ме 4 Терруар/Remi Georgeton Premier Cru Mes 4 Terroirs, бел эк.брют 12,5% 0,75л 2020
+  region: Гранд Монтань
+  grapes: Пино Нуар 38%, Шардоне 34%, Менье 28%
+  vintage: '2020'
+  price: 15720
+  stock: 107
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Remi_Georgeton_Premier_Cru_Mes_4_Terroirs_2020.png
+- art: '288'
+  producer: REMI GEORGETON
+  name: Реми Жоржтон Премье Крю Блан Де Ла Монтань/Remi Georgeton Premier Cru Blanc De La Montagne, бел эк.брют 12,5% 0,75л 2022
+  region: Гранд Монтань
+  grapes: Шардоне 100%
+  vintage: '2022'
+  price: 17697
+  stock: 169
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Remi_Georgeton_Premier_Cru_Blanc_De_La_Montagne_2022.png
+- art: '290'
+  producer: REMI GEORGETON
+  name: Реми Жоржтон Премье Крю Л'Анне Миллезим/Remi Georgeton Premier Cru L'Annee Millesime, бел эк.брют 12,5% 0,75л 2020
+  region: Люд
+  grapes: Пино Нуар 50%, Шардоне 50%
+  vintage: '2020'
+  price: 22610
+  stock: 42
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Remi_Georgeton_Premier_Cru_L_Annee_Millesime_2020.png
+- art: '291'
+  producer: REMI GEORGETON
+  name: Реми Жоржтон Гран Крю Верзи Миллезим/Remi Georgeton Grand Cru Verzy Millesime, бел эк.брют 12,5% 0,75л 2020
+  region: Верзи
+  grapes: Пино Нуар 100%
+  vintage: '2020'
+  price: 23590
+  stock: 46
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Remi_Georgeton_Grand_Cru_Verzy_Millesime_2020.png
+- art: '289'
+  producer: REMI GEORGETON
+  name: Реми Жоржтон Премье Крю Сенье Де Ла Монтань/Remi Georgeton Premier Cru Saignee De La Montagne, роз эк.брют 12,5% 0,75л 2021
+  region: Рили-ла-Монтань
+  grapes: Пино Нуар 100%
+  vintage: '2021'
+  price: 18394
+  stock: 78
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Remi_Georgeton_Premier_Cru_Saignee_De_La_Montagne_2021.png
+- art: '515'
+  producer: PAUL DETHUNE
+  name: Поль Детюн Гран Крю Брют/Paul Dethune Grand Cru Brut, бел брют 12,5% 0,375л 2022
+  region: Амбоне
+  grapes: Пино Нуар 70%, Шардоне 30%
+  vintage: null
+  price: 10169
+  stock: 57
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Paul_Dethune_Brut_0_375_2022.png
+- art: '640'
+  producer: PAUL DETHUNE
+  name: Поль Детюн Гран Крю Брют/Paul Dethune Grand Cru Brut, бел брют 12,5% 0,75л 2022
+  region: Амбоне
+  grapes: Пино Нуар 70%, Шардоне 30%
+  vintage: null
+  price: 18370
+  stock: 220
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Paul_Dethune_Brut_2022.png
+- art: '641'
+  producer: PAUL DETHUNE
+  name: Поль Детюн Гран Крю Блан де Нуар/Paul Dethune Grand Cru Blanc de Noirs, бел эк.брют 12,5% 0,75л 2022
+  region: Амбоне
+  grapes: Пино Нуар 100%
+  vintage: null
+  price: 30545
+  stock: 42
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Paul_Dethune_Blanc_de_Noirs_2022.png
+- art: '275'
+  producer: PAUL DETHUNE
+  name: Поль Детюн Гран Крю Ле О Де Бермон Блан де Нуар Милл/Paul Dethune Grand Cru Le Haut Des Bermonts Blanc de Noirs Mill., бел эк.брют 12,5% 0,75л 2017
+  region: Амбоне
+  grapes: Пино Нуар 100%
+  vintage: '2017'
+  price: 37281
+  stock: 46
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Paul_Dethune_Le_Haut_Des_Bermonts_Blanc_de_Noirs_2017.png
+- art: '516'
+  producer: PAUL DETHUNE
+  name: Поль Детюн Гран Крю Брют/Paul Dethune  Grand Cru Brut, бел брют 12,5% 1,5л 2021
+  region: Амбоне
+  grapes: Пино Нуар 70%, Шардоне 30%
+  vintage: null
+  price: 41864
+  stock: 5
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Paul_Dethune_Brut_1_5_2021.png
+- art: '274'
+  producer: PAUL DETHUNE
+  name: Поль Детюн Гран Крю Ле Крэйер Блан де Нуар Миллезим/Paul Dethune  Grand Cru Les Crayeres Blanc de Noirs Millesime, бел эк.брют 12,5% 0,75л 2017
+  region: Амбоне
+  grapes: Пино Нуар 100%
+  vintage: '2017'
+  price: 42387
+  stock: 47
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Paul_Dethune_Les_Crayeres_Blanc_de_Noirs_2017.png
+- art: '517'
+  producer: PAUL DETHUNE
+  name: Поль Детюн Гран Крю Кюве а Л’Ансьен Миллезим/Paul Dethune  Grand Cru Cuvee a L'Ancienne Millesime, бел эк.брют 12,5% 0,75л 2016
+  region: Амбоне
+  grapes: Пино Нуар 50%, Шардоне 50%
+  vintage: '2016'
+  price: 53503
+  stock: 35
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Paul_Dethune_Cuvee_a_L_Ancienne_2016.png
+- art: '401'
+  producer: DREMONT MARROY
+  name: Дремон Марруа Ле Трио/Dremont Marroy Le Triau, бел эк.брют 12,5% 0,75л 2022
+  region: Долина Марны
+  grapes: Менье 55%, Пино Нуар 30%, Шардоне 15%
+  vintage: null
+  price: 12096
+  stock: 72
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Champagne_Dremont_Marroy_Le_Triau.png
+- art: '402'
+  producer: DREMONT MARROY
+  name: Дремон Марруа Ла Лиери/Dremont Marroy La Lierie, бел эк.брют 12,5% 0,75л 2020
+  region: Долина Марны
+  grapes: Пино Нуар 53%, Шардоне 47%
+  vintage: null
+  price: 12199
+  stock: 121
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Champagne_Dremont_Marroy_La_Lierie.png
+- art: '403'
+  producer: DREMONT MARROY
+  name: Дремон Марруа Нуар де Меандр/Dremont Marroy Noir de Méandre, бел эк.брют 12,5% 0,75л 2020
+  region: Долина Марны
+  grapes: Пино Нуар 50%, Менье 50%
+  vintage: null
+  price: 12624
+  stock: 104
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Champagne_Dremont_Marroy_Noire_De_Meandre.png
+- art: '64'
+  producer: DREMONT MARROY
+  name: Дремон Марруа Эклозьон Пино Нуар/Dremont Marroy Eclosion Pinot Noir, бел эк.брют 12,5% 0,75л 2019
+  region: Долина Марны
+  grapes: Пино Нуар 100%
+  vintage: '2019'
+  price: 13144
+  stock: 17
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Champagne_Dremont_Marroy_Eclosion_Pinot_Noir.png
+- art: '65'
+  producer: DREMONT MARROY
+  name: Дремон Марруа Эклозьон Менье/Dremont Marroy Eclosion Meunier, бел эк.брют 12,5% 0,75л 2018
+  region: Долина Марны
+  grapes: Менье 100%
+  vintage: '2018'
+  price: 13233
+  stock: 54
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Champagne_Dremont_Marroy_Eclosion_Meunier.png
+- art: '66'
+  producer: DREMONT MARROY
+  name: Кото Шампенуа Ле Генге Дремон Марруа/Coteaux Champenois Le Guinguet Dremont Marroy, бел сух 11,5% 0,75л 2022
+  region: Долина Марны
+  grapes: Пино Нуар 100%
+  vintage: '2022'
+  price: 12875
+  stock: 14
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Le_Guinguet_Dremont_Marroy.png
+- art: '556'
+  producer: MATHILDE SAVOYE
+  name: Матильда Савойя Блан де Менье Экстра Брют/Mathilde Savoye Blanc de Meunier Extra Brut, бел эк.брют 12,0% 0,375л 2023
+  region: Долина Марны
+  grapes: Менье 100%
+  vintage: '2023'
+  price: 8536
+  stock: 3
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Champagne_Mathilde_Savoye_Blanc_de_Meunier_Extra_Brut_0_375.png
+- art: '557'
+  producer: MATHILDE SAVOYE
+  name: Матильда Савойя Блан де Менье Брют/Mathilde Savoye Blanc de Meunier Brut, бел брют 12,0% 0,375л 2020
+  region: Долина Марны
+  grapes: Менье 100%
+  vintage: '2020'
+  price: 8536
+  stock: 1
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Champagne_Mathilde_Savoye_Blanc_de_Meunier_Brut_0_375_.png
+- art: '309'
+  producer: MATHILDE SAVOYE
+  name: Матильда Савойя Блан де Менье Брют/Mathilde Savoye Blanc de Meunier Brut, бел брют 12,0% 0,75л 2023
+  region: Долина Марны
+  grapes: Менье 100%
+  vintage: '2023'
+  price: 15338
+  stock: 166
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Champagne_Mathilde_Savoye_Blanc_de_Meunier_Brut.png
+- art: '310'
+  producer: MATHILDE SAVOYE
+  name: Матильда Савойя Блан де Менье Экстра Брют/Mathilde Savoye Blanc de Meunier Extra Brut, бел эк.брют 12,0% 0,75л 2023
+  region: Долина Марны
+  grapes: Менье 100%
+  vintage: '2023'
+  price: 15338
+  stock: 177
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Champagne_Mathilde_Savoye_Blanc_de_Meunier_Extra_Brut.png
+- art: '311'
+  producer: MATHILDE SAVOYE
+  name: Матильда Савойя Бином/Mathilde Savoye Binome, бел эк.брют 12,0% 0,75л 2022
+  region: Долина Марны
+  grapes: Менье 70%, Шардоне 30%
+  vintage: null
+  price: 18590
+  stock: 118
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Champagne_Mathilde_Savoye_Binome.png
+- art: '558'
+  producer: MATHILDE SAVOYE
+  name: Матильда Савойя Блан де Менье Брют/Mathilde Savoye Blanc de Meunier Brut, бел брют 12,0% 1,5л 2023
+  region: Долина Марны
+  grapes: Менье 100%
+  vintage: '2023'
+  price: 34560
+  stock: 27
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Champagne_Mathilde_Savoye_Blanc_de_Meunier_Brut_1_5.png
+- art: '559'
+  producer: MATHILDE SAVOYE
+  name: Матильда Савойя Блан де Менье Экстра Брют/Mathilde Savoye Blanc de Meunier Extra Brut, бел эк.брют 12,0% 1,5л 2023
+  region: Долина Марны
+  grapes: Менье 100%
+  vintage: '2023'
+  price: 34560
+  stock: 38
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Champagne_Mathilde_Savoye_Blanc_de_Meunier_Extra_Brut_1_5.png
+- art: '312'
+  producer: MATHILDE SAVOYE
+  name: Матильда Савойя Розе де Менье/Mathilde Savoye Rose de Meunier, роз эк.брют 12,0% 0,75л 2023
+  region: Долина Марны
+  grapes: Менье 100%
+  vintage: '2023'
+  price: 19184
+  stock: 55
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Champagne_Mathilde_Savoye_Rose_de_Meunier_Extra_Brut.png
+- art: '313'
+  producer: MATHILDE SAVOYE
+  name: Кото Шампенуа Матильда Савойя/Coteaux Champenois Mathilde Savoye, крас сух 12,0% 0,75л 2022
+  region: Долина Марны
+  grapes: Менье 100%
+  vintage: '2022'
+  price: 14408
+  stock: 87
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Coteaux_Champenois_Mathilde_Savoye.png
+- art: '74'
+  producer: LA VILLESENIERE
+  name: Ла Вилльсеньер Кёр де Менье/La Villeseniere Cceur De Meunier, бел эк.брют 12,5% 0,75л 2019
+  region: Долина Марны
+  grapes: Менье 100%
+  vintage: '2019'
+  price: 14807
+  stock: 23
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Champagne_La_Villeseniere_Cceur_De_Meunier_.png
+- art: '406'
+  producer: LA VILLESENIERE
+  name: Ла Вилльсеньер Армони/La Villeseniere Harmony, бел эк.брют 12,5% 0,75л 2015
+  region: Долина Марны
+  grapes: Шардоне 60%, Пино Нуар 40%
+  vintage: '2015'
+  price: 15076
+  stock: 66
+  photo: https://cs.hedonistwine.ru/PriceIMG/18png/La_Villeseniere_Harmony_.png
+- art: '405'
+  producer: LA VILLESENIERE
+  name: Ла Вилльсеньер Армони/La Villeseniere Harmony, бел эк.брют 12,5% 0,75л 2018
+  region: Долина Марны
+  grapes: Шардоне 60%, Пино Нуар 40%
+  vintage: '2018'
+  price: 15076
+  stock: 144
+  photo: https://cs.hedonistwine.ru/PriceIMG/18png/La_Villeseniere_Harmony_.png
+- art: '73'
+  producer: LA VILLESENIERE
+  name: Ла Вилльсеньер Ле Кутери Блан де Блан/La Villeseniere Les Cuteries Blanc de Blancs , бел эк.брют 12,5% 0,75л 2017
+  region: Долина Марны
+  grapes: Шардоне 100%
+  vintage: '2017'
+  price: 15528
+  stock: 277
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Champagne_La_Villeseniere_Les_Cuteries_Blanc_de_Blancs.png
+- art: '407'
+  producer: LA VILLESENIERE
+  name: Ла Вилльсеньер Сенье/La Villeseniere Saignee, роз эк.брют 12,5% 0,75л 2016
+  region: Долина Марны
+  grapes: Пино Нуар 100%
+  vintage: '2016'
+  price: 15921
+  stock: 144
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Champagne_La_Villeseniere_Saignee.png
+- art: '404'
+  producer: LA VILLESENIERE
+  name: Кото Шампенуа Бурсо Руж Ла Вилльсеньер/Coteaux Champenois Boursault Rouge La Villeseniere, крас сух 12,0% 0,75л 2022
+  region: Долина Марны
+  grapes: Менье 100%
+  vintage: '2022'
+  price: 11077
+  stock: 156
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Coteaux_Champenois_Boursault_Rouge_La_Villeseniere.png
+- art: '303'
+  producer: ELISE GODIN
+  name: Элиз Годан Блан Де Блан/Elise Godin Blanc De Blancs, бел эк.брют 12,5% 0,75л 2020
+  region: Долина Марны
+  grapes: Шардоне 100%
+  vintage: '2020'
+  price: 25322
+  stock: 135
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Champagne_Elise_Godin_Blanc_De_Blancs.png
+- art: '504'
+  producer: ELISE GODIN
+  name: Элиз Годан Блан Де Блан/Elise Godin Blanc De Blancs, бел эк.брют 12,5% 1,5л 2020
+  region: Долина Марны
+  grapes: Шардоне 100%
+  vintage: '2020'
+  price: 59043
+  stock: 17
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Champagne_Elise_Godin_Blanc_De_Blancs_1_5.png
+- art: '634'
+  producer: DENIS SALOMON
+  name: Денис Саломон Хистори Де Фамий/Denis Salomon Histoire De Famille, бел эк.брют 12,5% 0,75л 2023
+  region: Вандьер
+  grapes: Менье 100%
+  vintage: null
+  price: 12282
+  stock: 253
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Denis_Salomon_Histoire_de_Famille_2023.png
+- art: '633'
+  producer: DENIS SALOMON
+  name: Денис Саломон Ма Валле Эклере/Denis Salomon Ma Vallee Eclairee, бел эк.брют 12,0% 0,75л 2023
+  region: Вандьер
+  grapes: Менье 70%, Шардоне 30%
+  vintage: null
+  price: 14029
+  stock: 141
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Denis_Salomon_Ma_Vallee_Eclairee_2023.png
+- art: '631'
+  producer: DENIS SALOMON
+  name: Денис Саломон Ле Блан Де Ла Пант/Denis Salomon Les Blancs De La Pente, бел эк.брют 12,0% 0,75л 2023
+  region: Вандьер
+  grapes: Шардоне 100%
+  vintage: null
+  price: 15192
+  stock: 221
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Denis_Salomon_Les_Blancs_De_La_Pente_2023.png
+- art: '298'
+  producer: DENIS SALOMON
+  name: Денис Саломон Ла Белль Анне Милллезим/Denis Salomon La Belle Annee Millesime, бел эк.брют 12,0% 0,75л 2018
+  region: Вандьер
+  grapes: Пино Нуар 45%, Менье 30%, Шардоне 25%
+  vintage: '2018'
+  price: 16355
+  stock: 134
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Denis_Salomon_La_Belle_Annee_Millesime_2018.png
+- art: '295'
+  producer: DENIS SALOMON
+  name: Денис Саломон Боше Тома Миллезим/Denis Salomon Bauchet Thomas Millesime, бел эк.брют 12,0% 0,75л 2018
+  region: Вандьер
+  grapes: Менье 100%
+  vintage: '2018'
+  price: 26248
+  stock: 60
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Denis_Salomon_Bauchet_Thomas_Millesime_2018.png
+- art: '294'
+  producer: DENIS SALOMON
+  name:  Денис Саломон Витали Милллезим/Denis Salomon Vitalie Millesime, бел эк.брют 12,0% 0,75л 2018 в ПУ
+  region: Вандьер
+  grapes: Менье 34%, Шардоне 33%, Пино Нуар 33%
+  vintage: '2018'
+  price: 29520
+  stock: 42
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Denis_Salomon_Vitalie_Millesime_2018_2.png
+- art: '503'
+  producer: DENIS SALOMON
+  name: Денис Саломон Хистори Де Фамий/Denis Salomon Histoire De Famille, бел эк.брют 12,5% 1,5л 2022
+  region: Вандьер
+  grapes: Менье 100%
+  vintage: null
+  price: 30180
+  stock: 24
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Denis_Salomon_Histoire_de_Famille_1_5_2022_2.png
+- art: '293'
+  producer: DENIS SALOMON
+  name: Денис Саломон Л'Андепандант Милллезим/Denis Salomon L'Independante Millesime, бел эк.брют 12,0% 0,75л 2015
+  region: Вандьер
+  grapes: Менье 34%, Шардоне 33%, Пино Нуар 33%
+  vintage: '2015'
+  price: 33445
+  stock: 24
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Denis_Salomon_L_Independante_Millesime_2015.png
+- art: '591'
+  producer: DENIS SALOMON
+  name:  Денис Саломон Ле Кло Барре 7 Сепаж/Denis Salomon Les Clos Barret 7 Cepages, бел эк.брют 12,5% 0,75л 2018 в ПУ
+  region: Вандьер
+  grapes: Пти Мелье 15%, Пино Гри 15%, Менье 15%, Пино Блан 15%, Пино Нуар 15%, Шардоне 15%, Арбан 10%
+  vintage: '2018'
+  price: 51108
+  stock: 39
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Denis_Salomon_Les_Clos_Barret_7_Cepages_2018_2.png
+- art: '632'
+  producer: DENIS SALOMON
+  name: Денис Саломон Розе де Менье/Denis Salomon Rose de Meunier, роз эк.брют 12,0% 0,75л 2023
+  region: Вандьер
+  grapes: Менье 100%
+  vintage: null
+  price: 14029
+  stock: 146
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Denis_Salomon_Rose_de_Meunier_2023.png
+- art: '297'
+  producer: DENIS SALOMON
+  name: Денис Саломон Сенье Де Менье Ле Шеневьер/Denis Salomon Saignee de Meunier les Chenevieres, роз эк.брют 12,0% 0,75л 2022
+  region: Вандьер
+  grapes: Менье 100%
+  vintage: null
+  price: 16939
+  stock: 140
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Denis_Salomon_Saignee_de_Meunier_les_Chenevieres_2022.png
+- art: '493'
+  producer: ROBERT BARBICHON
+  name: Робер Барбишон Резерв 4 Сепаж/Robert Barbichon Reserve 4 Cepages, бел эк.брют 12,0% 0,375л 2017
+  region: Жие-Сюр-Сен
+  grapes: Пино Нуар 70%, Шардоне 13%, Пино Блан 11%, Пино Менье 6%
+  vintage: null
+  price: 8018
+  stock: 53
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Robert_Barbichon_Reserve_4_Cepages_2021.png
+- art: '255'
+  producer: ROBERT BARBICHON
+  name: Робер Барбишон Блан де Нуар/Robert Barbichon Blanc de Noirs, бел эк.брют 12,0% 0,75л 2020
+  region: Жие-Сюр-Сен
+  grapes: Пино Нуар 97%, Пино Менье 3%
+  vintage: null
+  price: 12552
+  stock: 74
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Robert_Barbichon_Blanc_de_Noirs_2020.png
+- art: '257'
+  producer: ROBERT BARBICHON
+  name: Робер Барбишон Резерв 4 Сепаж/Robert Barbichon Reserve 4 Cepages, бел эк.брют 12,0% 0,75л 2021
+  region: Жие-Сюр-Сен
+  grapes: Пино Нуар 66%, Шардоне 26%, Пино Блан 5%, Пино Менье 3%
+  vintage: null
+  price: 12552
+  stock: 156
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Robert_Barbichon_Reserve_4_Cepages_1_5_2021.png
+- art: '644'
+  producer: ROBERT BARBICHON
+  name: Робер Барбишон Блан де Блан/Robert Barbichon Blanc de Blancs, бел эк.брют 12,0% 0,75л 2019
+  region: Жие-Сюр-Сен
+  grapes: Шардоне 67%, Пино Блан 33%
+  vintage: null
+  price: 14153
+  stock: 175
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Robert_Barbichon_Blanc_de_Blancs_2019.png
+- art: '253'
+  producer: ROBERT BARBICHON
+  name: Робер Барбишон Блан де Блан Брют Натюр/Robert Barbichon Blanc de Blancs Brut Nature, бел эк.брют 12,0% 0,75л 2019
+  region: Жие-Сюр-Сен
+  grapes: Шардоне 100%
+  vintage: null
+  price: 15344
+  stock: 115
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Robert_Barbichon_Brut_Nature_2019.png
+- art: '494'
+  producer: ROBERT BARBICHON
+  name:  Робер Барбишон Резерв 4 Сепаж/Robert Barbichon Reserve 4 Cepages, бел эк.брют 12,0% 1,5л 2021 в ПУ
+  region: Жие-Сюр-Сен
+  grapes: Пино Нуар 66%, Шардоне 26%, Пино Блан 5%, Пино Менье 3%
+  vintage: null
+  price: 30047
+  stock: 45
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Robert_Barbichon_Reserve_4_Cepages_2021_12_2.png
+- art: '256'
+  producer: ROBERT BARBICHON
+  name: Робер Барбишон Розе де Сенье/Robert Barbichon Rose de Saignee, роз эк.брют 12,0% 0,75л 2021
+  region: Жие-Сюр-Сен
+  grapes: Пино Нуар 100%
+  vintage: null
+  price: 14153
+  stock: 75
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Robert_Barbichon_Rose_de_Saignee_2021.png
+- art: '492'
+  producer: ROBERT BARBICHON
+  name:  Робер Барбишон Розе де Сенье/Robert Barbichon Rose de Saignee, роз эк.брют 12,0% 1,5л 2019 в ПУ
+  region: Жие-Сюр-Сен
+  grapes: Пино Нуар 100%
+  vintage: null
+  price: 33573
+  stock: 15
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Robert_Barbichon_Rose_de_Saignee_2021_3.png
+- art: '491'
+  producer: ROBERT BARBICHON
+  name: Кото Шампенуа Робер Барбишон/Coteaux Champenois Robert Barbichon, крас сух 12,0% 0,75л 2023
+  region: Жие-Сюр-Сен
+  grapes: Пино Нуар 100%
+  vintage: '2023'
+  price: 13822
+  stock: 120
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Robert_Barbichon_Coteaux_Champenois_2023.png
+- art: '248'
+  producer: MARIE TASSIN
+  name: Фюме Тассан Пасс Композ/Fumey Tassin Passe Compose, бел брют 12,0% 0,75л 2022
+  region: Сель-Сюр-Урс
+  grapes: Пино Нуар 60%, Пино Блан 40%
+  vintage: null
+  price: 11591
+  stock: 212
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Fumey_Tassin_Passe_Compose.png
+- art: '250'
+  producer: MARIE TASSIN
+  name: Фюме Тассан Футур Антерьер/Fumey Tassin Futur Anterieur, бел брют 12,0% 0,75л 2017
+  region: Сель-Сюр-Урс
+  grapes: Пино Блан 70%, Пино Нуар 30%
+  vintage: '2017'
+  price: 12990
+  stock: 104
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Fumey_Tassin_Futur_Anterieur_2017.png
+- art: '251'
+  producer: MARIE TASSIN
+  name: Мари Тассан Контраст/Marie Tassin Contrastes, бел брют 12,0% 0,75л 2019
+  region: Сель-Сюр-Урс
+  grapes: Пино Блан 100%
+  vintage: '2019'
+  price: 13686
+  stock: 169
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Marie_Tassin_Contrastes.png
+- art: '638'
+  producer: MARIE TASSIN
+  name: Мари Тассан Эмоушен Бланш/Marie Tassin Emotion Blanche, бел брют 12,0% 0,75л 2019
+  region: Сель-Сюр-Урс
+  grapes: Пино Блан 100%
+  vintage: '2019'
+  price: 15894
+  stock: 147
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Marie_Tassin_Emotion_Blanche.png
+- art: '639'
+  producer: MARIE TASSIN
+  name: Фюме Тассан Пасс Композ/Fumey Tassin Passe Compose, бел брют 12,0% 1,5л 2022
+  region: Сель-Сюр-Урс
+  grapes: Пино Нуар 60%, Пино Блан 40%
+  vintage: null
+  price: 25118
+  stock: 50
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Fumey_Tassin_Passe_Compose_1_5.png
+- art: '249'
+  producer: MARIE TASSIN
+  name: Мари Тассан Провокасьон Розе/Marie Tassin Provocation Rosee, роз брют 12,0% 0,75л 2019
+  region: Сель-Сюр-Урс
+  grapes: Пино Нуар 100%
+  vintage: '2019'
+  price: 13164
+  stock: 103
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Marie_Tassin_Provocation_Rosee.png
+- art: '279'
+  producer: HELENE BEAUGRAND
+  name: Элен Богран Ле Гран Карре Блан Де Блан /Helene Beaugrand Le Grand Carre Blanc De Blancs, бел эк.брют 12,5% 0,75л 2022
+  region: Монгё
+  grapes: Шардоне 100%
+  vintage: null
+  price: 15664
+  stock: 127
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Helene_Beaugrand_Le_Grand_Carre_2022.png
+- art: '637'
+  producer: HELENE BEAUGRAND
+  name: Элен Богран Партикюль Элемантер/Helene Beaugrand  Particules Elementaires, бел эк.брют 12,5% 0,75л 2022
+  region: Монгё
+  grapes: Шардоне 50%, Пино Нуар 50%
+  vintage: null
+  price: 15664
+  stock: 88
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Helene_Beaugrand_Particules_Elementaires_2022.png
+- art: '636'
+  producer: HELENE BEAUGRAND
+  name: Элен Богран Деррие ла Кабан Блан Де Блан/Helene Beaugrand Derrier la Cabane Blanc De Blancs, бел эк.брют 12,5% 0,75л 2020
+  region: Монгё
+  grapes: Шардоне 100%
+  vintage: null
+  price: 17697
+  stock: 107
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Helene_Beaugrand_Derriere_la_Cabane_2020.png
+- art: '278'
+  producer: HELENE BEAUGRAND
+  name: Элен Богран Экла дю Солей/Helene Beaugrand Eclat du Soleil, бел эк.брют 12,5% 0,75л 2022
+  region: Монгё
+  grapes: Менье 100%
+  vintage: null
+  price: 33647
+  stock: 60
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Eclat_du_Soleil_Beaugrand.png
+- art: '286'
+  producer: HELENE BEAUGRAND
+  name: Элен Богран Ле Розе Энриетт/Helene Beaugrand Le Rose Henriette, роз эк.брют 12,5% 0,75л 2019
+  region: Монгё
+  grapes: Менье 50%, Пино Нуар 50%
+  vintage: null
+  price: 18281
+  stock: 58
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Helene_Beaugrand_Le_Rose_Henriette_2019.png
+- art: Арт.
+  producer: HELENE BEAUGRAND
+  name: Наименование
+  region: Регион
+  grapes: Сортовой состав
+  vintage: Год урожая
+  price: 'Цена '
+  stock: Остаток
+  photo: null
+- art: '439'
+  producer: ALLIANCE LOIRE
+  name: Креман Де Луар Ла Пти Маркиз/Cremant de Loire la Petite Marquise, бел брют 11,0% 0,75л 2023
+  region: Сомюр
+  grapes: Шенен Блан 100%
+  vintage: null
+  price: 3611
+  stock: 1003
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Cremant_de_Loire_la_Petite_Marquise.png
+- art: '744'
+  producer: ALLIANCE LOIRE
+  name: Креман Де Луар Ла Пти Маркиз/Cremant de Loire la Petite Marquise, бел брют 11,0% 0,75л 2024
+  region: Сомюр
+  grapes: Шенен Блан 100%
+  vintage: null
+  price: 3611
+  stock: 2280
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Cremant_de_Loire_la_Petite_Marquise.png
+- art: '332'
+  producer: ALLIANCE LOIRE
+  name: Креман Де Луар Розе Ла Пти Маркиз/Cremant de Loire Rose la Petite Marquis, роз брют 12,5% 0,75л 2023
+  region: Сомюр
+  grapes: Каберне Фран 100%
+  vintage: null
+  price: 3611
+  stock: 585
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Cremant_de_Loire_Rose_la_Petite_Marquis.png
+- art: '743'
+  producer: ALLIANCE LOIRE
+  name: Креман Де Луар Розе Ла Пти Маркиз/Cremant de Loire Rose la Petite Marquise, роз брют 11,5% 0,75л 2024
+  region: Сомюр
+  grapes: Каберне Фран 100%
+  vintage: null
+  price: 3611
+  stock: 1440
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Cremant_de_Loire_Rose_la_Petite_Marquis.png
+- art: '605'
+  producer: MONTGERMONT
+  name: Монжермон Блан Де Блан Брют/Montgermont Blanc de Blancs Brut, бел брют 11,0% 0,75л 2022
+  region: Бургундия
+  grapes: Уни Блан 50%, Айрен 50%
+  vintage: null
+  price: 3275
+  stock: 2028
+  photo: https://cs.hedonistwine.ru/PriceIMG/24png/Montgermont_Blanc_de_Blancs_Brut.png
+- art: '478'
+  producer: MONTGERMONT
+  name: Монжермон Дюрелла Блан Де Блан Брют/Montgermont Durella Blanc de Blancs Brut, бел брют 11,0% 0,75л 2023
+  region: Бургундия
+  grapes: Дурелла 100%
+  vintage: null
+  price: 3425
+  stock: 2135
+  photo: https://cs.hedonistwine.ru/PriceIMG/24png/Montgermont_Durella_Blanc_de_Blancs_Brut.png
+- art: '350'
+  producer: BAPTISTE BIENVENU
+  name: Креман Де Бургонь Брют Зеро Баптист Бьенвеню/Cremant De Bourgogne Brut Zero Baptiste Bienvenu, бел эк.брют 12,5% 0,75л 2023
+  region: Иранси
+  grapes: Шардоне 100%
+  vintage: '2023'
+  price: 5441
+  stock: 2463
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Cremant_De_Bourgogne_Brut_Zero_Baptiste_Bienvenu.png
+- art: '351'
+  producer: BAPTISTE BIENVENU
+  name: Креман Де Бургонь Брют Розе Баптист Бьенвеню/Cremant De Bourgogne Brut Rose Baptiste Bienvenu, роз брют 12,5% 0,75л 2023
+  region: Иранси
+  grapes: Пино Нуар 100%
+  vintage: '2023'
+  price: 5441
+  stock: 1487
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Cremant_De_Bourgogne_Rose_Baptiste_Bienvenu.png
+- art: '308'
+  producer: DOMAINE BONY GACHOT
+  name: Креман де Бургонь Домен Бони Гашо/Cremant de Bourgogne Domaine Bony Gachot, бел брют 12,5% 0,75л 2023
+  region: Нюи-Сен-Жорж
+  grapes: Пино Нуар 100%
+  vintage: null
+  price: 6617
+  stock: 1368
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Cremant_de_Bourgogne_Domaine_Bony_Gachot.png
+- art: '458'
+  producer: CHARLES FREY
+  name: Креман Д’Эльзас Брют Натюр Шарль Фрей/Cremant D’Alsace Brut Nature Charles Frey, бел эк.брют 12,5% 0,75л 2023
+  region: Дамбах-ля-Виль
+  grapes: Пино Блан 50%, Оксеруа 30%, Рислинг 20%
+  vintage: null
+  price: 5398
+  stock: 1058
+  photo: https://cs.hedonistwine.ru/PriceIMG/18png/Cremant_DAlsace_Charles_Frey_Brut_Nature_.png
+- art: '459'
+  producer: CHARLES FREY
+  name: Креман Д’Эльзас Экстра Брют Шарль Фрей/Cremant D’Alsace  Extra Brut Charles Frey, бел эк.брют 12,5% 0,75л 2023
+  region: Дамбах-ля-Виль
+  grapes: Пино Блан 50%, Оксеруа 30%, Рислинг 20%
+  vintage: null
+  price: 5398
+  stock: 990
+  photo: https://cs.hedonistwine.ru/PriceIMG/18png/Cremant_DAlsace_Charles_Frey_Extra_Brut_.png
+- art: '477'
+  producer: PIONA
+  name: Пиона Блиц Брют/Piona Bliz Brut, бел брют 12,0% 0,75л 2024
+  region: Гави
+  grapes: Кортезе 100%
+  vintage: '2024'
+  price: 3580
+  stock: 2595
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Piona_Bliz_Brut_.png
+- art: '487'
+  producer: STEFANO OCCHETTI
+  name: Неббиоло Д'Альба Болле Розе Брют Натюр Стефано Оккетти/Nebbiolo D'Alba Bolle Rose Brut Nature Stefano Occhetti, роз эк.брют 13,0% 0,75л 2022
+  region: Роэро
+  grapes: Неббиоло 100%
+  vintage: '2022'
+  price: 10475
+  stock: 16
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Nebbiolo_D_Alba_Bolle_Rose_Brut_Nature_Stefano_Occhetti.png
+- art: '450'
+  producer: CHERUBINI
+  name: Керубини Cуи Дженерис Блан де Блан Брют Натюр/Cherubini Sui Generis Blanc de Blancs Brut Nature, бел эк.брют 12,0% 0,75л 2021
+  region: Брешиа
+  grapes: Шардоне 100%
+  vintage: '2021'
+  price: 8782
+  stock: 270
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Cherubini_Sui_Generis_Brut_Nature_.png
+- art: '762'
+  producer: CHERUBINI
+  name: Керубини Cуи Дженерис Брют Натур/Cherubini Sui Generis Brut Nature, бел эк.брют 12,0% 0,75л 2022
+  region: Брешиа
+  grapes: Шардоне 100%
+  vintage: '2022'
+  price: 8782
+  stock: 300
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Cherubini_Sui_Generis_Brut_Nature_.png
+- art: '449'
+  producer: CHERUBINI
+  name: Керубини Cубсидиум Ризерва Натур/Cherubini Subsidium Riserva Nature, бел эк.брют 12,0% 0,75л 2018
+  region: Брешиа
+  grapes: Пино Нуар 60%, Шардоне 40%
+  vintage: '2018'
+  price: 12280
+  stock: 74
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Cherubini_Subsidium_Riserva_Nature_.png
+- art: '761'
+  producer: CHERUBINI
+  name: Керубини Cубсидиум Ризерва Натур/Cherubini Subsidium Riserva Nature, бел эк.брют 12,0% 0,75л 2019
+  region: Брешиа
+  grapes: Пино Нуар 60%, Шардоне 40%
+  vintage: '2019'
+  price: 12280
+  stock: 90
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Cherubini_Subsidium_Riserva_Nature_.png
+- art: '447'
+  producer: CHERUBINI
+  name: Керубини Эксептис Блан де Нуар/Cherubini Exceptis Blanc de Noire, бел эк.брют 12,0% 0,75л 2021
+  region: Брешиа
+  grapes: Пино Нуар 100%
+  vintage: '2021'
+  price: 13170
+  stock: 69
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Cherubini_Exceptis_Blanc_de_Noire_.png
+- art: '448'
+  producer: CHERUBINI
+  name: Керубини Левис Розе Натюр/Cherubini Levis Rose Nature, роз эк.брют 12,0% 0,75л 2018
+  region: Брешиа
+  grapes: Пино Нуар 100%
+  vintage: '2018'
+  price: 11224
+  stock: 18
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Cherubini_Levis_Rose_Nature_.png
+- art: '760'
+  producer: CHERUBINI
+  name: Керубини Левис Розе Натур/Cherubini Levis Rose Nature, роз эк.брют 12,0% 0,75л 2019
+  region: Брешиа
+  grapes: Пино Нуар 100%
+  vintage: '2019'
+  price: 11224
+  stock: 90
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Cherubini_Levis_Rose_Nature_.png
+- art: '341'
+  producer: CASTELLO LONGOBARDO
+  name: Просекко Тревизо Кастелло Лонгобардо/Prosecco Treviso Castello Longobardo, бел брют 11,0% 0,75л 2024
+  region: Тревизо
+  grapes: Глера 100%
+  vintage: null
+  price: 2636
+  stock: 923
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Prosecco_Treviso_Castello_Longobardo.png
+- art: '661'
+  producer: CASTELLO LONGOBARDO
+  name: Просекко Тревизо Кастелло Лонгобардо/Prosecco Treviso Castello Longobardo, бел брют 11,0% 0,75л 2025
+  region: Тревизо
+  grapes: Глера 100%
+  vintage: null
+  price: 2636
+  stock: 8160
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Prosecco_Treviso_Castello_Longobardo.png
+- art: '400'
+  producer: CASTELLO LONGOBARDO
+  name: Просекко Вальдоббьядене Супериоре Кастелло Лонгобардо/Prosecco Valdobbiadene Superiore Castello Longobardo, бел брют 11,0% 0,75л 2024
+  region: Вальдоббьядене
+  grapes: Глера 100%
+  vintage: null
+  price: 3325
+  stock: 768
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Prosecco_Valdobbiadene_Superiore_Castello_Longobardo.png
+- art: '764'
+  producer: CASTELLO LONGOBARDO
+  name: Просекко Вальдоббьядене Супериоре Кастелло Лонгобардо/Prosecco Valdobbiadene Superiore Castello Longobardo, бел брют 11,0% 0,75л 2025
+  region: Вальдоббьядене
+  grapes: Глера 100%
+  vintage: null
+  price: 3325
+  stock: 1008
+  photo: null
+- art: '590'
+  producer: VOLLENWEIDER
+  name: Зект Чиел Брют Натюр Волленвейдер/Sekt Tschiel Brut Nature Vollenweider, бел эк.брют 11,5% 0,75л 2021
+  region: Мозель
+  grapes: Шардоне 100%
+  vintage: '2021'
+  price: 8024
+  stock: 53
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Sekt_Tschiel_Brut_Nature_Vollenweider_.png
+- art: '336'
+  producer: PFEFFINGEN
+  name: Зект Рислинг Пфеффинген/Sekt Riesling Pfeffingen, бел брют 12,0% 0,75л 2023
+  region: Пфальц
+  grapes: Рислинг 100%
+  vintage: '2023'
+  price: 5684
+  stock: 117
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Sekt_Riesling_Pfeffingen.png
+- art: '663'
+  producer: PFEFFINGEN
+  name: Зект Рислинг Пфеффинген/Sekt Riesling Pfeffingen, бел брют 11,5% 0,75л 2023
+  region: Пфальц
+  grapes: Рислинг 100%
+  vintage: '2023'
+  price: 5684
+  stock: 117
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Sekt_Riesling_Pfeffingen.png
+- art: '758'
+  producer: PFEFFINGEN
+  name: Зект Рислинг Пфеффинген/Sekt Riesling Pfeffingen brut, бел брют 11,0% 0,75л 2024
+  region: Пфальц
+  grapes: Рислинг 100%
+  vintage: '2024'
+  price: 5684
+  stock: 177
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Sekt_Riesling_Pfeffingen.png
+- art: '329'
+  producer: FANATIC
+  name: Кава Брют Фанатик/Cava Brut Fanatic, бел брют 11,5% 0,75л 2023
+  region: Пенедес
+  grapes: Шарелло 40%, Макабео 40%, Парельяда 20%
+  vintage: null
+  price: 2550
+  stock: 755
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Cava_Brut_Fanatic.png
+- art: '746'
+  producer: FANATIC
+  name: Кава Фанатик/Cava Fanatic, бел брют 11,5% 0,75л 2023
+  region: Пенедес
+  grapes: Макабео 40%, Шарелло 40%, Парельяда 20%
+  vintage: null
+  price: 2550
+  stock: 7291
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Cava_Brut_Fanatic.png
+- art: '328'
+  producer: FANATIC
+  name: Кава Империал Резерва Фанатик/Cava Imperial Reserva Fanatic, бел брют 11,5% 0,75л 2022
+  region: Пенедес
+  grapes: Шардоне 50%, Парельяда 50%
+  vintage: null
+  price: 3143
+  stock: 2178
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Cava_Imperial_Reserva_Fanatic.png
+- art: '745'
+  producer: FANATIC
+  name: Кава Империал Фанатик Резерва/Cava Imperial Fanatic Reserva, бел брют 11,5% 0,75л 2022
+  region: Пенедес
+  grapes: Парельяда 50%, Шардоне 50%
+  vintage: null
+  price: 3143
+  stock: 1434
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Cava_Imperial_Reserva_Fanatic.png
+- art: '462'
+  producer: FANATIC
+  name: Кава Розе Фанатик/Cava Rose Fanatic, роз брют 11,5% 0,75л 2022
+  region: Пенедес
+  grapes: Трепат 100%
+  vintage: null
+  price: 3010
+  stock: 642
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Cava_Rose_Fanatic.png
+- art: '747'
+  producer: FANATIC
+  name: Кава Розе Фанатик/Cava Rose Fanatic, роз брют 11,5% 0,75л 2022
+  region: Пенедес
+  grapes: Трепат 100%
+  vintage: null
+  price: 3010
+  stock: 1254
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Cava_Rose_Fanatic.png
+- art: '573'
+  producer: CASTELL DEL TERME
+  name: Кава Кошерная Брют Кастель дель Терм/Cava Kosher Brut Castell del Terme, бел брют 11,5% 0,75л 2024
+  region: Каталония
+  grapes: Макабео 40%, Шарелло 40%, Парельяда 20%
+  vintage: null
+  price: 3768
+  stock: 712
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Cava_Kosher_Brut_Castell_del_Terme_.png
+- art: Арт.
+  producer: CASTELL DEL TERME
+  name: Наименование
+  region: Регион
+  grapes: Сортовой состав
+  vintage: Год урожая
+  price: 'Цена '
+  stock: Остаток
+  photo: null
+- art: '437'
+  producer: CHARLES FREY
+  name: Пино Блан Эклектик Шарль Фрей/Pinot Blanc Eclectic Charles Frey, бел сух 12,0% 0,75л 2024
+  region: Дамбах-ля-Виль
+  grapes: Пино Блан 100%
+  vintage: '2024'
+  price: 4602
+  stock: 172
+  photo: https://cs.hedonistwine.ru/PriceIMG/18png/Pinot_Blanc_Alsace_Eclectic_Charles_Frey_.png
+- art: '438'
+  producer: CHARLES FREY
+  name: Пино Гри Самбьёз Шарль Фрей/Pinot Gris Symbiose Charles Frey, бел сух 12,5% 0,75л 2024
+  region: Дамбах-ля-Виль
+  grapes: Пино Гри 100%
+  vintage: '2024'
+  price: 4779
+  stock: 104
+  photo: https://cs.hedonistwine.ru/PriceIMG/18png/Pinot_Gris_Alsace_Simbiose_Charles_Frey.png
+- art: '260'
+  producer: CHARLES FREY
+  name: Сильванер Интемпорель Шарль Фрей/Sylvaner Intemporel Charles Frey, бел сух 12,0% 0,75л 2023
+  region: Дамбах-ля-Виль
+  grapes: Сильванер 100%
+  vintage: '2023'
+  price: 5068
+  stock: 64
+  photo: https://cs.hedonistwine.ru/PriceIMG/18png/Sylvaner_Alsace_Intemporel_Charles_Frey_.png
+- art: '261'
+  producer: CHARLES FREY
+  name: Рислинг Гранит Шарль Фрей/Riesling Granite Charles Frey, бел сух 12,0% 0,75л 2023
+  region: Дамбах-ля-Виль
+  grapes: Рислинг 100%
+  vintage: '2023'
+  price: 5068
+  stock: 332
+  photo: https://cs.hedonistwine.ru/PriceIMG/18png/Riesling_Alsace_Granite_Charles_Frey_.png
+- art: '626'
+  producer: CHARLES FREY
+  name: Масерасьон Шарль Фрей/Maceration Charles Frey, бел сух 12,5% 0,75л 2024
+  region: Дамбах-ля-Виль
+  grapes: Гевюрцтраминер 90%, Рислинг 10%
+  vintage: '2024'
+  price: 5474
+  stock: 85
+  photo: https://cs.hedonistwine.ru/PriceIMG/18png/Maceration_Charles_Frey_.png
+- art: '265'
+  producer: CHARLES FREY
+  name: Рислинг Ла Мес дю Матан Шарль Фрей/Riesling La Messe du Matin Charles Frey, бел сух 12,5% 0,75л 2023
+  region: Дамбах-ля-Виль
+  grapes: Рислинг 100%
+  vintage: '2023'
+  price: 6566
+  stock: 73
+  photo: https://cs.hedonistwine.ru/PriceIMG/18png/Riesling_Alsace_La_Messe_du_Matin_Charles_Frey_.png
+- art: '266'
+  producer: CHARLES FREY
+  name: Рислинг Гран Крю Франкштейн Шарль Фрей/Riesling Grand Cru Frankstein Charles Frey, бел сух 12,0% 0,75л 2022
+  region: Дамбах-ля-Виль
+  grapes: Рислинг 100%
+  vintage: '2022'
+  price: 8012
+  stock: 65
+  photo: https://cs.hedonistwine.ru/PriceIMG/18png/Riesling_Alsace_Grand_Cru_Frankstein_Charles_Frey.png
+- art: '461'
+  producer: CHARLES FREY
+  name: Гевюрцтраминер Самбьёз Шарль Фрей/Gewurztraminer Simbiose Charles Frey, бел п.слад 13,0% 0,75л 2023
+  region: Дамбах-ля-Виль
+  grapes: Гевюрцтраминер 100%
+  vintage: '2023'
+  price: 4835
+  stock: 20
+  photo: https://cs.hedonistwine.ru/PriceIMG/18png/Gewurztraminer_Alsace_Simbiose_Charles_Frey_.png
+- art: '613'
+  producer: CHARLES FREY
+  name: Гевюрцтраминер Самбьёз Шарль Фрей/Gewurztraminer Symbiose Charles Frey, бел п.слад 13,0% 0,75л 2023
+  region: Дамбах-ля-Виль
+  grapes: Гевюрцтраминер 100%
+  vintage: '2023'
+  price: 4835
+  stock: 299
+  photo: https://cs.hedonistwine.ru/PriceIMG/18png/Gewurztraminer_Alsace_Simbiose_Charles_Frey_.png
+- art: '625'
+  producer: CHARLES FREY
+  name: Гевюрцтраминер Самбьёз Шарль Фрей/Gewurztraminer Symbiose Charles Frey, бел п.слад 12,5% 0,75л 2025
+  region: Дамбах-ля-Виль
+  grapes: Гевюрцтраминер 100%
+  vintage: '2025'
+  price: 4835
+  stock: 62
+  photo: https://cs.hedonistwine.ru/PriceIMG/18png/Gewurztraminer_Alsace_Simbiose_Charles_Frey_.png
+- art: '267'
+  producer: CHARLES FREY
+  name: Пино Гри Гран Крю Франкштейн Вандаж Тардив Шарль Фрей/Pinot Gris Grand Cru Frankstein Vendanges Tardives Charles Frey, бел слад 13,0% 0,75л 2017
+  region: Дамбах-ля-Виль
+  grapes: Пино Гри 100%
+  vintage: '2017'
+  price: 8245
+  stock: 64
+  photo: https://cs.hedonistwine.ru/PriceIMG/18png/Pinot_Gris_Alsace_Grand_Cru_Frankstein_Charles_Frey_.png
+- art: '460'
+  producer: CHARLES FREY
+  name: Пино Нуар Квинтессанс Шарль Фрей/Pinot Noir Quintessence Charles Frey, крас сух 12,5% 0,75л 2022
+  region: Дамбах-ля-Виль
+  grapes: Пино Нуар 100%
+  vintage: '2022'
+  price: 7374
+  stock: 15
+  photo: https://cs.hedonistwine.ru/PriceIMG/18png/Pinot_Noir_Alsace_Quintessence_Charles_Frey_.png
+- art: '627'
+  producer: CHARLES FREY
+  name: Пино Нуар Квинтессанс Шарль Фрей/Pinot Noir Quintessence Charles Frey, крас сух 13,5% 0,75л 2023
+  region: Дамбах-ля-Виль
+  grapes: Пино Нуар 100%
+  vintage: '2023'
+  price: 7374
+  stock: 90
+  photo: https://cs.hedonistwine.ru/PriceIMG/18png/Pinot_Noir_Alsace_Quintessence_Charles_Frey_.png
+- art: '174'
+  producer: DOMAINE DU HAUT BOURG
+  name: Совиньон О Бур/Sauvignon Haut Bourg, бел сух 12,0% 0,75л 2023
+  region: Кот де Гранлье
+  grapes: Совиньон Блан 100%
+  vintage: '2023'
+  price: 3659
+  stock: 359
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Sauvignon_Haut_Bourg_.png
+- art: '175'
+  producer: DOMAINE DU HAUT BOURG
+  name: Мюскаде Кот Де Гранлье Сюр Ли О Бур/Muscadet Cotes De Grandlieu Sur Lie Haut Bourg, бел сух 12,0% 0,75л 2023
+  region: Кот де Гранлье
+  grapes: Мелон Де Бургонь 100%
+  vintage: '2023'
+  price: 3706
+  stock: 352
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Muscadet_Cotes_De_Grandlieu_Sur_Lie_Haut_Bourg_.png
+- art: '176'
+  producer: DOMAINE DU HAUT BOURG
+  name: Мюскаде Кот Де Гранлье Сюр Ли Ла Дезире Дю О Бур/Muscadet Cotes De Grandlieu Sur Lie La Desiree Du Haut Bourg, бел сух 12,0% 0,75л 2023
+  region: Кот де Гранлье
+  grapes: Мелон Де Бургонь 100%
+  vintage: '2023'
+  price: 4091
+  stock: 129
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Muscadet_Cotes_De_Grandlieu_Sur_Lie_La_Desiree_Du_Haut_Bourg_.png
+- art: '177'
+  producer: DOMAINE DU HAUT BOURG
+  name: Мюскаде Кот Де Гранлье Синатюр Дю О Бур/Muscadet Cotes De Grandlieu Signature Du Haut Bourg, бел сух 12,0% 0,75л 2018
+  region: Кот де Гранлье
+  grapes: Мелон Де Бургонь 100%
+  vintage: '2018'
+  price: 5023
+  stock: 80
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Muscadet_Cotes_De_Grandlieu_Signature_Du_Haut_Bourg_.png
+- art: '129'
+  producer: DOMANE VINCENDEAU
+  name: Ле Рагене Анжу Доман Винсендо/Le Raguenet Anjou Domane Vincendeau, бел сух 12,5% 0,75л 2019
+  region: Анжу
+  grapes: Шенен Блан 100%
+  vintage: '2019'
+  price: 8531
+  stock: 27
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Le_Raguenet_Anjou_Domane_Vincendeau_.png
+- art: '128'
+  producer: DOMANE VINCENDEAU
+  name: Ле Карре дю Пюи Анжу Доман Винсендо/Le Carre du Puits Anjou Domane Vincendeau, бел сух 14,0% 0,75л 2020
+  region: Анжу
+  grapes: Шенен Блан 100%
+  vintage: '2020'
+  price: 15270
+  stock: 22
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Le_Carre_du_Puits_Anjou_Domane_Vincendeau_.png
+- art: '630'
+  producer: ALLIANCE LOIRE
+  name: Совиньон Турен Ла Жавелин/Sauvignon Touraine La Javeline, бел сух 12,0% 0,75л 2024
+  region: Турень
+  grapes: Совиньон Блан 100%
+  vintage: '2024'
+  price: 2999
+  stock: 1550
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Sauvignon_Touraine_La_Javeline.png
+- art: '425'
+  producer: ALLIANCE LOIRE
+  name: Шенен Блан Сомюр Коклико/Chenin Blanc Saumur Coq’licot, бел сух 11,0% 0,75л 2023
+  region: Сомюр
+  grapes: Шенен Блан 100%
+  vintage: '2023'
+  price: 3282
+  stock: 150
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Chenin_Blanc_Saumur_Coqlicot.png
+- art: '593'
+  producer: ALLIANCE LOIRE
+  name: Каберне Фран Сомюр Коклико/Cabernet Franc Saumur Coq’licot, крас сух 13,0% 0,75л 2023
+  region: Сомюр
+  grapes: Каберне Фран 100%
+  vintage: '2023'
+  price: 3301
+  stock: 440
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Cabernet_Franc_Saumur_Coqlicot_.png
+- art: '209'
+  producer: DOMAINE DELAPORTE
+  name: Сансер Шавиньоль Блан Домен Делапорт/Sancerre Chavignol Blanc Domaine Delaporte, бел сух 13,0% 0,375л 2023
+  region: Шавиньоль
+  grapes: Совиньон Блан 100%
+  vintage: '2023'
+  price: 5488
+  stock: 210
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Sancerre_Chavignol_Blanc_Domaine_Delaporte_0375.png
+- art: '206'
+  producer: DOMAINE DELAPORTE
+  name: Сансер Шавиньоль Блан Домен Делапорт/Sancerre Chavignol Blanc Domaine Delaporte, бел сух 13,0% 0,75л 2023
+  region: Шавиньоль
+  grapes: Совиньон Блан 100%
+  vintage: '2023'
+  price: 9698
+  stock: 197
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Sancerr_Chavignol_Blanc_Domaine_Delaporte.png
+- art: '714'
+  producer: DOMAINE DELAPORTE
+  name: Сансер Шавиньоль Блан Домен Делапорт/Sancerre Chavignol Blanc Domaine Delaporte, бел сух 13,0% 0,75л 2024
+  region: Шавиньоль
+  grapes: Совиньон Блан 100%
+  vintage: '2024'
+  price: 9698
+  stock: 300
+  photo: https://cs.hedonistwine.ru/PriceIMG/25png/Sancerre_Chavignol_Blanc_Domaine_Delaporte_1.png
+- art: '207'
+  producer: DOMAINE DELAPORTE
+  name: Сансер Силекс Блан Домен Делапорт/Sancerre Silex Blanc Domaine Delaporte, бел сух 13,0% 0,75л 2023
+  region: Шавиньоль
+  grapes: Совиньон Блан 100%
+  vintage: '2023'
+  price: 10300
+  stock: 258
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Sancerre_Silex_Blanc_Domaine_Delaporte_.png
+- art: '715'
+  producer: DOMAINE DELAPORTE
+  name: Сансер Силекс Блан Домен Делапорт/Sancerre Silex Blanc Domaine Delaporte, бел сух 13,0% 0,75л 2024
+  region: Шавиньоль
+  grapes: Совиньон Блан 100%
+  vintage: '2024'
+  price: 10300
+  stock: 60
+  photo: https://cs.hedonistwine.ru/PriceIMG/25png/Sancerre_Silex_Blanc_Domaine_Delaporte_1.png
+- art: '208'
+  producer: DOMAINE DELAPORTE
+  name: Сансер Ле Мон Дамне Домен Делапорт/Sancerre Les Monts Damnes Domaine Delaporte, бел сух 13,0% 0,75л 2023
+  region: Ле Мон Дамне
+  grapes: Совиньон Блан 100%
+  vintage: '2023'
+  price: 12424
+  stock: 161
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Sancerre_Les_Monts_Damnes_Domaine_Delaporte_.png
+- art: '213'
+  producer: DOMAINE DELAPORTE
+  name: Сансер Шавиньоль Розе Домен Делапорт/Sancerre Chavignol Rose Domaine Delaporte, роз сух 13,0% 0,375л 2022
+  region: Шавиньоль
+  grapes: Пино Нуар 100%
+  vintage: '2022'
+  price: 5384
+  stock: 2
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Sancerre_Chavignol_Rose_Domaine_Delaporte_0375.png
+- art: '376'
+  producer: DOMAINE DELAPORTE
+  name: Сансер Шавиньоль Розе Домен Делапорт/Sancerre Chavignol Rose Domaine Delaporte, роз сух 13,0% 0,375л 2023
+  region: Шавиньоль
+  grapes: Пино Нуар 100%
+  vintage: '2023'
+  price: 5384
+  stock: 117
+  photo: https://cs.hedonistwine.ru/PriceIMG/30png/SancerreChavignolRoseDomaineDelaporte0375.png
+- art: '212'
+  producer: DOMAINE DELAPORTE
+  name: Сансер Шавиньоль Розе Домен Делапорт/Sancerre Chavignol Rose Domaine Delaporte, роз сух 13,0% 0,75л 2023
+  region: Шавиньоль
+  grapes: Пино Нуар 100%
+  vintage: '2023'
+  price: 8875
+  stock: 144
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Sancerre_Chavignol_Rose_Domaine_Delaporte_.png
+- art: '763'
+  producer: DOMAINE DELAPORTE
+  name: Сансер Шавиньоль Руж Домен Делапорт/Sancerre Chavignol Rouge Domaine Delaporte, крас сух 13,0% 0,75л 2023
+  region: Шавиньоль
+  grapes: Пино Нуар 100%
+  vintage: '2023'
+  price: 9139
+  stock: 90
+  photo: https://cs.hedonistwine.ru/PriceIMG/25png/Sancerre_Chavignol_Rouge_Domaine_Delaporte_1.png
+- art: '488'
+  producer: PAUL LACROIX
+  name: Шардоне Поль Лакруа/Chardonnay Paul Lacroix, бел сух 12,5% 0,75л 2024
+  region: Бургундия
+  grapes: Шардоне 100%
+  vintage: '2024'
+  price: 2999
+  stock: 1565
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Chardonnay_Paul_Lacroix_.png
+- art: '620'
+  producer: PAUL LACROIX
+  name: Шардоне Поль Лакруа/Chardonnay Paul Lacroix, бел сух 12,5% 0,75л 2025
+  region: Бургундия
+  grapes: Шардоне 100%
+  vintage: '2025'
+  price: 2999
+  stock: 3150
+  photo: null
+- art: '489'
+  producer: PAUL LACROIX
+  name: Пино Нуар Поль Лакруа/Pinot Noir Paul Lacroix, крас сух 12,5% 0,75л 2023
+  region: Бургундия
+  grapes: Пино Нуар 100%
+  vintage: '2023'
+  price: 2999
+  stock: 1086
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Pinot_Noir_Paul_Lacroix_.png
+- art: '621'
+  producer: PAUL LACROIX
+  name: Пино Нуар Поль Лакруа/Pinot Noir Paul Lacroix, крас сух 12,5% 0,75л 2025
+  region: Бургундия
+  grapes: Пино Нуар 100%
+  vintage: '2025'
+  price: 2999
+  stock: 3774
+  photo: null
+- art: '88'
+  producer: JEAN NOTTON
+  name: Пти Шабли Жан Ноттон/Petit Chablis Jean Notton, бел сух 12,5% 0,75л 2023
+  region: Шабли
+  grapes: Шардоне 100%
+  vintage: '2023'
+  price: 7089
+  stock: 331
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Petit_Chablis_Jean_Notton_.png
+- art: '89'
+  producer: JEAN NOTTON
+  name: Шабли Жан Ноттон/Chablis Jean Notton, бел сух 12,5% 0,75л 2022
+  region: Шабли
+  grapes: Шардоне 100%
+  vintage: '2022'
+  price: 7579
+  stock: 22
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Chablis_Jean_Notton_.png
+- art: '432'
+  producer: JEAN NOTTON
+  name: Шабли Жан Ноттон/Chablis Jean Notton, бел сух 12,5% 0,75л 2023
+  region: Шабли
+  grapes: Шардоне 100%
+  vintage: '2023'
+  price: 7579
+  stock: 479
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Chablis_Jean_Notton_2023.png
+- art: '511'
+  producer: JEAN NOTTON
+  name: Шабли Жан Ноттон/Chablis Jean Notton, бел сух 12,0% 0,75л 2024
+  region: Шабли
+  grapes: Шардоне 100%
+  vintage: '2024'
+  price: 7579
+  stock: 120
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Chablis_Jean_Notton_2023.png
+- art: '433'
+  producer: JEAN NOTTON
+  name: Шабли Премье Крю Ле Борегар Жан Ноттон/Chablis 1er Cru Les Beauregards Jean Notton, бел сух 12,5% 0,75л 2023
+  region: Шабли
+  grapes: Шардоне 100%
+  vintage: '2023'
+  price: 11079
+  stock: 106
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Chablis_1er_Cru_Les_Beauregards_Jean_Notton_2023.png
+- art: '512'
+  producer: JEAN NOTTON
+  name: Шабли Премье Крю Вокупен Мезон Жан Ноттон/Chablis 1er Cru Vaucoupin Maison Jean Notton, бел сух 12,5% 0,75л 2023
+  region: Шабли
+  grapes: Шардоне 100%
+  vintage: '2023'
+  price: 11079
+  stock: 85
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Chablis_1er_Cru_Vaucoupin_Jean_Notton_.png
+- art: '513'
+  producer: JEAN NOTTON
+  name: Шабли Премье Крю Вожиро Мезон Жан Ноттон/Chablis 1er Cru Vaugiraut Maison Jean Notton, бел сух 12,5% 0,75л 2023
+  region: Шабли
+  grapes: Шардоне 100%
+  vintage: '2023'
+  price: 11079
+  stock: 103
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Chablis_1er_Cru_Vaugiraut_Jean_Notton_.png
+- art: '411'
+  producer: JEAN NOTTON
+  name: Бургонь Шитри Пино Нуар Жан Ноттон/Bourgogne Chitry Pinot Noir Jean Notton, крас сух 12,5% 0,75л 2023
+  region: Шитри
+  grapes: Пино Нуар 100%
+  vintage: '2023'
+  price: 5958
+  stock: 778
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Bourgogne_Chitry_Pinot_Noir_Jean_Notton_2023.png
+- art: '352'
+  producer: BAPTISTE BIENVENU
+  name: Бургонь Алиготе Баптист Бьенвеню/Bourgogne Aligote Baptiste Bienvenu, бел сух 13,0% 0,75л 2022
+  region: Иранси
+  grapes: Алиготе 100%
+  vintage: '2022'
+  price: 4812
+  stock: 91
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Bourgogne_Aligote_Baptiste_Bienvenu.png
+- art: '705'
+  producer: BAPTISTE BIENVENU
+  name: Бургонь Алиготе Баптист Бьенвеню/Bourgogne Aligote Baptiste Bienvenu, бел сух 13,0% 0,75л 2025
+  region: Иранси
+  grapes: Алиготе 100%
+  vintage: '2025'
+  price: 4812
+  stock: 222
+  photo: https://cs.hedonistwine.ru/PriceIMG/25png/Bourgogne_Aligote_Baptiste_Bienvenu_1.png
+- art: '388'
+  producer: BAPTISTE BIENVENU
+  name: Шабли Баптист Бьенвеню/Chablis Baptiste Bienvenu, бел сух 13,0% 0,75л 2023
+  region: Шабли
+  grapes: Шардоне 100%
+  vintage: '2023'
+  price: 6287
+  stock: 436
+  photo: https://cs.hedonistwine.ru//PriceIMG/30png/ChablisBaptisteBienvenu.png
+- art: '490'
+  producer: BAPTISTE BIENVENU
+  name: Шабли Премье Крю Вайон Баптист Бьенвеню/Chablis 1er Cru Vaillons Baptiste Bienvenu, бел сух 13,0% 0,75л 2023
+  region: Шабли
+  grapes: Шардоне 100%
+  vintage: '2023'
+  price: 9380
+  stock: 152
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Baptiste_Bienvenu_Chablis_1er_Cru_Vaillons_2023.png
+- art: '706'
+  producer: BAPTISTE BIENVENU
+  name: Шабли Премье Крю Вайон Баптист Бьенвеню/Chablis 1er Cru Vaillons Baptiste Bienvenu, бел сух 13,0% 0,75л 2025
+  region: Шабли
+  grapes: Шардоне 100%
+  vintage: '2025'
+  price: 9380
+  stock: 96
+  photo: https://cs.hedonistwine.ru/PriceIMG/25png/Chablis_1er_Cru_Vaillons_Baptiste_Bienvenu_1.png
+- art: '390'
+  producer: BAPTISTE BIENVENU
+  name: Шабли Гран Крю Ле Кло Баптист Бьенвеню/Chablis Grand Cru Les Clos Baptiste Bienvenu, бел сух 13,0% 0,75л 2022
+  region: Шабли
+  grapes: Шардоне 100%
+  vintage: '2022'
+  price: 21081
+  stock: 42
+  photo: https://cs.hedonistwine.ru//PriceIMG/30png/ChablisGrandCruLesClosBaptisteBienvenu.png
+- art: '76'
+  producer: BAPTISTE BIENVENU
+  name: Шабли Гран Крю Ле Кло Баптист Бьенвеню/Chablis Grand Cru Les Clos Baptiste Bienvenu, бел сух 13,0% 0,75л 2021
+  region: Шабли
+  grapes: Шардоне 100%
+  vintage: '2021'
+  price: 21081
+  stock: 82
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Chablis_Grand_Cru_Les_Clos_Baptiste_Bienvenu_.png
+- art: '353'
+  producer: BAPTISTE BIENVENU
+  name: Иранси Ле Мазело Баптист Бьенвеню/Irancy Les Mazelots Baptiste Bienvenu, крас сух 13,5% 0,75л 2022
+  region: Иранси
+  grapes: Пино Нуар 100%
+  vintage: '2022'
+  price: 8062
+  stock: 45
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Irancy_Les_Mazelots_Baptiste_Bienvenu_.png
+- art: '569'
+  producer: DOMAINE DIDIER AMIOT
+  name: Бургонь О Кот де Нюи Блан Домен Дидье Амио/Bourgogne Hautes Côtes de Nuits Blanc Domaine Didier Amiot, бел сух 13,0% 0,75л 2023
+  region: Море-Сен-Дени
+  grapes: Шардоне 100%
+  vintage: '2023'
+  price: 10093
+  stock: 71
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Didier_Amiot_Bourgogne_Hautes_Cotes_de_Nuits_Blanc_2023.png
+- art: '423'
+  producer: DOMAINE DIDIER AMIOT
+  name: Море-Сен-Дени Блан Домен Дидье Амио/Morey-Saint-Denis Blanc Domaine Didier Amiot, бел сух 13,5% 0,75л 2022
+  region: Море-Сен-Дени
+  grapes: Шардоне 100%
+  vintage: '2022'
+  price: 24814
+  stock: 11
+  photo: https://cs.hedonistwine.ru/PriceIMG/30png/MoreySaintDenisDomaineDidierAmiot.png
+- art: '570'
+  producer: DOMAINE DIDIER AMIOT
+  name: Бургонь Руж Лез Эмолисьер Домен Дидье Амио/Bourgogne Rouge Les Emolissieres Domaine Didier Amiot, крас сух 12,5% 0,75л 2023
+  region: Море-Сен-Дени
+  grapes: Пино Нуар 100%
+  vintage: '2023'
+  price: 9222
+  stock: 178
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Didier_Amiot_Bourgogne_Les_Emolissieres_2023.png
+- art: '571'
+  producer: DOMAINE DIDIER AMIOT
+  name: Жевре Шамбертен Ле Гран Шам Домен Дидье Амио/Gevrey Chambertin Les Grands Champs Domaine Didier Amiot, крас сух 12,0% 0,75л 2023
+  region: Жевре-Шамбертен
+  grapes: Пино Нуар 100%
+  vintage: '2023'
+  price: 20271
+  stock: 70
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Didier_Amiot_Gevrey_Chambertin_Les_Grands_Champs_2023.png
+- art: '83'
+  producer: DOMAINE DIDIER AMIOT
+  name: Море-Сен-Дени Премье Крю О Шарм Домен Дидье Амио/Morey-Saint-Deni Premier Cru Aux Charmes Domaine Didier Amiot, крас сух 13,5% 0,75л 2021
+  region: Море-Сен-Дени
+  grapes: Пино Нуар 100%
+  vintage: '2021'
+  price: 28981
+  stock: 36
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Morey-Saint-Deni_Premier_Cru_Aux_Charmes_Domaine_Didier_Amiot_.png
+- art: '84'
+  producer: DOMAINE DIDIER AMIOT
+  name: Море-Сен-Дени Премье Крю Ле Шеневери Домен Дидье Амио/Morey-Saint-Deni Premier Cru Les Chenevery Domaine Didier Amiot, крас сух 13,5% 0,75л 2021
+  region: Море-Сен-Дени
+  grapes: Пино Нуар 100%
+  vintage: '2021'
+  price: 28981
+  stock: 15
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Morey-Saint-Deni_Premier_Cru_Les_Chenevery_Domaine_Didier_Amiot_.png
+- art: '85'
+  producer: DOMAINE DIDIER AMIOT
+  name: Шамболь-Мюзиньи Премье Крю Ле Шатело Домен Дидье Амио/Chambolle-Musigny Premier Cru Les Chatelots Domaine Didier Amiot, крас сух 13,5% 0,75л 2021
+  region: Шамболь-Мюзиньи
+  grapes: Пино Нуар 100%
+  vintage: '2021'
+  price: 40376
+  stock: 29
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Chambolle-Musigny_Premier_Cru_Les_Chatelots_Domaine_Didier_Amiot_.png
+- art: '429'
+  producer: DOMAINE DIDIER AMIOT
+  name: Шамболь-Мюзиньи Премье Крю Ле Шатело Домен Дидье Амио/Chambolle-Musigny Premier Cru Les Chatelots Domaine Didier Amiot, крас сух 13,5% 0,75л 2022
+  region: Шамболь-Мюзиньи
+  grapes: Пино Нуар 100%
+  vintage: '2022'
+  price: 40376
+  stock: 18
+  photo: https://cs.hedonistwine.ru//PriceIMG/30png/ChambolleMusignyPremierCruLesChatelotsDomaineDidierAmiot.png
+- art: '86'
+  producer: DOMAINE DIDIER AMIOT
+  name: Жевре-Шамбертен Премье Крю О Комботт Домен Дидье Амио/Gevrey-Chambertin Premier Cru Aux Combottes Domaine Didier Amiot , крас сух 13,5% 0,75л 2021
+  region: Жевре-Шамбертен
+  grapes: Пино Нуар 100%
+  vintage: '2021'
+  price: 42656
+  stock: 15
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Gevrey-Chambertin_Premier_Cru_Aux_Combottes_Domaine_Didier_Amiot.png
+- art: '430'
+  producer: DOMAINE DIDIER AMIOT
+  name: Жевре-Шамбертен Премье Крю О Комботт Домен Дидье Амио/Gevrey-Chambertin Premier Cru Aux Combottes Domaine Didier Amiot , крас сух 13,5% 0,75л 2022
+  region: Жевре-Шамбертен
+  grapes: Пино Нуар 100%
+  vintage: '2022'
+  price: 42656
+  stock: 24
+  photo: https://cs.hedonistwine.ru//PriceIMG/30png/GevreyChambertinPremierCruAuxCombottesDomaineDidierAmiot.png
+- art: '87'
+  producer: DOMAINE DIDIER AMIOT
+  name: Кло де ла Рош Гран Крю Домен Дидье Амио/Clos de la Roche Grand Cru Domaine Didier Amiot, крас сух 14,0% 0,75л 2021
+  region: Кло де ла Рош
+  grapes: Пино Нуар 100%
+  vintage: '2021'
+  price: 60064
+  stock: 14
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Clos_de_la_Roche_Grand_Cru_Domaine_Didier_Amiot_.png
+- art: '431'
+  producer: DOMAINE DIDIER AMIOT
+  name: Кло де ла Рош Гран Крю Домен Дидье Амио/Clos de la Roche Grand Cru Domaine Didier Amiot, крас сух 14,0% 0,75л 2022
+  region: Кло де ла Рош
+  grapes: Пино Нуар 100%
+  vintage: '2022'
+  price: 60064
+  stock: 18
+  photo: https://cs.hedonistwine.ru//PriceIMG/30png/ClosdelaRocheGrandCruDomaineDidierAmiot.png
+- art: '572'
+  producer: DOMAINE DIDIER AMIOT
+  name: Кло де Вужо Гран Крю Домен Дидье Амио/Clos de Vougeot Grand Cru Domaine Didier Amiot, крас сух 13,5% 0,75л 2023
+  region: Кло де Вужо
+  grapes: Пино Нуар 100%
+  vintage: '2023'
+  price: 83318
+  stock: 42
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Didier_Amiot_Clos_Vougeot_Grand_Cru_2023.png
+- art: '345'
+  producer: DOMAINE BONY GACHOT
+  name: Бургонь Алиготе Домен Бони Гашо/Bourgogne Aligote Domaine Bony Gachot, бел сух 12,5% 0,75л 2023
+  region: Нюи-Сен-Жорж
+  grapes: Алиготе 100%
+  vintage: '2023'
+  price: 5221
+  stock: 386
+  photo: https://cs.hedonistwine.ru//PriceIMG/30png/BourgogneAligoteDomaineBonyGachot.png
+- art: '397'
+  producer: DOMAINE BONY GACHOT
+  name: Бургонь Шардоне Домен Бони Гашо/Bourgogne Chardonnay Domaine Bony Gachot, бел сух 12,5% 0,75л 2024
+  region: Нюи-Сен-Жорж
+  grapes: Шардоне 100%
+  vintage: '2024'
+  price: 6615
+  stock: 39
+  photo: https://cs.hedonistwine.ru//PriceIMG/30png/BourgogneChardonnayDomaineBonyGachot.png
+- art: '603'
+  producer: DOMAINE BONY GACHOT
+  name: Бургонь Шардоне Фабьенн Бони Гашо/Bourgogne Chardonnay Fabienne Bony Gachot, бел сух 12,5% 0,75л 2023
+  region: Нюи-Сен-Жорж
+  grapes: Шардоне 100%
+  vintage: '2023'
+  price: 6615
+  stock: 479
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Bourgogne_Chardonnay_Domaine_Bony_Gachot.png
+- art: '391'
+  producer: DOMAINE BONY GACHOT
+  name: Бургонь От Кот де Нюи Блан Фабьенн Бони Гашо/Bourgogne Hautes Côtes de Nuits Blanc Fabienne Bony Gachot, бел сух 13,0% 0,75л 2023
+  region: Нюи-Сен-Жорж
+  grapes: Шардоне 100%
+  vintage: '2023'
+  price: 8848
+  stock: 224
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Bourgogne_Hautes_Cotes_de_Nuits_Blanc_Fabienne_Bony_Gachot_2023.png
+- art: '393'
+  producer: DOMAINE BONY GACHOT
+  name: Пернан-Вержелес Блан Фабьенн Бони Гашо/Pernand-Vergelesses Blanc Fabienne Bony Gachot, бел сух 13,0% 0,75л 2024
+  region: Пернан-Вержелес
+  grapes: Шардоне 100%
+  vintage: '2024'
+  price: 11059
+  stock: 80
+  photo: https://cs.hedonistwine.ru/PriceIMG/30png/PernandVergelessesBlancFabienneBonyGachot.png
+- art: '735'
+  producer: DOMAINE BONY GACHOT
+  name: Нюи Сен Жорж Премье Крю Ле Терр Бланш Фабьенн Бони Гашо/Nuits Saint Georges 1er Cru Les Terres Blanches Fabienne Bony Gachot, бел сух 12,5% 0,75л 2025
+  region: Нюи-Сен-Жорж
+  grapes: Шардоне 100%
+  vintage: '2025'
+  price: 23181
+  stock: 84
+  photo: https://cs.hedonistwine.ru/PriceIMG/25png/Nuits_Saint_Georges_1er_Cru_Les_Terres_Blanches_Fabienne_Bony_Gachot_1.png
+- art: '565'
+  producer: DOMAINE BONY GACHOT
+  name: Бургонь Кот Д’Ор Пино Нуар Домен Бони Гашо/Bourgogne Côte D’Or Pinot Noir Domaine Bony Gachot, крас сух 13,5% 0,75л 2023
+  region: Нюи-Сен-Жорж
+  grapes: Пино Нуар 100%
+  vintage: '2023'
+  price: 6630
+  stock: 1302
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Bousgogne_Cotes_d_Or_Pinot_Noir_Domaine_Bony_Gachot.png
+- art: '344'
+  producer: DOMAINE BONY GACHOT
+  name: Кот де Нюи Виллаж Ле Шайо Домен Бони Гашо/Côte de Nuits Villages Les Chaillots Domaine Bony Gachot, крас сух 13,0% 0,75л 2023
+  region: Нюи-Сен-Жорж
+  grapes: Пино Нуар 100%
+  vintage: '2023'
+  price: 8462
+  stock: 293
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Cote_de_Nuits_Villages_Les_Chaillots_Domaine_Bony_Gachot_2023.png
+- art: '347'
+  producer: DOMAINE BONY GACHOT
+  name: Нюи-Сен-Жорж Ле Дамод Домен Бони Гашо/Nuits-Saint-Georges Les Damodes Domaine Bony Gachot, крас сух 13,0% 0,75л 2023
+  region: Нюи-Сен-Жорж
+  grapes: Пино Нуар 100%
+  vintage: '2023'
+  price: 13762
+  stock: 144
+  photo: https://cs.hedonistwine.ru/PriceIMG/30png/NuitsSaintGeorgesLesDamodesDomaineBonyGachot2023.png
+- art: '392'
+  producer: DOMAINE BONY GACHOT
+  name: Жевре Шамбертен Фабьенн Бони Гашо/Gevrey Chambertin Fabienne Bony Gachot, крас сух 13,5% 0,75л 2023
+  region: Жевре-Шамбертен
+  grapes: Пино Нуар 100%
+  vintage: '2023'
+  price: 19595
+  stock: 26
+  photo: https://cs.hedonistwine.ru//PriceIMG/30png/GevreyChambertinFabienneBonyGachot.png
+- art: '704'
+  producer: DOMAINE BONY GACHOT
+  name: Жевре Шамбертен Фабьенн Бони Гашо/Gevrey Chambertin Fabienne Bony Gachot, крас сух 13,0% 0,75л 2024
+  region: Жевре-Шамбертен
+  grapes: Пино Нуар 100%
+  vintage: '2024'
+  price: 19595
+  stock: 90
+  photo: https://cs.hedonistwine.ru/PriceIMG/25png/Gevrey_Chambertin_Fabienne_Bony_Gachot_1.png
+- art: '158'
+  producer: DOMAINE BONY GACHOT
+  name: Нюи-Сен-Жорж Премье Крю Ле Кро Руж Фабьенн Бони Гашо/Nuits-Saint-Georges 1er Cru Les Crots Rouge Fabienne Bony Gachot, крас сух 13,5% 0,75л 2021
+  region: Нюи-Сен-Жорж
+  grapes: Пино Нуар 100%
+  vintage: '2021'
+  price: 22541
+  stock: 8
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Nuits-Saint-Georges_1er_Cru_Les_Crots_Rouge_Fabienne_Bony_Gachot_.png
+- art: '154'
+  producer: DOMAINE BONY GACHOT
+  name: Нюи-Сен-Жорж Премье Крю Ле Прюйе Руж Фабьенн Бони Гашо/Nuits-Saint-Georges 1er Cru Les Pruliers Rouge Fabienne Bony Gachot, крас сух 13,5% 0,75л 2021
+  region: Нюи-Сен-Жорж
+  grapes: Пино Нуар 100%
+  vintage: '2021'
+  price: 23181
+  stock: 11
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Nuits-Saint-Georges_1er_Cru_Les_Pruliers_Rouge_Fabienne_Bony_Gachot_2021.png
+- art: '155'
+  producer: DOMAINE BONY GACHOT
+  name: Нюи-Сен-Жорж Премье Крю Ле Прюйе Руж Фабьенн Бони Гашо/Nuits-Saint-Georges 1er Cru Les Pruliers Rouge Fabienne Bony Gachot, крас сух 14,0% 0,75л 2022
+  region: Нюи-Сен-Жорж
+  grapes: Пино Нуар 100%
+  vintage: '2022'
+  price: 23181
+  stock: 31
+  photo: https://cs.hedonistwine.ru/PriceIMG/30png/NuitsSaintGeorges1erCruLesPruliersRougeFabienneBonyGachot.png
+- art: '394'
+  producer: DOMAINE BONY GACHOT
+  name: Вон-Романе Фабьенн Бони Гашо/Vosne-Romanée Fabienne Bony Gachot, крас сух 13,0% 0,75л 2023
+  region: Вон-Романе
+  grapes: Пино Нуар 100%
+  vintage: '2023'
+  price: 26386
+  stock: 54
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Vosne-Romanee_Fabienne_Bony_Gachot_2023.png
+- art: '360'
+  producer: MESSAGER-GERMAIN
+  name: Бургонь Пино Нуар Фамий Мессаже-Жермен/Bourgogne Pinot Noir Famille Messager-Germain, крас сух 13,5% 0,75л 2023
+  region: Фисен
+  grapes: Пино Нуар 100%
+  vintage: '2023'
+  price: 13380
+  stock: 375
+  photo: https://cs.hedonistwine.ru//PriceIMG/30png/BourgognePinotNoirFamilleMessagerGermain.png
+- art: '361'
+  producer: MESSAGER-GERMAIN
+  name: Кот де Нюи Виллаж Ле Шайо Фамий Мессаже-Жермен/Cote de Nuits Villages Les Chaillots Famille Messager-Germain, крас сух 13,0% 0,75л 2023
+  region: Нюи-Сен-Жорж
+  grapes: Пино Нуар 100%
+  vintage: '2023'
+  price: 17476
+  stock: 105
+  photo: https://cs.hedonistwine.ru//PriceIMG/30png/CotedeNuitsVillagesLesChaillotsFamilleMessagerGermain.png
+- art: '363'
+  producer: MESSAGER-GERMAIN
+  name: Фисен Коте Кур Фамий Мессаже-Жермен/Fixin Cote Cour Famille Messager-Germain, крас сух 13,0% 0,75л 2023
+  region: Фисен
+  grapes: Пино Нуар 100%
+  vintage: '2023'
+  price: 22731
+  stock: 88
+  photo: https://cs.hedonistwine.ru//PriceIMG/30png/FixinCoteCourFamilleMessagerGermain.png
+- art: '366'
+  producer: MESSAGER-GERMAIN
+  name: Нюи-Сен-Жорж О Зэрбю Фамий Мессаже-Жермен/Nuits-Saint-Georges Aux Herbues Famille Messager-Germain, крас сух 13,5% 0,75л 2023
+  region: Нюи-Сен-Жорж
+  grapes: Пино Нуар 100%
+  vintage: '2023'
+  price: 23319
+  stock: 98
+  photo: https://cs.hedonistwine.ru/PriceIMG/30png/NuitsSaintGeorgesAuxHerbuesFamilleMessagerGermain.png
+- art: '452'
+  producer: MESSAGER-GERMAIN
+  name: Море-Сен-Дени Пьер Виран Фамий Мессаже-Жермен/Morey-Saint-Denis Pierre Virant Famille Messager-Germain, крас сух 13,0% 0,75л 2023
+  region: Море-Сен-Дени
+  grapes: Пино Нуар 100%
+  vintage: '2023'
+  price: 28585
+  stock: 54
+  photo: https://cs.hedonistwine.ru//PriceIMG/30png/MoreySaintDenisPierreVirantFamilleMessagerGermain.png
+- art: '364'
+  producer: MESSAGER-GERMAIN
+  name: Жевре-Шамбертен Мей-Ба Фамий Мессаже-Жермен/Gevrey-Chambertin Meix-Bas Famille Messager-Germain, крас сух 13,5% 0,75л 2023
+  region: Жевре-Шамбертен
+  grapes: Пино Нуар 100%
+  vintage: '2023'
+  price: 32089
+  stock: 16
+  photo: https://cs.hedonistwine.ru//PriceIMG/30png/GevreyChambertinMeixBasFamilleMessagerGermain.png
+- art: '244'
+  producer: DOMAINE DU CHANCELIER
+  name: Бургонь Алиготе Ле Терр Бланш Вьей Винь Домен дю Шансолье/Bourgogne Aligote Les Terres Blanches Vieilles Vignes Domaine du Chancelier, бел сух 13,0% 2
+  region: Савиньи-Ле-Бон
+  grapes: Алиготе 100%
+  vintage: '2022'
+  price: 11171
+  stock: 35
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Domaine_du_Chancelier_Bourgogne_Aligote_Les_Terres_Blanches_2022.png
+- art: '526'
+  producer: DOMAINE DU CHANCELIER
+  name: Бургонь От Кот де Бон Ле Шевриер Домен дю Шансолье/Bourgogne Hautes Cotes de Beaune Les Chevrieres Domaine du Chancelier, бел сух 13,0% 0,75л 2023
+  region: Савиньи-Ле-Бон
+  grapes: Шардоне 100%
+  vintage: '2023'
+  price: 14654
+  stock: 43
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Domaine_du_Chancelier_Bourgogne_Hautes_Cotes_de_Beaune_Les_Chevrieres_2023_2.png
+- art: '245'
+  producer: DOMAINE DU CHANCELIER
+  name: Бургонь От Кот де Бон Ле Шевриер Домен дю Шансолье/Bourgogne Hautes Cotes de Beaune Les Chevrieres Domaine du Chancelier, бел сух 12,5% 0,75л 2022
+  region: Савиньи-Ле-Бон
+  grapes: Шардоне 100%
+  vintage: '2022'
+  price: 14659
+  stock: 59
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Domaine_du_Chancelier_Bourgogne_Hautes_Cotes_de_Beaune_Les_Chevrieres_2022.png
+- art: '246'
+  producer: DOMAINE DU CHANCELIER
+  name: Кот де Бон Ле Моньер Мезон дю Шансолье/Cotes de Beaune Les Monsnieres Maison du Chancelier, бел сух 12,5% 0,75л 2022
+  region: Бон
+  grapes: Шардоне 100%
+  vintage: '2022'
+  price: 15822
+  stock: 89
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Domaine_du_Chancelier_Cotes_de_Beaune_Les_Monsnieres_2022.png
+- art: '247'
+  producer: DOMAINE DU CHANCELIER
+  name: Сен Роман Ле Бан Мезон дю Шансолье/Saint Romain Les Bancs Maison du Chancelier, бел сух 12,5% 0,75л 2022
+  region: Сен Роман
+  grapes: Шардоне 100%
+  vintage: '2022'
+  price: 19243
+  stock: 86
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Domaine_du_Chancelier_Saint_Romain_Les_Bancs_2022.png
+- art: '527'
+  producer: DOMAINE DU CHANCELIER
+  name: Мерсо Ле Мюржер Мезон дю Шансолье/Meursault Les Murgers Maison du Chancelier, бел сух 14,0% 0,75л 2023
+  region: Мерсо
+  grapes: Шардоне 100%
+  vintage: '2023'
+  price: 33500
+  stock: 85
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Domaine_du_Chancelier_Meursault_Les_Murgers_2023.png
+- art: '305'
+  producer: DOMAINE DU CHANCELIER
+  name: Мерсо Ле Мюржер Мезон дю Шансолье/Meursault Les Murgers Maison du Chancelier, бел сух 13,0% 0,75л 2022
+  region: Мерсо
+  grapes: Шардоне 100%
+  vintage: '2022'
+  price: 33500
+  stock: 16
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Domaine_du_Chancelier_Meursault_Les_Murgers_2022.png
+- art: '239'
+  producer: DOMAINE DU CHANCELIER
+  name: Бургонь Кот д’Ор Ан Кулезан Вьей Винь Домен дю Шансолье/Bourgogne Cote d'Or En Coulezain Vieilles Vignes Domaine du Chancelier, крас сух 13,0% 0,75л 2
+  region: Вольне
+  grapes: Пино Нуар 100%
+  vintage: '2020'
+  price: 13496
+  stock: 7
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Domaine_du_Chancelier_Bourgogne_Cote_d_Or_En_Coulezain_Vieilles_Vignes_2020.png
+- art: '524'
+  producer: DOMAINE DU CHANCELIER
+  name: Бургонь Кот д’Ор Ан Кулезан Вьей Винь Домен дю Шансолье/Bourgogne Cote d'Or En Coulezain Vieilles Vignes Domaine du Chancelier, крас сух 12,5% 0,75л 2
+  region: Вольне
+  grapes: Пино Нуар 100%
+  vintage: '2022'
+  price: 13496
+  stock: 132
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Domaine_du_Chancelier_Bourgogne_Cote_d_Or_En_Coulezain_Vieilles_Vignes_2022.png
+- art: '525'
+  producer: DOMAINE DU CHANCELIER
+  name: Бургонь Ле Рав Нор Вьей Винь Домен дю Шансолье/Bourgogne Le Rave Nord Vieilles Vignes Domaine du Chancelier, крас сух 12,5% 2022
+  region: Вольне
+  grapes: Пино Нуар 100%
+  vintage: '2022'
+  price: 14081
+  stock: 17
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Domaine_du_Chancelier_Bourgogne_Le_Rave_Nord_Vieilles_Vignes_2022.png
+- art: '240'
+  producer: DOMAINE DU CHANCELIER
+  name: Бургонь Ле Рав Нор Вьей Винь Домен дю Шансолье/Bourgogne Le Rave Nord Vieilles Vignes Domaine du Chancelier, крас сух 12,5% 2021
+  region: Вольне
+  grapes: Пино Нуар 100%
+  vintage: '2021'
+  price: 14081
+  stock: 99
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Domaine_du_Chancelier_Bourgogne_Le_Rave_Nord_Vieilles_Vignes_2021.png
+- art: '241'
+  producer: DOMAINE DU CHANCELIER
+  name: Савиньи-Ле-Бон Ле Сокур Мезон дю Шансолье/Savigny-Les-Beaune Les Saucours Maison du Chancelier, крас сух 13,0% 0,75л 2022
+  region: Савиньи-Ле-Бон
+  grapes: Пино Нуар 100%
+  vintage: '2022'
+  price: 18147
+  stock: 101
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Domaine_du_Chancelier_Savigny_Les_Beaune_Les_Saucours_2022.png
+- art: '642'
+  producer: DOMAINE DU CHANCELIER
+  name: Поммар Ла Круа Плане Вьей Винь Мезон дю Шансолье/Pommard La Croix Planet Vieilles Vignes Maison du Chancelier, крас сух 12,5% 0,75л 2023
+  region: Поммар
+  grapes: Пино Нуар 100%
+  vintage: '2023'
+  price: 26994
+  stock: 82
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Domaine_du_Chancelier_Pommard_La_Croix_Planet_Vieilles_Vignes_2023.png
+- art: '643'
+  producer: DOMAINE DU CHANCELIER
+  name: Бон Премье Крю Ле Брессанд Мезон дю Шансолье/Beaune Premier Cru Les Bressandes Maison du Chancelier, крас сух 14,0% 0,75л 2023
+  region: Бон
+  grapes: Пино Нуар 100%
+  vintage: '2023'
+  price: 28828
+  stock: 51
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Domaine_du_Chancelier_Beaune_Premier_Cru_Les_Bressandes_2023.png
+- art: '699'
+  producer: DOMAINE JULIEN GROS
+  name: Савиньи Ле Бон Кло Дю Вилляж Домен Жюльен Гро блан/Savigny Les Beaune Clos Du Village Domaine Julien Gros blanc, бел сух 13,0% 0,75л 2023
+  region: Кот де бон
+  grapes: Шардоне 100%
+  vintage: '2023'
+  price: 13096
+  stock: 147
+  photo: https://cs.hedonistwine.ru/PriceIMG/25png/Savigny_Les_Beaune_Clos_Du_Village_Domaine_Julien_Gros_blanc_1.png
+- art: '701'
+  producer: DOMAINE JULIEN GROS
+  name: Кортон Шарлемань Гран Крю Домен Жюльен Гро/Corton Charlemagne Grand Cru Domaine Julien Gros, бел сух 14,7% 0,75л 2022
+  region: Кот де бон
+  grapes: Шардоне 100%
+  vintage: '2022'
+  price: 64081
+  stock: 76
+  photo: https://cs.hedonistwine.ru/PriceIMG/25png/Corton_Charlemagne_Grand_Cru_Domaine_Julien_Gros_1.png
+- art: '700'
+  producer: DOMAINE JULIEN GROS
+  name: Савиньи Ле Бон Кло Дю Вилляж Домен Жюльен Гро руж/Savigny Les Beaune Clos Du Village Domaine Julien Gros rouge, крас сух 12,5% 0,75л 2023
+  region: Кот де бон
+  grapes: Пино Нуар 100%
+  vintage: '2023'
+  price: 11770
+  stock: 146
+  photo: https://cs.hedonistwine.ru/PriceIMG/25png/Savigny_Les_Beaune_Clos_Du_Village_Domaine_Julien_Gros_rouge_1.png
+- art: '702'
+  producer: DOMAINE JULIEN GROS
+  name: Кортон Кло Дю Руа Гран Крю Домен Жюльен Гро/Corton Clos Du Roi Grand Cru Domaine Julien Gros, крас сух 14,5% 0,75л 2022
+  region: Кот де бон
+  grapes: Пино Нуар 100%
+  vintage: '2022'
+  price: 32839
+  stock: 84
+  photo: https://cs.hedonistwine.ru/PriceIMG/25png/Corton_Clos_Du_Roi_Grand_Cru_Domaine_Julien_Gros_1.png
+- art: '500'
+  producer: DOMAINE CORDIER
+  name: Макон О Буа Д’Алье Домен Кордье/Macon Aux Bois D’Allier Domaine Cordier, бел сух 13,0% 0,75л 2024
+  region: Макон
+  grapes: Шардоне 100%
+  vintage: '2024'
+  price: 6388
+  stock: 57
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Macon_Aux_Bois_DAllier_Domaine_Cordier_2024.png
+- art: '409'
+  producer: DOMAINE CORDIER
+  name: Бургонь Блан Жан де ла Винь Домен Кордье/Bourgogne Blanc Jean de la Vigne Domaine Cordier, бел сух 13,5% 0,75л 2023
+  region: Пуйи Фюиссе
+  grapes: Шардоне 100%
+  vintage: '2023'
+  price: 7677
+  stock: 336
+  photo: https://cs.hedonistwine.ru//PriceIMG/30png/BourgogneBlancJeandelaVigneDomaineCordier.png
+- art: '499'
+  producer: DOMAINE CORDIER
+  name: Пуйи Фюиссе Вьей Винь Домен Кордье/Pouilly Fuisse Vieilles Vignes Domaine Cordier, бел сух 13,0% 0,75л 2024
+  region: Пуйи Фюиссе
+  grapes: Шардоне 100%
+  vintage: '2024'
+  price: 10938
+  stock: 363
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Pouilly_Fuisse_Vieilles_Vignes_Domaine_Cordier_2024.png
+- art: '497'
+  producer: DOMAINE CORDIER
+  name: Пуйи Фюиссе Премье Крю Ле Винь Бланш Домен Кордье/Pouilly Fuisse Premier Cru Les Vignes Blanches Domaine Cordier, бел сух 14,0% 0,75л 2023
+  region: Пуйи Фюиссе
+  grapes: Шардоне 100%
+  vintage: '2023'
+  price: 15716
+  stock: 10
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Pouilly_Fuisse_Premier_Cru_Les_Vignes_Blanches_Domaine_Cordier_2023.png
+- art: '217'
+  producer: DOMAINE CORDIER
+  name: Пуйи Фюиссе Премье Крю Ле Перьер Домен Кордье/Pouilly Fuisse Premier Cru Les Perrieres Domaine Cordier, бел сух 13,5% 0,75л 2020
+  region: Пуйи Фюиссе
+  grapes: Шардоне 100%
+  vintage: '2020'
+  price: 20973
+  stock: 12
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Pouilly_Fuisse_Premier_Cru_Les_Perrieres_Domaine_Cordier_.png
+- art: '498'
+  producer: DOMAINE CORDIER
+  name: Пуйи Фюиссе Премье Крю Ле Перьер Домен Кордье/Pouilly Fuisse Premier Cru Les Perrieres Domaine Cordier, бел сух 14,0% 0,75л 2023
+  region: Пуйи Фюиссе
+  grapes: Шардоне 100%
+  vintage: '2023'
+  price: 20973
+  stock: 60
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Pouilly_Fuisse_Premier_Cru_Les_Perrieres_Domaine_Cordier_2023.png
+- art: '226'
+  producer: ERIC FOREST
+  name: Бургонь Блан Эрик Форест/Bourgogne Blanc Eric Forest, бел сух 13,0% 0,75л 2023
+  region: Макон-Вержисон
+  grapes: Шардоне 100%
+  vintage: '2023'
+  price: 7225
+  stock: 26
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Bourgogne_Blanc_Eric_Forest_.png
+- art: '505'
+  producer: ERIC FOREST
+  name: Бургонь Блан Эрик Форест/Bourgogne Blanc Eric Forest, бел сух 12,0% 0,75л 2024
+  region: Макон-Вержисон
+  grapes: Шардоне 100%
+  vintage: '2024'
+  price: 7225
+  stock: 120
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Bourgogne_Blanc_Eric_Forest.png
+- art: '506'
+  producer: ERIC FOREST
+  name: Пуйи Фюиссе Миз ан Буш Эрик Форест/Pouilly Fuisse Mise en Bouche Eric Forest, бел сух 12,5% 0,75л 2024
+  region: Пуйи Фюиссе
+  grapes: Шардоне 100%
+  vintage: '2024'
+  price: 9206
+  stock: 67
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Pouilly_Fuisse_Mise_en_Bouche_Eric_Forest.png
+- art: '228'
+  producer: ERIC FOREST
+  name: Пуйи Фюиссе Л’АМЕ Эрик Форест/Pouilly Fuisse L’AME Eric Forest, бел сух 13,0% 0,75л 2023
+  region: Пуйи Фюиссе
+  grapes: Шардоне 100%
+  vintage: '2023'
+  price: 10894
+  stock: 133
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Pouilly_Fuisse_LAME_Eric_Forest_.png
+- art: '229'
+  producer: ERIC FOREST
+  name: Макон-Пьеркло Ле Кло де Шарм Эрик Форест/Macon-Pierreclos Le Clos des Charmes Eric Forest, бел сух 13,5% 0,75л 2023
+  region: Макон-Пьеркло
+  grapes: Шардоне 100%
+  vintage: '2023'
+  price: 11299
+  stock: 48
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Macon-Pierreclos_Le_Clos_des_Charmes_Eric_Forest_.png
+- art: '230'
+  producer: ERIC FOREST
+  name: Пуйи Фюиссе Премье Крю Ле Крэ Эрик Форест/Pouilly Fuisse 1er Cru Les Crays Eric Forest, бел сух 13,5% 0,75л 2023
+  region: Пуйи Фюиссе
+  grapes: Шардоне 100%
+  vintage: '2023'
+  price: 14507
+  stock: 68
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Pouilly_Fuisse_1er_Cru_Les_Crays_Eric_Forest_.png
+- art: '338'
+  producer: MICHEL GUIGNIER
+  name: Макон Вилляж Мишель Гинье/Macon Villages Michel Guignier, бел сух 12,5% 0,75л 2022
+  region: Макон
+  grapes: Шардоне 100%
+  vintage: '2022'
+  price: 4851
+  stock: 222
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Macon_Villages_Michel_Guignier.png
+- art: '617'
+  producer: MICHEL GUIGNIER
+  name: Макон Вилляж Мишель Гинье/Macon Villages Michel Guignier, бел сух 12,5% 0,75л 2023
+  region: Макон
+  grapes: Шардоне 100%
+  vintage: '2023'
+  price: 4851
+  stock: 180
+  photo: https://cs.hedonistwine.ru/PriceIMG/7png/Macon_Villages_Michel_Guignier_1.png
+- art: '618'
+  producer: MICHEL GUIGNIER
+  name: Божоле Мишель Гинье/Beaujolais Michel Guignier, крас сух 12,5% 0,75л 2024
+  region: Божоле
+  grapes: Гаме 100%
+  vintage: '2024'
+  price: 4034
+  stock: 269
+  photo: https://cs.hedonistwine.ru/PriceIMG/7png/Beaujolais_Michel_Guignier_1.png
+- art: '339'
+  producer: MICHEL GUIGNIER
+  name: Моргон Канон Мишель Гинье/Morgon Canon Michel Guignier, крас сух 13,0% 0,75л 2023
+  region: Моргон
+  grapes: Гаме 100%
+  vintage: '2023'
+  price: 6768
+  stock: 86
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Morgon_Canon_Michel_Guignier.png
+- art: '619'
+  producer: MICHEL GUIGNIER
+  name: Моргон Кот дю Пи Мишель Гинье/Morgon Cote du Py Michel Guignier, крас сух 13,0% 0,75л 2024
+  region: Моргон
+  grapes: Гаме 100%
+  vintage: '2024'
+  price: 7114
+  stock: 109
+  photo: https://cs.hedonistwine.ru/PriceIMG/7png/Morgon_Cote_du_Py_Michel_Guignier_1.png
+- art: '483'
+  producer: CHATEAU PEYLABY
+  name: Шато Пэлаби/Chateau Peylaby, крас сух 12,5% 0,75л 2021
+  region: Медок
+  grapes: Мерло 60%, Каберне Совиньон 40%
+  vintage: '2021'
+  price: 5713
+  stock: 266
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Chateau_Peylaby.png
+- art: '51'
+  producer: CHATEAU PEYLABY
+  name: Шато Пэлаби Эриссон/Chateau Peylaby Herisson, крас сух 12,5% 0,75л 2021
+  region: Медок
+  grapes: Мерло 75%, Каберне Совиньон 25%
+  vintage: '2021'
+  price: 6560
+  stock: 62
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Chateau_Peylaby_Herisson.png
+- art: '377'
+  producer: CHATEAU PEYLABY
+  name: Шато Пэйлаби Эриссон/Chateau Peylaby Herisson, крас сух 13,0% 0,75л 2022
+  region: Медок
+  grapes: Мерло 75%, Каберне Совиньон 25%
+  vintage: '2022'
+  price: 6560
+  stock: 237
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Chateau_Peylaby_Herisson.png
+- art: '355'
+  producer: GRAEME & JULIE BOTT
+  name: Кондриё Грэм и Жули Ботт/Condrieu Graeme & Julie Bott, бел сух 12,5% 0,75л 2023
+  region: Кондриё
+  grapes: Вионье 100%
+  vintage: '2023'
+  price: 17316
+  stock: 51
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Condrieu_Bott_2023.png
+- art: '358'
+  producer: GRAEME & JULIE BOTT
+  name: Сира Фёрст Флайт Грэм и Жули Ботт/Syrah First Flight Graeme & Julie Bott, крас сух 13,0% 0,75л 2023
+  region: Кот-Роти
+  grapes: Сира 100%
+  vintage: '2023'
+  price: 6851
+  stock: 158
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Syrah_First_Flight_Bott_2023.png
+- art: '357'
+  producer: GRAEME & JULIE BOTT
+  name: Сен-Жозеф Грэм и Жули Ботт/Saint-Joseph Graeme & Julie Bott, крас сух 13,0% 0,75л 2023
+  region: Сен-Жозеф
+  grapes: Сира 100%
+  vintage: '2023'
+  price: 10340
+  stock: 106
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Saint_Joseph_Bott_2023.png
+- art: '359'
+  producer: GRAEME & JULIE BOTT
+  name: Сира Камака Грэм и Жули Ботт/Syrah Kamaka Graeme & Julie Bott, крас сух 12,5% 0,75л 2022
+  region: Овернь
+  grapes: Сира 100%
+  vintage: '2022'
+  price: 16153
+  stock: 56
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Syrah_Kamaka_Bott_2022.png
+- art: '356'
+  producer: GRAEME & JULIE BOTT
+  name: Кот-Роти Грэм и Жули Ботт/Cote-Rotie Graeme & Julie Bott, крас сух 13,0% 0,75л 2022
+  region: Кот-Роти
+  grapes: Сира 100%
+  vintage: '2022'
+  price: 30602
+  stock: 62
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Cote_Rotie_Bott_2022.png
+- art: '398'
+  producer: PIONA
+  name: Гави Пиона/Gavi Piona, бел сух 13,0% 0,75л 2024
+  region: Гави
+  grapes: Кортезе 100%
+  vintage: '2024'
+  price: 3798
+  stock: 775
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Gavi_Piona.png
+- art: '759'
+  producer: PIONA
+  name: Гави Пиона/Gavi Piona, бел сух 13,0% 0,75л 2025
+  region: Гави
+  grapes: Кортезе 100%
+  vintage: '2025'
+  price: 3798
+  stock: 1200
+  photo: null
+- art: '399'
+  producer: PIONA
+  name: Гави Ди Гави Брикко делле Фарфалле Пиона/Gavi Di Gavi Bricco delle Farfalle Piona, бел сух 13,0% 0,75л 2024
+  region: Гави
+  grapes: Кортезе 100%
+  vintage: '2024'
+  price: 4354
+  stock: 1226
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Gavi_Di_Gavi_Bricco_delle_Farfalle_Piona.png
+- art: '476'
+  producer: PIONA
+  name: Гави Ди Гави Геа Пиона/Gavi Di Gavi Gea Piona, бел сух 12,5% 0,75л 2021
+  region: Гави
+  grapes: Кортезе 100%
+  vintage: '2021'
+  price: 5886
+  stock: 201
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Gavi_Di_Gavi_Gea_Piona_2021.png
+- art: '386'
+  producer: SETTE
+  name: Медуза Бьянко Сетте/Medusa Bianco Sette, бел сух 13,0% 0,75л 2024
+  region: Ницца Монферрато
+  grapes: Москато 100%
+  vintage: '2024'
+  price: 6356
+  stock: 66
+  photo: https://cs.hedonistwine.ru/PriceIMG/18png/Medusa_Bianco_Sette_.png
+- art: '387'
+  producer: SETTE
+  name: Трилья Розато Сетте/Triglia Rosato Sette, роз сух 12,5% 0,75л 2024
+  region: Ницца Монферрато
+  grapes: Барбера 95%, Сира 5%
+  vintage: '2024'
+  price: 5762
+  stock: 132
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Triglia_Rosato_Sette_2024.png
+- art: '117'
+  producer: SETTE
+  name: Гриньолино Пьемонт Сетте/Grignolino Piemonte Sette, крас сух 14,0% 0,75л 2023
+  region: Ницца Монферрато
+  grapes: Гриньолино 100%
+  vintage: '2023'
+  price: 6186
+  stock: 15
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Grignolino_Piemonte_Sette_.png
+- art: '118'
+  producer: SETTE
+  name: Ницца Сетте/Nizza Sette, крас сух 14,5% 0,75л 2021
+  region: Ницца Монферрато
+  grapes: Барбера 100%
+  vintage: '2021'
+  price: 8185
+  stock: 63
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Nizza_Sette_.png
+- art: '486'
+  producer: STEFANO OCCHETTI
+  name: Роэро Арнеис РОА Стефано Оккетти/Roero Arneis ROA Stefano Occhetti, бел сух 13,0% 0,75л 2024
+  region: Роэро
+  grapes: Арнеис 100%
+  vintage: '2024'
+  price: 7470
+  stock: 108
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Roero_Arneis_ROA_Stefano_Occhetti.png
+- art: '484'
+  producer: STEFANO OCCHETTI
+  name: Ланге Неббиоло Стефано Оккетти/Langhe Nebbiolo Stefano Occhetti, крас сух 13,5% 0,75л 2024
+  region: Роэро
+  grapes: Неббиоло 100%
+  vintage: '2024'
+  price: 8419
+  stock: 165
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Langhe_Nebbiolo_Stefano_Occhetti.png
+- art: '485'
+  producer: STEFANO OCCHETTI
+  name: Роэро Санке Стефано Оккетти/Roero Sanche Stefano Occhetti, крас сух 14,0% 0,75л 2023
+  region: Роэро
+  grapes: Неббиоло 100%
+  vintage: '2023'
+  price: 11317
+  stock: 56
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Roero_Sanche_Stefano_Occhetti.png
+- art: '373'
+  producer: PODERI COLLA
+  name: Рислинг Ранера Ланге Подери Колла/Riesling Ranera Langhe Poderi Colla, бел сух 12,0% 0,75л 2022
+  region: Ланге
+  grapes: Рислинг 100%
+  vintage: '2022'
+  price: 6683
+  stock: 103
+  photo: https://cs.hedonistwine.ru/PriceIMG/24png/Riesling_Ranera_Langhe_Poderi_Colla.png
+- art: '371'
+  producer: PODERI COLLA
+  name: Дольчетто д'Альба Пиан Бальбо Подери Колла/Dolcetto d'Alba Pian Balbo Poderi Colla, крас сух 12,5% 0,75л 2024
+  region: Пьемонт
+  grapes: Дольчетто 100%
+  vintage: '2024'
+  price: 4809
+  stock: 66
+  photo: https://cs.hedonistwine.ru/PriceIMG/24png/Dolcetto_d_Alba_Pian_Balbo_Poderi_Colla.png
+- art: '374'
+  producer: PODERI COLLA
+  name: Неббиоло д’Альба Драго Подери Колла/Nebbiolo d'Alba Drago Poderi Colla, крас сух 13,5% 0,75л 2023
+  region: Пьемонт
+  grapes: Неббиоло 100%
+  vintage: '2023'
+  price: 6928
+  stock: 117
+  photo: https://cs.hedonistwine.ru/PriceIMG/24png/Nebbiolo_d_Alba_Drago_Poderi_Colla.png
+- art: '372'
+  producer: PODERI COLLA
+  name: Пино Неро Кампо Романо Ланге Подери Колла/Pinot Nero Campo Romano Langhe Poderi Colla, крас сух 13,0% 0,75л 2021
+  region: Ланге
+  grapes: Пино Неро 100%
+  vintage: '2021'
+  price: 8615
+  stock: 92
+  photo: https://cs.hedonistwine.ru/PriceIMG/24png/Pinot_Nero_Campo_Romano_Langhe_Poderi_Colla.png
+- art: '368'
+  producer: PODERI COLLA
+  name: Барбареско Ронкалье Тенута Ронкалья Подери Колла/Barbaresco Roncaglie Tenuta Roncaglia Poderi Colla, крас сух 14,0% 0,75л 2020
+  region: Ронкалье
+  grapes: Неббиоло 100%
+  vintage: '2020'
+  price: 13455
+  stock: 79
+  photo: https://cs.hedonistwine.ru/PriceIMG/24png/Barbaresco_Roncaglie_Tenuta_Roncaglia_Poderi_Colla_2020.png
+- art: '518'
+  producer: PODERI COLLA
+  name: Барбареско Ронкалье Тенута Ронкалья Подери Колла/Barbaresco Roncaglie Tenuta Roncaglia Poderi Colla, крас сух 14,0% 0,75л 2021
+  region: Ронкалье
+  grapes: Неббиоло 100%
+  vintage: '2021'
+  price: 13455
+  stock: 88
+  photo: https://cs.hedonistwine.ru/PriceIMG/24png/Barbaresco_Roncaglie_Tenuta_Roncaglia_Poderi_Colla_2021.png
+- art: '369'
+  producer: PODERI COLLA
+  name: Бароло Буссия Дарди Ле Розе Подери Колла/Barolo Bussia Dardi Le Rose Poderi Colla, крас сух 14,0% 0,75л 2020
+  region: Буссия
+  grapes: Неббиоло 100%
+  vintage: '2020'
+  price: 16175
+  stock: 64
+  photo: https://cs.hedonistwine.ru/PriceIMG/24png/Barolo_Bussia_Dardi_Le_Rose_Poderi_Colla_2020.png
+- art: '370'
+  producer: PODERI COLLA
+  name: Бароло Буссия Ризерва Беппе Колла/Barolo Bussia Riserva Beppe Colla, крас сух 14,0% 0,75л 2016
+  region: Буссия
+  grapes: Неббиоло 100%
+  vintage: '2016'
+  price: 36116
+  stock: 52
+  photo: https://cs.hedonistwine.ru/PriceIMG/24png/Barolo_Bussia_Riserva_Beppe_Colla.png
+- art: '367'
+  producer: PODERI COLLA
+  name: Барбареско Ронкалье Ризерва Беппе Колла/Barbaresco Roncaglie Riserva Beppe Colla, крас сух 14,0% 0,75л 2016
+  region: Ронкалье
+  grapes: Неббиоло 100%
+  vintage: '2016'
+  price: 36116
+  stock: 59
+  photo: https://cs.hedonistwine.ru/PriceIMG/24png/Barbaresco_Roncaglie_Riserva_Beppe_Colla.png
+- art: '137'
+  producer: PIERO BUSSO
+  name: Барбера д’Альба Майано Пьеро Буссо/Barbera d'Alba Majano Piero Busso, крас сух 14,5% 0,75л 2022
+  region: Нейве
+  grapes: Барбера 100%
+  vintage: '2022'
+  price: 8113
+  stock: 5
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Barbera_d_Alba_Majano_Piero_Busso_.png
+- art: '138'
+  producer: PIERO BUSSO
+  name: Ланге Неббиоло Пьеро Буссо/Langhe Nebbiolo Piero Busso, крас сух 14,0% 0,75л 2023
+  region: Нейве
+  grapes: Неббиоло 100%
+  vintage: '2023'
+  price: 9286
+  stock: 37
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Langhe_Nebbiolo_Piero_Busso_.png
+- art: '135'
+  producer: PIERO BUSSO
+  name: Барбареско Сан Стунет Пьеро Буссо/Barbaresco San Stunet Piero Busso, крас сух 14,5% 0,75л 2021
+  region: Треизо
+  grapes: Неббиоло 100%
+  vintage: '2021'
+  price: 26236
+  stock: 48
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Barbaresco_San_Stunet_Piero_Busso_.png
+- art: '130'
+  producer: PIERO BUSSO
+  name: Барбареско Альбесани Винья Боргезе Пьеро Буссо/Barbaresco Albesani Vigna Borgese Piero Busso, крас сух 14,5% 0,75л 2021
+  region: Нейве
+  grapes: Неббиоло 100%
+  vintage: '2021'
+  price: 26236
+  stock: 31
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Barbaresco_Albesani_Vigna_Borgese_Piero_Busso_.png
+- art: '132'
+  producer: PIERO BUSSO
+  name: Барбареско Галлина Пьеро Буссо/Barbaresco Gallina Piero Busso, крас сух 14,5% 0,75л 2020
+  region: Нейве
+  grapes: Неббиоло 100%
+  vintage: '2020'
+  price: 32487
+  stock: 36
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Barbaresco_Gallina_Piero_Busso_.png
+- art: '131'
+  producer: PIERO BUSSO
+  name:  Барбареско Альбесани Винья Боргезе Пьеро Буссо/Barbaresco Albesani Vigna Borgese Piero Busso, крас сух 14,5% 1,5л 2021 в ПУ
+  region: Нейве
+  grapes: Неббиоло 100%
+  vintage: '2021'
+  price: 55694
+  stock: 10
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Barbaresco_Albesani_Vigna_Borgese_Piero_Busso_15.png
+- art: '136'
+  producer: PIERO BUSSO
+  name:  Барбареско Сан Стунет Пьеро Буссо/Barbaresco San Stunet Piero Busso, крас сух 14,5% 1,5л 2021 в ПУ
+  region: Треизо
+  grapes: Неббиоло 100%
+  vintage: '2021'
+  price: 55694
+  stock: 7
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Barbaresco_San_Stunet_Piero_Busso_15.png
+- art: '133'
+  producer: PIERO BUSSO
+  name:  Барбареско Галлина Пьеро Буссо/Barbaresco Gallina Piero Busso, крас сух 14,5% 1,5л 2020 в ПУ
+  region: Нейве
+  grapes: Неббиоло 100%
+  vintage: '2020'
+  price: 68092
+  stock: 10
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Barbaresco_Gallina_Piero_Busso_15.png
+- art: '501'
+  producer: COMAI
+  name: Совиньон Блан Комаи/Sauvignon Blanc Comai, бел сух 12,5% 0,75л 2024
+  region: Гарда
+  grapes: Совиньон Блан 100%
+  vintage: '2024'
+  price: 8128
+  stock: 155
+  photo: https://cs.hedonistwine.ru/PriceIMG/24png/Sauvignon_Blanc_Comai.png
+- art: '502'
+  producer: COMAI
+  name: Шардоне Комаи/Chardonnay Comai, бел сух 13,0% 0,75л 2024
+  region: Гарда
+  grapes: Шардоне 100%
+  vintage: '2024'
+  price: 8128
+  stock: 120
+  photo: https://cs.hedonistwine.ru/PriceIMG/24png/Chardonnay_Comai.png
+- art: '159'
+  producer: DARIO PRINCIC
+  name: Бьянко Дарио Принчич/Bianco Dario Princic, бел сух 12,5% 0,75л 2022
+  region: Венеция Джулия
+  grapes: Шардоне 50%, Совиньон Блан 50%
+  vintage: '2022'
+  price: 9359
+  stock: 17
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Bianco_Dario_Princic_Venezia_Giulia_.png
+- art: '160'
+  producer: DARIO PRINCIC
+  name: Бьянко Сиви Дарио Принчич/Bianco Sivi Dario Princic, бел сух 13,5% 0,75л 2020
+  region: Венеция Джулия
+  grapes: Пино Гриджио 100%
+  vintage: '2020'
+  price: 13296
+  stock: 51
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Bianco_Sivi_Dario_Princic_.png
+- art: '162'
+  producer: DARIO PRINCIC
+  name: Риболла Джалла Дарио Принчич/Ribolla Gialla Dario Princic, бел сух 12,5% 0,75л 2020
+  region: Венеция Джулия
+  grapes: Риболла Джалла 100%
+  vintage: '2020'
+  price: 13296
+  stock: 42
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Ribolla_Gialla_Dario_Princic_.png
+- art: '163'
+  producer: DARIO PRINCIC
+  name: Россо Дарио Принчич/Rosso Dario Princic, крас сух 13,0% 0,75л 2022
+  region: Венеция Джулия
+  grapes: Мерло 100%
+  vintage: '2022'
+  price: 9306
+  stock: 88
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Rosso_Dario_Princic_.png
+- art: '161'
+  producer: DARIO PRINCIC
+  name: Мерло Дарио Принчич/Merlot Dario Princic, крас сух 15,0% 0,75л 2011
+  region: Венеция Джулия
+  grapes: Мерло 100%
+  vintage: '2011'
+  price: 24833
+  stock: 24
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Merlot_Dario_Princic_.png
+- art: '379'
+  producer: CELLEDONI
+  name: Пино Гриджио Челледони/Pinot Grigio Celledoni, бел сух 12,5% 0,75л 2024
+  region: Колли Ориентали
+  grapes: Пино Гриджио 100%
+  vintage: '2024'
+  price: 2890
+  stock: 820
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Pinot_Grigio_Celledoni_.png
+- art: '650'
+  producer: CELLEDONI
+  name: Пино Гриджио Целледони/Pinot Grigio Celledoni, бел сух 12,5% 0,75л 2025
+  region: Колли Ориентали
+  grapes: Пино Гриджио 100%
+  vintage: '2025'
+  price: 2890
+  stock: 1792
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Pinot_Grigio_Celledoni_.png
+- art: '443'
+  producer: CELLEDONI
+  name: Шардоне Челледони/Chardonnay Celledoni, бел сух 12,5% 0,75л 2024
+  region: Колли Ориентали
+  grapes: Шардоне 100%
+  vintage: '2024'
+  price: 2999
+  stock: 120
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Chardonnay_Celledoni_.png
+- art: '651'
+  producer: CELLEDONI
+  name: Шардоне Целледони/Chardonnay Celledoni, бел сух 12,5% 0,75л 2025
+  region: Колли Ориентали
+  grapes: Шардоне 100%
+  vintage: '2025'
+  price: 2999
+  stock: 300
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Chardonnay_Celledoni_.png
+- art: '496'
+  producer: CELLEDONI
+  name: Совиньон Челледони/Sauvignon Celledoni, бел сух 13,0% 0,75л 2024
+  region: Колли Ориентали
+  grapes: Совиньон Блан 100%
+  vintage: '2024'
+  price: 2999
+  stock: 800
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Sauvignon_Celledoni_.png
+- art: '167'
+  producer: CELLEDONI
+  name: Риболла Джалла Челледони/Ribolla Gialla Celledoni, бел сух 11,5% 0,75л 2023
+  region: Колли Ориентали
+  grapes: Риболла Джалла 100%
+  vintage: '2023'
+  price: 3131
+  stock: 195
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Ribolla_Gialla_Celledoni_.png
+- art: '495'
+  producer: CELLEDONI
+  name: Риболла Джалла Челледони/Ribolla Gialla Celledoni, бел сух 12,5% 0,75л 2024
+  region: Колли Ориентали
+  grapes: Риболла Джалла 100%
+  vintage: '2024'
+  price: 3131
+  stock: 600
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Ribolla_Gialla_Celledoni_.png
+- art: '164'
+  producer: CELLEDONI
+  name: Траминер Ароматико Челледони/Traminer Aromatico Celledoni, бел сух 12,5% 0,75л 2024
+  region: Колли Ориентали
+  grapes: Траминер Ароматико 100%
+  vintage: '2024'
+  price: 3343
+  stock: 389
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Traminer_Aromatico_Celledoni_.png
+- art: '415'
+  producer: VALENTINA CUBI
+  name: Вальполичелла Классико Иперико Валентина Куби/Valpolicella Classico Iperico Valentina Cubi, крас сух 12,0% 0,75л 2023
+  region: Вальполичелла
+  grapes: Корвина 55%, Корвиноне 25%, Рондинелла 10%, Молинара 10%
+  vintage: '2023'
+  price: 3818
+  stock: 835
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Valpolicella_Classico_Iperico_Valentina_Cubi_.png
+- art: '623'
+  producer: VALENTINA CUBI
+  name: Вальполичелла Классико Иперико Валентина Куби/Valpolicella Classico Iperico Valentina Cubi, крас сух 12,0% 0,75л 2024
+  region: Вальполичелла
+  grapes: Корвина 55%, Корвиноне 25%, Рондинелла 10%, Молинара 10%
+  vintage: '2024'
+  price: 3818
+  stock: 276
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Valpolicella_Classico_Iperico_Valentina_Cubi_.png
+- art: '662'
+  producer: VALENTINA CUBI
+  name: Вальполичелла Классико Супериоре Ильтабарро Валентина Куби/Valpolicella Classico Superiore Iltabarro Valentina Cubi, крас сух 13,5% 0,75л 2022
+  region: Вальполичелла
+  grapes: Корвина 65%, Рондинелла 25%, Молинара 10%
+  vintage: '2022'
+  price: 4589
+  stock: 240
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Valpolicella_Classico_Superiore_Iltabarro_Valentina_Cubi_2020.png
+- art: '413'
+  producer: VALENTINA CUBI
+  name: Вальполичелла Классико Супериоре Ильтабарро Валентина Куби/Valpolicella Classico Superiore Iltabarro Valentina Cubi, крас сух 13,5% 0,75л 2021
+  region: Вальполичелла
+  grapes: Корвина 65%, Рондинелла 25%, Молинара 10%
+  vintage: '2021'
+  price: 4589
+  stock: 7
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Valpolicella_Classico_Superiore_Iltabarro_Valentina_Cubi_2020.png
+- art: '414'
+  producer: VALENTINA CUBI
+  name: Вальполичелла Рипассо Классико Суп. Арузнатико Валентина Куби/Valpolicella Ripasso Classico Sup. Arusnatico Valentina Cubi, крас сух 14,0% 2019
+  region: Вальполичелла
+  grapes: Корвина 60%, Корвиноне 25%, Рондинелла 10%, Молинара 5%
+  vintage: '2019'
+  price: 5443
+  stock: 187
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Valpolicella_Ripasso_Classico_Sup._Arusnatico_Valentina_Cubi_.png
+- art: '100'
+  producer: VALENTINA CUBI
+  name: Вальполичелла Рипассо Классико Суп. Арузнатико Валентина Куби/Valpolicella Ripasso Classico Sup. Arusnatico Valentina Cubi, крас сух 14,0% 2018
+  region: Вальполичелла
+  grapes: Корвина 60%, Корвиноне 25%, Рондинелла 10%, Молинара 5%
+  vintage: '2018'
+  price: 5443
+  stock: 4
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Valpolicella_Ripasso_Classico_Sup._Arusnatico_Valentina_Cubi_.png
+- art: '97'
+  producer: VALENTINA CUBI
+  name: Россо Верона КьюБи Валентина Куби/Rosso Verona QB Valentina Cubi, крас сух 13,0% 0,75л 2018
+  region: Вальполичелла
+  grapes: Корвина 30%, Каберне Совиньон 25%, Санджовезе 25%, Рондинелла 20%
+  vintage: '2018'
+  price: 9059
+  stock: 40
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Rosso_Verona_QB_Valentina_Cubi_.png
+- art: '95'
+  producer: VALENTINA CUBI
+  name: Амароне делла Вальполичелла Классико Морар Валентина Куби/Amarone della Valpolicella Classico Morar Valentina Cubi, крас сух 15,5% 0,75л 2010
+  region: Вальполичелла
+  grapes: Корвина 65%, Корвиноне 25%, Рондинелла 10%
+  vintage: '2010'
+  price: 13200
+  stock: 119
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Amarone_della_Valpolicella_Classico_Morar_Valentina_Cubi_.png
+- art: '102'
+  producer: VALENTINA CUBI
+  name: Амароне делла Вальполичелла Классико Ризерва Валентина Куби/Amarone della Valpolicella Classico Riserva Valentina Cubi, крас сух 17,0% 0,75л 2006
+  region: Вальполичелла
+  grapes: Корвина 65%, Корвиноне 25%, Рондинелла 10%
+  vintage: '2006'
+  price: 32696
+  stock: 11
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Amarone_della_Valpolicella_Classico_Riserva_Valentina_Cubi_.png
+- art: '101'
+  producer: VALENTINA CUBI
+  name: Речото делла Вальполичелла Мелилото Валентина Куби/Recioto della Valpolicella Meliloto Valentina Cubi, крас слад 12,0% 0,5л 2021
+  region: Вальполичелла
+  grapes: Корвина 65%, Корвиноне 25%, Рондинелла 10%
+  vintage: '2021'
+  price: 9861
+  stock: 118
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Recioto_della_Valpolicella_Meliloto_Valentina_Cubi_.png
+- art: '380'
+  producer: POGGIO DEL MORO
+  name: Кьянти НЮ Поджио дель Моро/Chianti NU Poggio del Moro, крас сух 14,5% 0,75л 2022
+  region: Тоскана
+  grapes: Санджовезе 100%
+  vintage: '2022'
+  price: 3659
+  stock: 373
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Chianti_NU_Poggio_del_Moro.png
+- art: '723'
+  producer: POGGIO DEL MORO
+  name: Кьянти НЮ Поджио дель Моро/Chianti NU Poggio del Moro, крас сух 14,0% 0,75л 2023
+  region: Тоскана
+  grapes: Санджовезе 100%
+  vintage: '2023'
+  price: 3659
+  stock: 1482
+  photo: null
+- art: '622'
+  producer: POGGIO DEL MORO
+  name: Россо Тоскана Поджио Дель Моро/Rosso Toscana Poggio Del Moro, крас сух 14,5% 0,75л 2020
+  region: Тоскана
+  grapes: Санджовезе 25%, Каберне Совиньон 25%, Мерло 25%, Сира 25%
+  vintage: '2020'
+  price: 3686
+  stock: 1770
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Rosso_Toscana_Poggio_Del_Moro_.png
+- art: '342'
+  producer: POGGIO DEL MORO
+  name: Кьянти Колли Сенеси Ризерва Поджио дель Моро/Chianti Colli Senesi Riserva Poggio del Moro, крас сух 13,5% 0,75л 2016
+  region: Тоскана
+  grapes: Санджовезе 90%, Сира 10%
+  vintage: '2016'
+  price: 4845
+  stock: 428
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Chianti_Colli_Senesi_Riserva_Poggio_del_Moro.png
+- art: '722'
+  producer: POGGIO DEL MORO
+  name: Кьянти Колли Сенеси Ризерва Поджио дель Моро/Chianti Colli Senesi Riserva Poggio del Moro, крас сух 14,0% 0,75л 2017
+  region: Тоскана
+  grapes: Санджовезе 90%, Сира 10%
+  vintage: '2017'
+  price: 4845
+  stock: 594
+  photo: https://cs.hedonistwine.ru/PriceIMG/25png/Chianti_Colli_Senesi_Riserva_Poggio_del_Moro_6.png
+- art: '576'
+  producer: POGGIO DEL MORO
+  name: Кьянти Супериоре Поджио Дель Моро/Chianti Superiore Poggio Del Moro, крас сух 14,0% 0,75л 2018
+  region: Тоскана
+  grapes: Санджовезе 100%
+  vintage: '2018'
+  price: 5374
+  stock: 582
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Chianti_Superiore_Poggio_Del_Moro.png
+- art: '577'
+  producer: POGGIO DEL MORO
+  name: Россо Тоскана Разеа Поджио Дель Моро/Rosso Toscana Rasea Poggio Del Moro, крас сух 14,0% 0,75л 2017
+  region: Тоскана
+  grapes: Санджовезе 80%, Сира 20%
+  vintage: '2017'
+  price: 9276
+  stock: 285
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Rosso_Toscana_Rasea_Poggio_Del_Moro_2017.png
+- art: '606'
+  producer: POGGIO DEL MORO
+  name: Россо Тоскана Разеа Поджио Дель Моро/Rosso Toscana Rasea Poggio Del Moro, крас сух 14,0% 0,75л 2018
+  region: Тоскана
+  grapes: Каберне Совиньон 50%, Мерло 50%
+  vintage: '2018'
+  price: 9276
+  stock: 529
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Rosso_Toscana_Rasea_Poggio_Del_Moro_2018.png
+- art: '566'
+  producer: MONTEFOSCOLI
+  name: Верментино Коста Тоскана Фонтемаджоре Монтефосколи/Vermentino Costa Toscana Fontemaggiore Montefoscoli, бел сух 13,5% 0,75л 2023
+  region: Маремма
+  grapes: Верментино 100%
+  vintage: '2023'
+  price: 5476
+  stock: 173
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Vermentino_Costa_Toscana_Fontemaggiore_Montefoscoli.png
+- art: '757'
+  producer: MONTEFOSCOLI
+  name: Верментино Коста Тоскана Фонтемаджоре Монтефосколи/Vermentino Costa Toscana Fontemaggiore Montefoscoli, бел сух 12,5% 0,75л 2024
+  region: Маремма
+  grapes: Верментино 100%
+  vintage: '2024'
+  price: 5476
+  stock: 300
+  photo: https://cs.hedonistwine.ru/PriceIMG/25png/Vermentino_Costa_Toscana_Fontemaggiore_Montefoscoli_1.png
+- art: '567'
+  producer: MONTEFOSCOLI
+  name: Бьянко Коста Тоскана Вачеволи Монтефосколи/Bianco Costa Toscana Vacevoli Montefoscoli, бел сух 13,0% 0,75л 2024
+  region: Маремма
+  grapes: Верментино 50%, Вионье 30%, Пти Мансенг 20%
+  vintage: '2024'
+  price: 8082
+  stock: 52
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Bianco_Costa_Toscana_Vacevoli_Montefoscoli.png
+- art: '568'
+  producer: MONTEFOSCOLI
+  name: Санджовезе Тоскана Сантандреа Монтефосколи/Sangiovese Toscana Santandrea Montefoscoli, крас сух 13,5% 0,75л 2022
+  region: Маремма
+  grapes: Санджовезе 100%
+  vintage: '2022'
+  price: 5476
+  stock: 178
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Sangiovese_Toscana_Santandrea_Montefoscoli.png
+- art: '756'
+  producer: MONTEFOSCOLI
+  name: Санджовезе Тоскана Сантандреа Монтефосколи/Sangiovese Toscana Santandrea Montefoscoli, крас сух 14,5% 0,75л 2023
+  region: Маремма
+  grapes: Санджовезе 100%
+  vintage: '2023'
+  price: 5476
+  stock: 180
+  photo: https://cs.hedonistwine.ru/PriceIMG/25png/Sangiovese_Toscana_Santandrea_Montefoscoli_2.png
+- art: '108'
+  producer: FONTERENZA
+  name: Бьянко Тоскана Фонтеренца/Bianco Toscana Fonterenza, бел сух 12,5% 0,75л 2022
+  region: Монтальчино
+  grapes: Треббьяно 40%, Верментино 40%, Мальвазия 20%
+  vintage: '2022'
+  price: 7449
+  stock: 19
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Bianco_Toscana_Fonterenza_.png
+- art: '107'
+  producer: FONTERENZA
+  name: Россо ди Монтальчино Фонтеренца/Rosso di Montalcino Fonterenza, крас сух 14,0% 0,75л 2021
+  region: Монтальчино
+  grapes: Санджовезе 100%
+  vintage: '2021'
+  price: 10885
+  stock: 51
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Rosso_di_Montalcino_Fonterenza_.png
+- art: '109'
+  producer: FONTERENZA
+  name: Санджовезе Альберелло Фонтеренца/Sangiovese Alberello Fonterenza, крас сух 13,0% 0,75л 2020
+  region: Монтальчино
+  grapes: Санджовезе 100%
+  vintage: '2020'
+  price: 13317
+  stock: 56
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Sangiovese_Alberello_Fonterenza_.png
+- art: '106'
+  producer: FONTERENZA
+  name: Брунелло ди Монтальчино Фонтеренца/Brunello di Montalcino Fonterenza, крас сух 14,5% 0,75л 2017
+  region: Монтальчино
+  grapes: Санджовезе Гроссо 100%
+  vintage: '2017'
+  price: 23223
+  stock: 39
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Brunello_di_Montalcino_Fonterenza_2017.png
+- art: '111'
+  producer: FONTERENZA
+  name: Брунелло ди Монтальчино Фонтеренца/Brunello di Montalcino Fonterenza, крас сух 14,5% 0,75л 2012
+  region: Монтальчино
+  grapes: Санджовезе Гроссо 100%
+  vintage: '2012'
+  price: 42311
+  stock: 2
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Brunello_di_Montalcino_Fonterenza_2012.png
+- art: '112'
+  producer: FONTERENZA
+  name: Брунелло ди Монтальчино Фонтеренца/Brunello di Montalcino Fonterenza, крас сух 14,5% 0,75л 2011
+  region: Монтальчино
+  grapes: Санджовезе Гроссо 100%
+  vintage: '2011'
+  price: 45748
+  stock: 7
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Brunello_di_Montalcino_Fonterenza_2011.png
+- art: '114'
+  producer: FONTERENZA
+  name: Брунелло ди Монтальчино Фонтеренца/Brunello di Montalcino Fonterenza, крас сух 14,0% 0,75л 2009
+  region: Монтальчино
+  grapes: Санджовезе Гроссо 100%
+  vintage: '2009'
+  price: 52634
+  stock: 3
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Brunello_di_Montalcino_Fonterenza_2009.png
+- art: '113'
+  producer: FONTERENZA
+  name: Брунелло ди Монтальчино Фонтеренца/Brunello di Montalcino Fonterenza, крас сух 14,0% 0,75л 2010
+  region: Монтальчино
+  grapes: Санджовезе Гроссо 100%
+  vintage: '2010'
+  price: 69843
+  stock: 3
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Brunello_di_Montalcino_Fonterenza_2010.png
+- art: '412'
+  producer: LAMBARDI
+  name: Россо ди Монтальчино Ламбарди/Rosso di Montalcino Lambardi, крас сух 14,5% 0,75л 2021
+  region: Монтальчино
+  grapes: Санджовезе 100%
+  vintage: '2021'
+  price: 6189
+  stock: 595
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Rosso_di_Montalcino_Lambardi_.png
+- art: '233'
+  producer: LAMBARDI
+  name: Брунелло ди Монтальчино Ламбарди/Brunello di Montalcino Lambardi, крас сух 14,0% 0,75л 2018
+  region: Монтальчино
+  grapes: Санджовезе 100%
+  vintage: '2018'
+  price: 12464
+  stock: 178
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Brunello_di_Montalcino_Lambardi_18.png
+- art: '232'
+  producer: LAMBARDI
+  name: Брунелло ди Монтальчино Ламбарди/Brunello di Montalcino Lambardi, крас сух 14,5% 0,75л 2019
+  region: Монтальчино
+  grapes: Санджовезе 100%
+  vintage: '2019'
+  price: 13494
+  stock: 189
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Brunello_di_Montalcino_Lambardi_19.png
+- art: '234'
+  producer: LAMBARDI
+  name: Брунелло ди Монтальчино Ламбарди/Brunello di Montalcino Lambardi, крас сух 14,5% 0,75л 2016
+  region: Монтальчино
+  grapes: Санджовезе 100%
+  vintage: '2016'
+  price: 15182
+  stock: 161
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Brunello_di_Montalcino_Lambardi_16.png
+- art: '184'
+  producer: MASSA VECCHIA
+  name: Розато ди Тоскана Масса Веккья/Rosato di Toscana Massa Vecchia, роз сух 13,0% 0,75л 2022
+  region: Маремма
+  grapes: Мальвазия Нера 65%, Мерло 35%
+  vintage: '2022'
+  price: 14451
+  stock: 72
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Rosato_di_Toscana_Massa_Vecchia_.png
+- art: '183'
+  producer: MASSA VECCHIA
+  name: Россо Масса Веккья/Rosso Massa Vecchia, крас сух 13,5% 0,75л 2022
+  region: Маремма
+  grapes: Санджовезе 65%, Чильеджоло 25%, Каберне 10%
+  vintage: '2022'
+  price: 10619
+  stock: 87
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Rosso_Massa_Vecchia_.png
+- art: '185'
+  producer: MASSA VECCHIA
+  name: Санджовезе ди Тоскана Поджио А'Венти Масса Веккья/Sangiovese di Toscana Poggio A'Venti Massa Vecchia, крас сух 13,5% 0,75л 2021
+  region: Маремма
+  grapes: Санджовезе 100%
+  vintage: '2021'
+  price: 19481
+  stock: 80
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Sangiovese_di_Toscana_Poggio_A_Venti_Massa_Vecchia_.png
+- art: '695'
+  producer: CASTELLANI
+  name: Пино Гриджио Лучидо Вилладжио Кастеллани/Pinot Grigio Lucido Villaggio Castellani, бел сух 12,0% 0,75л 2025
+  region: Терре Сицилиане
+  grapes: Пино Гриджио 100%
+  vintage: '2025'
+  price: 2050
+  stock: 4470
+  photo: https://cs.hedonistwine.ru/PriceIMG/25png/Pinot_Grigio_Lucido_Villaggio_Castellani_1.png
+- art: '697'
+  producer: CASTELLANI
+  name: Треббьяно Д'Абруццо Кастеллани/Trebbiano D'Abruzzo Castellani, бел сух 12,0% 0,75л 2025
+  region: Абруццо
+  grapes: Треббьяно Д'Абруццо 100%
+  vintage: '2025'
+  price: 2130
+  stock: 2805
+  photo: https://cs.hedonistwine.ru/PriceIMG/25png/Trebbiano_D_Abruzzo_Castellani_1.png
+- art: '694'
+  producer: CASTELLANI
+  name: Пино Гриджио Альфреско Кастеллани/Pinot Grigio Alfresco Castellani, бел сух 12,0% 0,75л 2025
+  region: Венеция
+  grapes: Пино Гриджио 100%
+  vintage: '2025'
+  price: 2175
+  stock: 4473
+  photo: https://cs.hedonistwine.ru/PriceIMG/25png/Pinot_Grigio_Alfresco_Castellani_1.png
+- art: '693'
+  producer: CASTELLANI
+  name: Монтепульчано Д'Абруццо Кастеллани/Montepulciano D'Abruzzo Castellani, крас сух 12,5% 0,75л 2024
+  region: Абруццо
+  grapes: Монтепульчано Д'Абруццо 100%
+  vintage: '2024'
+  price: 2130
+  stock: 2817
+  photo: https://cs.hedonistwine.ru/PriceIMG/25png/Montepulciano_D_Abruzzo_Castellani_1.png
+- art: '696'
+  producer: CASTELLANI
+  name: Россо Тоскана Алле Виоле Тенута ди Сеппаиано/Rosso Toscana Alle Viole Tenuta di Ceppaiano, крас сух 12,5% 0,75л 2017
+  region: Тоскана
+  grapes: Санджовезе 70%, Каберне Совиньон 20%, Мерло 10%
+  vintage: '2017'
+  price: 2900
+  stock: 1828
+  photo: https://cs.hedonistwine.ru/PriceIMG/25png/Rosso_Toscana_Alle_Viole_Tenuta_di_Ceppaiano_1.png
+- art: '144'
+  producer: SASSOPRA
+  name: Бьянко ди Сассопра/Bianco di Sassopra , бел сух 11,5% 0,75л 2022
+  region: Фраскати
+  grapes: Треббьяно 100%
+  vintage: '2022'
+  price: 6317
+  stock: 35
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Bianco_di_Sassopra_.png
+- art: '147'
+  producer: SASSOPRA
+  name: Маннаро Бьянко Сассопра/Mannaro Bianco Sassopra, бел сух 12,5% 0,75л 2022
+  region: Фраскати
+  grapes: Мальвазия Ди Кандия 70%, Треббьяно 30%
+  vintage: '2022'
+  price: 6317
+  stock: 18
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Mannaro_Bianco_Sassopra_.png
+- art: '149'
+  producer: SASSOPRA
+  name: Туррести Сассопра/Turresti Sassopra, бел сух 11,0% 0,75л 2022
+  region: Фраскати
+  grapes: Мальвазия Дель Лацио 60%, Бомбино Бьянко 40%
+  vintage: '2022'
+  price: 6895
+  stock: 61
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Turresti_Sassopra_.png
+- art: '148'
+  producer: SASSOPRA
+  name: Небоски Сассопра/Neboski Sassopra, крас сух 12,0% 0,75л 2022
+  region: Фраскати
+  grapes: Санджовезе 70%, Чильеджоло 30%
+  vintage: '2022'
+  price: 6317
+  stock: 57
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Neboski_Sassopra_.png
+- art: '145'
+  producer: SASSOPRA
+  name: Россо ди Сассопра/Rosso di Sassopra, крас сух 12,0% 0,75л 2022
+  region: Фраскати
+  grapes: Санджовезе 75%, Мерло 25%
+  vintage: '2022'
+  price: 6317
+  stock: 55
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Rosso_di_Sassopra_.png
+- art: '125'
+  producer: MARCO TINESSA
+  name: Оньостро Бьянко  Марко Тинесса/Ognostro Bianco Marco Tinessa, бел сух 13,0% 0,75л 2022
+  region: Авелино
+  grapes: Фиано 100%
+  vintage: '2022'
+  price: 8609
+  stock: 72
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Ognostro_Tinessa_Bianco_.png
+- art: '124'
+  producer: MARCO TINESSA
+  name: Оньостро Россо  Марко Тинесса/Ognostro Rosso Marco Tinessa, крас сух 14,5% 0,75л 2021
+  region: Таурази
+  grapes: Альянико 100%
+  vintage: '2021'
+  price: 10312
+  stock: 32
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Ognostro_Tinessa_Rosso_.png
+- art: '418'
+  producer: FELLINE
+  name: Примитиво И Монили Тарантино Феллине/Primitivo I Monili Tarantino Felline, крас сух 13,5% 0,75л 2022
+  region: Мандурия
+  grapes: Примитиво 100%
+  vintage: '2022'
+  price: 2999
+  stock: 1472
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Primitivo_I_Monili_Tarantino_Felline.png
+- art: '698'
+  producer: FELLINE
+  name: Примитиво И Монили Саленто Феллине/Primitivo I Monili Salento Felline, крас сух 13,5% 0,75л 2024
+  region: Мандурия
+  grapes: Примитиво 100%
+  vintage: '2024'
+  price: 2999
+  stock: 299
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Primitivo_I_Monili_Tarantino_Felline.png
+- art: '416'
+  producer: FELLINE
+  name: Анаркос Пулия Феллине/Anarkos Puglia Felline, крас сух 13,0% 0,75л 2021
+  region: Мандурия
+  grapes: Негроамаро 60%, Примитиво 30%, Мальвазия Нера 10%
+  vintage: '2021'
+  price: 2999
+  stock: 1937
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/anarkos-puliya-felline.png
+- art: '417'
+  producer: FELLINE
+  name: Примитиво ди Мандурия Джиравольта Феллине/Primitivo di Manduria Giravolta Felline, крас сух 14,5% 0,75л 2020
+  region: Мандурия
+  grapes: Примитиво 100%
+  vintage: '2020'
+  price: 6220
+  stock: 431
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Primitivo_di_Manduria_Giravolta_Felline.png
+- art: '659'
+  producer: FELLINE
+  name: Примитиво ди Мандурия Джиравольта Феллине/Primitivo di Manduria Giravolta Felline, крас сух 14,5% 0,75л 2021
+  region: Мандурия
+  grapes: Примитиво 100%
+  vintage: '2021'
+  price: 6220
+  stock: 504
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Primitivo_di_Manduria_Giravolta_Felline.png
+- art: '419'
+  producer: FELLINE
+  name: Примитиво ди Мандурия Дунико Феллине/Primitivo di Manduria Dunico Felline, крас сух 16,0% 0,75л 2018
+  region: Мандурия
+  grapes: Примитиво 100%
+  vintage: '2018'
+  price: 10735
+  stock: 90
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Primitivo_di_Manduria_Dunico_Felline.png
+- art: '652'
+  producer: FELLINE
+  name: Примитиво ди Мандурия Дунико Феллине/Primitivo di Manduria Dunico Felline, крас сух 15,5% 0,75л 2019
+  region: Мандурия
+  grapes: Примитиво 100%
+  vintage: '2019'
+  price: 10735
+  stock: 204
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Primitivo_di_Manduria_Dunico_Felline.png
+- art: '471'
+  producer: JORCHE
+  name: Фиано Нагиро Хорхе/Fiano Naghiro Jorche, бел сух 12,0% 0,75л 2024
+  region: Саленто
+  grapes: Фиано 100%
+  vintage: '2024'
+  price: 3138
+  stock: 200
+  photo: https://cs.hedonistwine.ru/PriceIMG/24png/Fiano_Naghiro_Jorche.png
+- art: '472'
+  producer: JORCHE
+  name: Негроамаро Калеидо Хорхе/Negroamaro Caleido Jorche, крас сух 13,0% 0,75л 2023
+  region: Саленто
+  grapes: Негроамаро 100%
+  vintage: '2023'
+  price: 3310
+  stock: 888
+  photo: https://cs.hedonistwine.ru/PriceIMG/24png/Negroamaro_Caleido_Jorche.png
+- art: '473'
+  producer: JORCHE
+  name: Примитиво Сольтема Хорхе/Primitivo Soltema Jorche, крас сух 14,0% 0,75л 2022
+  region: Саленто
+  grapes: Примитиво 100%
+  vintage: '2022'
+  price: 3572
+  stock: 873
+  photo: https://cs.hedonistwine.ru/PriceIMG/24png/Primitivo_Soltema_Jorche.png
+- art: '509'
+  producer: JORCHE
+  name: Примитиво Ди Мандурия Хорхе/Primitivo Di Manduria Jorche, крас сух 15,0% 0,75л 2022
+  region: Мандурия
+  grapes: Примитиво 100%
+  vintage: '2022'
+  price: 4870
+  stock: 555
+  photo: https://cs.hedonistwine.ru/PriceIMG/24png/Primitivo_Di_Manduria_Jorche.png
+- art: '475'
+  producer: JORCHE
+  name: Примитиво Ди Мандурия Ризерва Хорхе/Primitivo Di Manduria Riserva Jorche, крас сух 16,0% 0,75л 2020
+  region: Мандурия
+  grapes: Примитиво 100%
+  vintage: '2020'
+  price: 6760
+  stock: 304
+  photo: https://cs.hedonistwine.ru/PriceIMG/24png/Primitivo_Di_Manduria_Riserva_Jorche.png
+- art: '170'
+  producer: GIOVANNI SALLEMI
+  name: Неро Д’Авола Руссу Джованни Саллеми/Nero D’Avola Russu Giovanni Sallemi, крас сух 13,0% 0,75л 2020
+  region: Кальтаджироне
+  grapes: Неро д’Авола 100%
+  vintage: '2020'
+  price: 6433
+  stock: 194
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Nero_DAvola_Russu_Giovanni_Sallemi_2020.png
+- art: '171'
+  producer: GIOVANNI SALLEMI
+  name: Неро Д’Авола Руссу Джованни Саллеми/Nero D’Avola Russu Giovanni Sallemi, крас сух 12,0% 0,75л 2018
+  region: Кальтаджироне
+  grapes: Неро д’Авола 100%
+  vintage: '2018'
+  price: 6433
+  stock: 42
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Nero_DAvola_Russu_Giovanni_Sallemi_2018.png
+- art: '169'
+  producer: GIOVANNI SALLEMI
+  name: Неро Д’Авола Терре ди Конвентаццо Джованни Саллеми/Nero D’Avola Terre di Conventazzo Giovanni Sallemi, крас сух 13,5% 0,75л 2017
+  region: Кальтаджироне
+  grapes: Неро д’Авола 100%
+  vintage: '2017'
+  price: 7508
+  stock: 104
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Nero_DAvola_Terre_di_Conventazzo_Giovanni_Sallemi_.png
+- art: '143'
+  producer: LAMORESCA
+  name: Катарратто Ламореска/Catarratto Lamoresca, бел сух 13,0% 0,75л 2022
+  region: Катания
+  grapes: Катарратто 100%
+  vintage: '2022'
+  price: 10277
+  stock: 29
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Catarratto_Lamoresca_.png
+- art: '139'
+  producer: LAMORESCA
+  name: Россо Ламореска/Rosso Lamoresca, крас сух 13,0% 0,75л 2023
+  region: Катания
+  grapes: Фраппато 50%, Неро д’Авола 45%, Гренаш 5%
+  vintage: '2023'
+  price: 7353
+  stock: 113
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Rosso_Lamoresca_.png
+- art: '141'
+  producer: LAMORESCA
+  name: Неро Россо Ламореска/Nero Rosso Lamoresca, крас сух 13,5% 0,75л 2021
+  region: Катания
+  grapes: Неро д’Авола 100%
+  vintage: '2021'
+  price: 8443
+  stock: 64
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Nero_Rosso_Lamoresca_.png
+- art: '142'
+  producer: LAMORESCA
+  name: Эльза Ламореска/Elsa Lamoresca, крас сух 14,0% 0,75л 2021
+  region: Катания
+  grapes: Нерелло Маскалезе 70%, Неро д’Авола 15%, Фраппато 15%
+  vintage: '2021'
+  price: 10277
+  stock: 27
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Elsa_Lamoresca_.png
+- art: '615'
+  producer: GAIA WINES
+  name: Монограф Мосхофилеро Гайя/Monograph Moschofilero Gaia, бел сух 12,5% 0,75л 2025
+  region: Немея
+  grapes: Мосхофилеро 100%
+  vintage: '2025'
+  price: 3281
+  stock: 1142
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Monograph_Moschofilero_Gaia.png
+- art: '599'
+  producer: GAIA WINES
+  name: Рецина Нобилис Гайя/Ritinitis Nobilis Gaia, бел сух 12,5% 0,75л 2024
+  region: Немея
+  grapes: Родитис 100%
+  vintage: '2024'
+  price: 3973
+  stock: 192
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Ritinitis_Nobilis_Gaia.png
+- art: '660'
+  producer: GAIA WINES
+  name: Рецина Нобилис Гайя/Ritinitis Nobilis Gaia, бел сух 12,5% 0,75л 2025
+  region: Немея
+  grapes: Родитис 100%
+  vintage: '2025'
+  price: 3973
+  stock: 204
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Ritinitis_Nobilis_Gaia.png
+- art: '597'
+  producer: GAIA WINES
+  name: Монограф Ассиртико Гайя/Monograph Assyrtiko Gaia, бел сух 12,5% 0,75л 2024
+  region: Санторини
+  grapes: Ассиртико 100%
+  vintage: '2024'
+  price: 4699
+  stock: 31
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Monograph_Assyrtiko_Gaia.png
+- art: '616'
+  producer: GAIA WINES
+  name: Монограф Ассиртико Гайя/Monograph Assyrtiko Gaia, бел сух 13,0% 0,75л 2025
+  region: null
+  grapes: Ассиртико 100%
+  vintage: '2025'
+  price: 4699
+  stock: 1199
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Monograph_Assyrtiko_Gaia.png
+- art: '594'
+  producer: GAIA WINES
+  name: Аммонит Гайя/Ammonite Gaia, бел сух 14,0% 0,75л 2023
+  region: Санторини
+  grapes: Ассиртико 100%
+  vintage: '2023'
+  price: 22906
+  stock: 13
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Ammonite_Gaia.png
+- art: '595'
+  producer: GAIA WINES
+  name: Винсанто 8 Еарс Гайя/Vinsanto 8 Years Gaia, бел слад 11,5% 0,5л 2015
+  region: Санторини
+  grapes: Ассиртико 100%
+  vintage: '2015'
+  price: 15765
+  stock: 28
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Vinsanto_8_Years_Gaia.png
+- art: '654'
+  producer: GAIA WINES
+  name: Розе С Гайя/Rose S Gaia, роз сух 13,0% 0,75л 2025
+  region: Немея
+  grapes: Сира 80%, Агиоргитико 20%
+  vintage: '2025'
+  price: 4521
+  stock: 283
+  photo: https://cs.hedonistwine.ru/PriceIMG/25png/Rose_S_Gaia_1.png
+- art: '601'
+  producer: GAIA WINES
+  name: Ред С Гайя/Red S Gaia, крас сух 14,5% 0,75л 2022
+  region: Немея
+  grapes: Сира 80%, Агиоргитико 20%
+  vintage: '2022'
+  price: 6236
+  stock: 49
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Red_S_Gaia.png
+- art: '655'
+  producer: GAIA WINES
+  name: Ред С Гайя/Red S Gaia, крас сух 15,0% 0,75л 2023
+  region: Немея
+  grapes: Агиоргитико 70%, Сира 30%
+  vintage: '2023'
+  price: 6236
+  stock: 360
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Red_S_Gaia.png
+- art: '602'
+  producer: GAIA WINES
+  name: Эстейт Гайя/Estate Gaia, крас сух 14,0% 0,75л 2021
+  region: Немея
+  grapes: Агиоргитико 100%
+  vintage: '2021'
+  price: 10436
+  stock: 54
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Estate_Gaia.png
+- art: '596'
+  producer: GAIA WINES
+  name: Анатоликос Гайя/Anatolikos Gaia, крас слад 12,5% 0,5л 2012
+  region: Немея
+  grapes: Агиоргитико 100%
+  vintage: '2012'
+  price: 6461
+  stock: 150
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Anatolikos_Gaia.png
+- art: '192'
+  producer: BERTRAM-BALTES
+  name: Шпетбургундер Хандверк Бертрам Балтес/Spatburgunder Handwerk Bertram Baltes, крас сух 11,0% 0,75л 2022
+  region: Ар
+  grapes: Шпетбургундер 100%
+  vintage: '2022'
+  price: 6320
+  stock: 43
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Spatburgunder_Handwerk_Bertram_Baltes_.png
+- art: '194'
+  producer: BERTRAM-BALTES
+  name: Шпетбургундер Дернауэр Бертрам Балтес/Spatburgunder Dernauer Bertram Baltes, крас сух 11,5% 0,75л 2022
+  region: Ар
+  grapes: Шпетбургундер 100%
+  vintage: '2022'
+  price: 9810
+  stock: 94
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Spatburgunder_Dernauer_Bertram_Baltes_.png
+- art: '193'
+  producer: BERTRAM-BALTES
+  name: Шпетбургундер Арвейлер Бертрам Балтес/Spatburgunder Ahrweiler Bertram Baltes, крас сух 11,5% 0,75л 2022
+  region: Ар
+  grapes: Шпетбургундер 100%
+  vintage: '2022'
+  price: 9813
+  stock: 86
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Spatburgunder_Ahrweiler_Bertram_Baltes_.png
+- art: '197'
+  producer: BERTRAM-BALTES
+  name: Шпетбургундер Арвейлер Форстберг Бертрам Балтес/Spatburgunder Ahrweiler Forstberg Bertram Baltes, крас сух 11,5% 0,75л 2022
+  region: Ар
+  grapes: Шпетбургундер 100%
+  vintage: '2022'
+  price: 12763
+  stock: 47
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Spatburgunder_Ahrweiler_Forstberg_Bertram_Baltes_.png
+- art: '195'
+  producer: BERTRAM-BALTES
+  name: Фрюбургундер Нойенарер Зонненберг Бертрам Балтес/Fruhburgunder Neuenahrer Sonnenberg Bertram Baltes, крас сух 11,5% 0,75л 2022
+  region: Ар
+  grapes: Фрюбургундер 100%
+  vintage: '2022'
+  price: 14959
+  stock: 36
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Fruhburgunder_Neuenahrer_Sonnenberg_Bertram_Baltes_.png
+- art: '196'
+  producer: BERTRAM-BALTES
+  name: Шпетбургундер Дернауэр Хардтберг Бертрам Балтес/Spatburgunder Dernauer Hardtberg Bertram Baltes, крас сух 11,5% 0,75л 2022
+  region: Ар
+  grapes: Шпетбургундер 100%
+  vintage: '2022'
+  price: 14959
+  stock: 50
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Spatburgunder_Dernauer_Hardtberg_Bertram_Baltes_.png
+- art: '186'
+  producer: VOLLENWEIDER
+  name: Рислинг Фельзенфест Волленвейдер/Riesling Felsenfest Vollenweider, бел п.сух 11,0% 0,75л 2022
+  region: Мозель
+  grapes: Рислинг 100%
+  vintage: '2022'
+  price: 5223
+  stock: 104
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Riesling_Felsenfest_Vollenweider_.png
+- art: '580'
+  producer: VOLLENWEIDER
+  name: Рислинг Вольфер Вайнгут Волленвейдер/Riesling Wolfer Weingut Vollenweider, бел сух 12,0% 0,75л 2023
+  region: Мозель
+  grapes: Рислинг 100%
+  vintage: '2023'
+  price: 6613
+  stock: 149
+  photo: https://cs.hedonistwine.ru/PriceIMG/7png/Riesling_Wolfer_Weingut_Vollenweider_1.png
+- art: '579'
+  producer: VOLLENWEIDER
+  name: Рислинг Вольфер Гельбе Вейде Волленвейдер/Riesling Wolfer Gelbe Weide Vollenweider, бел сух 12,0% 0,75л 2023
+  region: Мозель
+  grapes: Рислинг 100%
+  vintage: '2023'
+  price: 8904
+  stock: 21
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Riesling_Wolfer_Gelbe_Weide_Vollenweider_2023.png
+- art: '578'
+  producer: VOLLENWEIDER
+  name: Рислинг Трабенер Шимбок Волленвейдер/Riesling Trabener Schimbock Vollenweider, бел сух 12,0% 0,75л 2023
+  region: Мозель
+  grapes: Рислинг 100%
+  vintage: '2023'
+  price: 14095
+  stock: 60
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Riesling_Trabener_Schimbock_Vollenweider_2023.png
+- art: '187'
+  producer: VOLLENWEIDER
+  name: Рислинг Кабинет Вольфер Гольдгрубе Волленвейдер/Riesling Kabinett Wolfer Goldgrube Vollenweider, бел слад 8,0% 0,75л 2022
+  region: Мозель
+  grapes: Рислинг 100%
+  vintage: '2022'
+  price: 7161
+  stock: 299
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Riesling_Kabinett_Wolfer_Goldgrube_Vollenweider_.png
+- art: '191'
+  producer: VOLLENWEIDER
+  name: Рислинг Шпетлезе Крёвер Штеффенсберг Волленвейдер/Riesling Spatlese Krover Steffensberg Vollenweider, бел слад 8,5% 0,75л 2017
+  region: Мозель
+  grapes: Рислинг 100%
+  vintage: '2017'
+  price: 8455
+  stock: 26
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Riesling_Spatlese_Krover_Steffensberg_Vollenweider_2017.png
+- art: '190'
+  producer: VOLLENWEIDER
+  name: Рислинг Шпетлезе Вольфер Гольдгрубе Волленвейдер/Riesling Spatlese Wolfer Goldgrube Vollenweider, бел слад 8,0% 0,75л 2022
+  region: Мозель
+  grapes: Рислинг 100%
+  vintage: '2022'
+  price: 9064
+  stock: 51
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Riesling_Spatlese_Wolfer_Goldgrube_Vollenweider_2022.png
+- art: '189'
+  producer: VOLLENWEIDER
+  name: Рислинг Шпетлезе Вольфер Гольдгрубе Волленвейдер/Riesling Spatlese Wolfer Goldgrube Vollenweider, бел слад 8,5% 0,75л 2017
+  region: Мозель
+  grapes: Рислинг 100%
+  vintage: '2017'
+  price: 9680
+  stock: 51
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Riesling_Spatlese_Wolfer_Goldgrube_Vollenweider_2017.png
+- art: '384'
+  producer: HEESWEIN
+  name: Рислинг Файнхерб Хеес/Riesling Feinherb Hees, бел п.сух 11,0% 0,75л 2023
+  region: Наэ
+  grapes: Рислинг 100%
+  vintage: '2023'
+  price: 4392
+  stock: 609
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Riesling_Feinherb_Hees_.png
+- art: '508'
+  producer: HEESWEIN
+  name: Рислинг Файнхерб Хеес/Riesling Feinherb Hees, бел п.сух 11,0% 0,75л 2024
+  region: Наэ
+  grapes: Рислинг 100%
+  vintage: '2024'
+  price: 4392
+  stock: 52
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Riesling_Feinherb_Hees_.png
+- art: '382'
+  producer: HEESWEIN
+  name: Рислинг Штайнгеванн Хис/Riesling Steingewann Hees, бел сух 12,0% 0,75л 2024
+  region: Наэ
+  grapes: Рислинг 100%
+  vintage: '2024'
+  price: 4473
+  stock: 488
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Riesling_Steingewann_Hees_.png
+- art: '199'
+  producer: HEESWEIN
+  name: Вайсбургундер Штайнгеванн Хис/Weissburgunder Steingewann Hees, бел сух 12,0% 0,75л 2023
+  region: Наэ
+  grapes: Вайсбургундер 100%
+  vintage: '2023'
+  price: 4473
+  stock: 47
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Weissburgunder_Steingewann_Hees_.png
+- art: '202'
+  producer: HEESWEIN
+  name: Рислинг Ауэнар Хое Хис/Riesling Auener Hohe Hees, бел сух 12,5% 0,75л 2023
+  region: Наэ
+  grapes: Рислинг 100%
+  vintage: '2023'
+  price: 6475
+  stock: 281
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Riesling_Auener_Hohe_Hees_.png
+- art: '203'
+  producer: HEESWEIN
+  name: Вайсбургундер Ауэнар Хое Хис/Weissburgunder Auener Hohe Hees, бел сух 12,5% 0,75л 2022
+  region: Наэ
+  grapes: Вайсбургундер 100%
+  vintage: '2022'
+  price: 6718
+  stock: 104
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Weissburgunder_Auener_Hohe_Hees_.png
+- art: '204'
+  producer: HEESWEIN
+  name: Рислинг Кабинетт Ауэнар Рёмерштих Хис/Riesling Kabinett Auener Romerstich Hees, бел слад 9,5% 0,75л 2023
+  region: Наэ
+  grapes: Рислинг 100%
+  vintage: '2023'
+  price: 5963
+  stock: 115
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Riesling_Kabinett_Auener_Romerstich_Hees_.png
+- art: '205'
+  producer: HEESWEIN
+  name: Рислинг Шпетлезе Ауэнар Рёмерштих Хис/Riesling Spatlese Auener Romerstich Hees, бел слад 8,5% 0,75л 2023
+  region: Наэ
+  grapes: Рислинг 100%
+  vintage: '2023'
+  price: 7188
+  stock: 70
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Riesling_Spatlese_Auener_Romerstich_Hees_.png
+- art: '385'
+  producer: HEESWEIN
+  name: Розе Хис/Rose Hees, роз сух 12,0% 0,75л 2024
+  region: Наэ
+  grapes: Шпетбургундер 100%
+  vintage: '2024'
+  price: 4078
+  stock: 237
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Rose_Hees_.png
+- art: '519'
+  producer: PEACE & LOVE
+  name: Рислинг Пис энд Лав/Riesling Peace & Love, бел сух 12,0% 0,75л 2025
+  region: Пфальц
+  grapes: Рислинг 100%
+  vintage: '2025'
+  price: 2664
+  stock: 7820
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Riesling_Peace_Love.png
+- art: '614'
+  producer: PEACE & LOVE
+  name: Рислинг Пис энд Лав/Riesling Peace & Love, бел п.сух 12,0% 0,75л 2025
+  region: Пфальц
+  grapes: Рислинг 100%
+  vintage: '2025'
+  price: 2664
+  stock: 1418
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Riesling_Peace_Love.png
+- art: '326'
+  producer: PEACE & LOVE
+  name: Шпетбургундер Пис энд Лав/Spatburgunder Peace & Love, крас сух 12,5% 0,75л 2024
+  region: Пфальц
+  grapes: Шпетбургундер 100%
+  vintage: '2024'
+  price: 2751
+  stock: 1572
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Spatburgunder_Peace_Love.png
+- art: '624'
+  producer: PFEFFINGEN
+  name: Рислинг EИ маль 1 Пфеффинген/Riesling EY mal 1 Pfeffingen, бел сух 12,0% 0,75л 2024
+  region: Пфальц
+  grapes: Рислинг 100%
+  vintage: '2024'
+  price: 4222
+  stock: 328
+  photo: https://cs.hedonistwine.ru/PriceIMG/30png/RieslingEYmal1Pfeffingen.png
+- art: '733'
+  producer: PFEFFINGEN
+  name: Рислинг EИ маль 1 Пфеффинген/Riesling EY mal 1 Pfeffingen, бел сух 13,0% 0,75л 2025
+  region: Пфальц
+  grapes: Рислинг 100%
+  vintage: '2025'
+  price: 4222
+  stock: 300
+  photo: null
+- art: '35'
+  producer: PFEFFINGEN
+  name: Рислинг Калькштайн Пфеффинген/Riesling Kalkstein Pfeffingen, бел сух 13,0% 0,75л 2021
+  region: Пфальц
+  grapes: Рислинг 100%
+  vintage: '2021'
+  price: 5647
+  stock: 9
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Kalkstein_Riesling_Pfeffingen.png
+- art: '481'
+  producer: PFEFFINGEN
+  name: Рислинг Калькштайн Пфеффинген/Riesling Kalkstein Pfeffingen, бел сух 13,0% 0,75л 2021
+  region: Пфальц
+  grapes: Рислинг 100%
+  vintage: '2021'
+  price: 5647
+  stock: 90
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Kalkstein_Riesling_Pfeffingen.png
+- art: '482'
+  producer: PFEFFINGEN
+  name: Ротер Рислинг СП Пфеффинген/Roter Riesling SP Pfeffingen, бел сух 12,5% 0,75л 2023
+  region: Пфальц
+  grapes: Рислинг 100%
+  vintage: '2023'
+  price: 6198
+  stock: 31
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Roter_Riesling_SP_Pfeffingen.png
+- art: '480'
+  producer: PFEFFINGEN
+  name: Рислинг ГГ Херренберг Пфеффинген/Riesling GG Herrenberg Pfeffingen, бел сух 13,0% 0,75л 2022
+  region: Пфальц
+  grapes: Рислинг 100%
+  vintage: '2022'
+  price: 9865
+  stock: 27
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Herrenberg_Riesling_GG_Pfeffingen.png
+- art: '306'
+  producer: PFEFFINGEN
+  name: Шпетбургундер Альте Ребен Пфеффинген/Spatburgunder Alte Reben Pfeffingen, крас сух 13,5% 0,75л 2023
+  region: Пфальц
+  grapes: Шпетбургундер 100%
+  vintage: '2023'
+  price: 5644
+  stock: 410
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Spatburgunder_Alte_Reben_Pfeffingen_.png
+- art: '421'
+  producer: FIDESSER
+  name: Грюнер Вельтлинер Фидессер/Gruner Veltliner Fidesser, бел сух 12,5% 0,75л 2023
+  region: Вайнфиртель
+  grapes: Грюнер Вельтлинер 100%
+  vintage: '2023'
+  price: 3499
+  stock: 1985
+  photo: https://cs.hedonistwine.ru//PriceIMG/30png/GrunerVeltlinerFidesser.png
+- art: '604'
+  producer: FIDESSER
+  name: Совиньон Блан Фидессер/Sauvignon Blanc Fidesser, бел сух 13,5% 0,75л 2023
+  region: Вайнфиртель
+  grapes: Совиньон Блан 100%
+  vintage: '2023'
+  price: 4318
+  stock: 2108
+  photo: https://cs.hedonistwine.ru/PriceIMG/30png/SauvignonBlancFidesser.png
+- art: '182'
+  producer: FIDESSER
+  name: Вайсс Траминер Рид Хохвайнгартен Фидессер/Weisser Traminer Ried Hohweingarten Fidesser, бел сух 14,0% 0,75л 2022
+  region: Вайнфиртель
+  grapes: Траминер 100%
+  vintage: '2022'
+  price: 6760
+  stock: 63
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Weisser_Traminer_Ried_Hohweingarten_Fidesser_.png
+- art: '181'
+  producer: FIDESSER
+  name: Грюнер Вельтлинер Рид Капелленберг Фидессер/Gruner Veltliner Ried Kapellenberg Fidesser, бел сух 13,5% 0,75л 2022
+  region: Вайнфиртель
+  grapes: Грюнер Вельтлинер 100%
+  vintage: '2022'
+  price: 6783
+  stock: 79
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Gruner_Veltliner_Ried_Kapellenberg_Fidesser_.png
+- art: '180'
+  producer: FIDESSER
+  name: Цвайгельт Фидессер/Zweigelt Fidesser, крас сух 10,5% 0,75л 2022
+  region: Вайнфиртель
+  grapes: Цвайгельт 100%
+  vintage: '2022'
+  price: 3667
+  stock: 13
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Zweigelt_Fidesser_.png
+- art: '507'
+  producer: FIDESSER
+  name: Цвайгельт Фидессер/Zweigelt Fidesser, крас сух 11,0% 0,75л 2023
+  region: Вайнфиртель
+  grapes: Цвайгельт 100%
+  vintage: '2023'
+  price: 3667
+  stock: 1060
+  photo: https://cs.hedonistwine.ru/PriceIMG/7png/Zweigelt_Fidesser_1.png
+- art: '463'
+  producer: WIMMER-CZERNY
+  name: Грюнер Вельтлинер Ваграм Террассен Виммер Черни/Gruner Veltliner Wagram Terrassen Wimmer Czerny, бел сух 11,5% 0,75л 2023
+  region: Ваграм
+  grapes: Грюнер Вельтлинер 100%
+  vintage: '2023'
+  price: 3636
+  stock: 9
+  photo: https://cs.hedonistwine.ru/PriceIMG/7png/Gruner_Veltliner_Wagramterrassen_Wimmer-Czerny_1.png
+- art: '520'
+  producer: WIMMER-CZERNY
+  name: Грюнер Вельтлинер Ваграм Террассен Виммер Черни/Gruner Veltliner Wagram Terrassen Wimmer Czerny, бел сух 12,0% 0,75л 2024
+  region: Ваграм
+  grapes: Грюнер Вельтлинер 100%
+  vintage: '2024'
+  price: 3636
+  stock: 1231
+  photo: https://cs.hedonistwine.ru/PriceIMG/7png/Gruner_Veltliner_Wagramterrassen_Wimmer-Czerny_1.png
+- art: '70'
+  producer: WIMMER-CZERNY
+  name: Грюнер Вельтлинер Фумберг Виммер Черни/Gruner Veltliner Fumberg Wimmer Czerny, бел сух 12,5% 0,75л 2023
+  region: Ваграм
+  grapes: Грюнер Вельтлинер 100%
+  vintage: '2023'
+  price: 3950
+  stock: 59
+  photo: https://cs.hedonistwine.ru/PriceIMG/7png/Gruner_Veltliner_Fumberg_Wimmer-Czerny_1.png
+- art: '521'
+  producer: WIMMER-CZERNY
+  name: Грюнер Вельтлинер Фумберг Виммер Черни/Gruner Veltliner Fumberg Wimmer Czerny, бел сух 12,5% 0,75л 2024
+  region: Ваграм
+  grapes: Грюнер Вельтлинер 100%
+  vintage: '2024'
+  price: 3950
+  stock: 338
+  photo: https://cs.hedonistwine.ru/PriceIMG/7png/Gruner_Veltliner_Fumberg_Wimmer-Czerny_1.png
+- art: '523'
+  producer: WIMMER-CZERNY
+  name: Ротер Вельтлинер Фельц ам Ваграм Виммер Черни/Roter Veltliner Fels am Wagram Wimmer Czerny, бел сух 12,5% 0,75л 2024
+  region: Ваграм
+  grapes: Ротер Вельтлинер 100%
+  vintage: '2024'
+  price: 4029
+  stock: 117
+  photo: https://cs.hedonistwine.ru/PriceIMG/24png/Roter_Veltliner_Fels_am_Wagram_Wimmer_Czerny.png
+- art: '32'
+  producer: WIMMER-CZERNY
+  name: Рислинг Вейфель Виммер Черни/Riesling Weelfel Wimmer Czerny, бел сух 12,5% 0,75л 2021
+  region: Ваграм
+  grapes: Рислинг 100%
+  vintage: '2021'
+  price: 4123
+  stock: 6
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Riesling_Weelfel_Wimmer_Czerny.png
+- art: '522'
+  producer: WIMMER-CZERNY
+  name: Грюнер Вельтлинер Альта Ребен Вейфель Виммер Черни/Gruner Veltliner Alte Reben Weelfel Wimmer Czerny, бел сух 13,0% 0,75л 2019
+  region: Ваграм
+  grapes: Грюнер Вельтлинер 100%
+  vintage: '2019'
+  price: 5166
+  stock: 60
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Gruner_Veltliner_Alte_Reben_Weelfel_Wimmer_Czerny.png
+- art: '464'
+  producer: WIMMER-CZERNY
+  name: Цвайгельт Виммер Черни/Zweigelt Wimmer Czerny, крас сух 12,5% 0,75л 2021
+  region: Ваграм
+  grapes: Цвайгельт 100%
+  vintage: '2021'
+  price: 3719
+  stock: 1033
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Zweigelt_Wimmer_Czerny.png
+- art: '434'
+  producer: SILVER CREEK
+  name: Шардоне Сильвер Крик/Chardonnay Silver Creek, бел сух 13,5% 0,75л 2023
+  region: Центральная долина
+  grapes: Шардоне 100%
+  vintage: '2023'
+  price: 3999
+  stock: 1066
+  photo: https://cs.hedonistwine.ru//PriceIMG/30png/ChardonnaySilverCreek.png
+- art: '325'
+  producer: SILVER CREEK
+  name: Каберне Совиньон Сильвер Крик/Cabernet Sauvignon Silver Creek, крас сух 13,0% 0,75л 2022
+  region: Центральная долина
+  grapes: Каберне Совиньон 100%
+  vintage: '2022'
+  price: 3999
+  stock: 1650
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Cabernet_Sauvignon_Silver_Creek_.png
+- art: '435'
+  producer: SILVER CREEK
+  name: Мерло Сильвер Крик/Merlot Silver Creek, крас сух 13,0% 0,75л 2023
+  region: Центральная долина
+  grapes: Мерло 100%
+  vintage: '2023'
+  price: 3999
+  stock: 1287
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Merlot_Silver_Creek_.png
+- art: '320'
+  producer: PURE BRED
+  name: Шардоне Пьюр Бред/Chardonnay Pure Bred, бел сух 13,4% 0,75л 2023
+  region: Лодай
+  grapes: Шардоне 100%
+  vintage: '2023'
+  price: 6161
+  stock: 2242
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Chardonnay_Pure_Bred_2023.png
+- art: '321'
+  producer: PURE BRED
+  name: Зинфандель Олд Вайн Пьюр Бред/Zinfandel Old Vine Pure Bred, крас сух 14,8% 0,75л 2022
+  region: Лодай
+  grapes: Зинфандель 100%
+  vintage: '2022'
+  price: 6173
+  stock: 1122
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Zinfandel_Old_Vine_Pure_Bred_.png
+- art: '322'
+  producer: PURE BRED
+  name: Каберне Совиньон Норд Кост Пьюр Бред/Cabernet Sauvignon Nord Coast Pure Bred, крас сух 14,0% 0,75л 2022
+  region: Лодай
+  grapes: Каберне Совиньон 100%
+  vintage: '2022'
+  price: 6892
+  stock: 151
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Cabernet_Sauvignon_Nord_Coast_Pure_Bred_.png
+- art: '562'
+  producer: PURE BRED
+  name: Каберне Совиньон Пьюр Бред Норд Кост/Cabernet Sauvignon Pure Bred Nord Coast, крас сух 14,0% 0,75л 2023
+  region: Лоди
+  grapes: Каберне Совиньон 100%
+  vintage: '2023'
+  price: 6892
+  stock: 600
+  photo: https://cs.hedonistwine.ru/PriceIMG/60png/Cabernet_Sauvignon_Nord_Coast_Pure_Bred_.png
+- art: '564'
+  producer: THE CRITIC
+  name: Совиньон Блан Критик/Sauvignon Blanc The Critic, бел сух 13,5% 0,75л 2024
+  region: Мальборо
+  grapes: Совиньон Блан 100%
+  vintage: '2024'
+  price: 2600
+  stock: 167
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Sauvignon_Blanc_The_Critic_2024.png
+- art: '546'
+  producer: UZUNASHVILI
+  name: Киси Узунашвили/Kisi Uzunashvili, бел сух 13,0% 0,75л 2023
+  region: Кахетия
+  grapes: Киси 100%
+  vintage: '2023'
+  price: 3288
+  stock: 84
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Kisi_Uzunashvili_2023.png
+- art: '748'
+  producer: UZUNASHVILI
+  name: Киси Узунашвили /Kisi Uzunashvili, бел сух 12,0% 0,75л 2024
+  region: Кахетия
+  grapes: Киси 100%
+  vintage: '2024'
+  price: 3288
+  stock: 900
+  photo: https://cs.hedonistwine.ru/PriceIMG/25png/Kisi_Uzunashvili_1.png
+- art: '548'
+  producer: UZUNASHVILI
+  name: Мцване Узунашвили/Mtsvane Uzunashvili, бел сух 13,0% 0,75л 2020
+  region: Кахетия
+  grapes: Мцване 100%
+  vintage: '2020'
+  price: 3288
+  stock: 261
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Mtsvane_Uzunashvili_2020.png
+- art: '750'
+  producer: UZUNASHVILI
+  name: Мцване Узунашвили /Mtsvane Uzunashvili, бел сух 12,0% 0,75л 2021
+  region: Кахетия
+  grapes: Мцване 100%
+  vintage: '2021'
+  price: 3288
+  stock: 594
+  photo: https://cs.hedonistwine.ru/PriceIMG/25png/Mtsvane_Uzunashvili_1.png
+- art: '547'
+  producer: UZUNASHVILI
+  name: Саперави Узунашвили/Saperavi Uzunashvili, крас сух 14,0% 0,75л 2020
+  region: Кахетия
+  grapes: Саперави 100%
+  vintage: '2020'
+  price: 3688
+  stock: 196
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Saperavi_Uzunashvili_2020.png
+- art: '749'
+  producer: UZUNASHVILI
+  name: Саперави Узунашвили /Saperavi Uzunashvili, крас сух 12,5% 0,75л 2023
+  region: Кахетия
+  grapes: Саперави 100%
+  vintage: '2023'
+  price: 3688
+  stock: 900
+  photo: null
+- art: '588'
+  producer: LALEBI
+  name: Ркацители Лалеби/Rkatsiteli Lalebi, бел сух 13,0% 0,75л 2024
+  region: Кахетия
+  grapes: Ркацители 100%
+  vintage: '2024'
+  price: 1500
+  stock: 1134
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Rkatsiteli_Lalebi_2024.png
+- art: '752'
+  producer: LALEBI
+  name: Ркацители Лалеби/Rkatsiteli Lalebi, бел сух 12,5% 0,75л 2024
+  region: Кахетия
+  grapes: Ркацители 100%
+  vintage: '2024'
+  price: 1500
+  stock: 2400
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Rkatsiteli_Lalebi_2024.png
+- art: '583'
+  producer: LALEBI
+  name: Ркацители Квеври Лалеби/Rkatsiteli Qvevri Lalebi, бел сух 12,0% 0,75л 2024
+  region: Кахетия
+  grapes: Ркацители 100%
+  vintage: '2024'
+  price: 2600
+  stock: 416
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Rkatsiteli_Qvevri_Lalebi_2024.png
+- art: '751'
+  producer: LALEBI
+  name: Ркацители Квеври Лалеби/Rkatsiteli Qvevri Lalebi, бел сух 12,5% 0,75л 2024
+  region: Кахетия
+  grapes: Ркацители 100%
+  vintage: '2024'
+  price: 2600
+  stock: 540
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Rkatsiteli_Qvevri_Lalebi_2024.png
+- art: '584'
+  producer: LALEBI
+  name: Чинури Лалеби/Chinuri Lalebi, бел сух 12,0% 0,75л 2022
+  region: Картли
+  grapes: Чинури 100%
+  vintage: '2022'
+  price: 2800
+  stock: 445
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Chinuri_Lalebi_2022.png
+- art: '582'
+  producer: LALEBI
+  name: Хихви Лалеби/Khikhvi Lalebi, бел сух 12,0% 0,75л 2021
+  region: Кахетия
+  grapes: Хихви 100%
+  vintage: '2021'
+  price: 2800
+  stock: 520
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Khikhvi_Lalebi_2021.png
+- art: '587'
+  producer: LALEBI
+  name: Саперави Лалеби/Saperavi Lalebi, крас сух 12,5% 0,75л 2024
+  region: Кахетия
+  grapes: Саперави 100%
+  vintage: '2024'
+  price: 1700
+  stock: 2268
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Saperavi_Lalebi_2024.png
+- art: '755'
+  producer: LALEBI
+  name: Мукузани Лалеби/Mukuzani Lalebi, крас сух 13,0% 0,75л 2023
+  region: Кахетия
+  grapes: Саперави 100%
+  vintage: null
+  price: 2700
+  stock: 1080
+  photo: https://cs.hedonistwine.ru/PriceIMG/25png/Mukuzani_Lalebi_1.png
+- art: '586'
+  producer: LALEBI
+  name: Саперави Квеври Лалеби/Saperavi Qvevri Lalebi, крас сух 13,0% 0,75л 2024
+  region: Кахетия
+  grapes: Саперави 100%
+  vintage: '2024'
+  price: 2800
+  stock: 496
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Saperavi_Qvevri_Lalebi_2024.png
+- art: '585'
+  producer: LALEBI
+  name: Ахоеби Лалеби/Akhoebi Lalebi, крас сух 12,5% 0,75л 2023
+  region: Кахетия
+  grapes: Саперави 100%
+  vintage: '2023'
+  price: 2999
+  stock: 1020
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr01-03_26_G01/PNG/Akhoebi_Lalebi_2023.png
+- art: '753'
+  producer: LALEBI
+  name: Киндзмараули Лалеби/Kindzmarauli Lalebi, крас п.слад 11,0% 0,75л 2024
+  region: Кахетия
+  grapes: Саперави 100%
+  vintage: '2024'
+  price: 2700
+  stock: 1071
+  photo: https://cs.hedonistwine.ru/PriceIMG/25png/Kindzmarauli_Lalebi_1.png
+- art: '754'
+  producer: LALEBI
+  name: Хванчкара Лалеби/Khvanchkara Lalebi, крас п.слад 11,5% 0,75л 2024
+  region: Рача
+  grapes: Александроули 70%, Муджуретули 30%
+  vintage: '2024'
+  price: 3300
+  stock: 1077
+  photo: https://cs.hedonistwine.ru/PriceIMG/25png/Khvanchkara_Lalebi_1.png
+- art: '664'
+  producer: АВАНТЮРИСТ
+  name: Совиньон Блан Авантюрист, бел сух 11,0% 0,75л 2025
+  region: Станица Раевская
+  grapes: Совиньон Блан 100%
+  vintage: '2025'
+  price: 1444
+  stock: 1554
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Sauvignon_Blanc_Avanturist.png
+- art: '607'
+  producer: АВАНТЮРИСТ
+  name: Шардоне Резерв Авантюрист, бел сух 13,0% 0,75л 2024
+  region: Станица Раевская
+  grapes: Шардоне 100%
+  vintage: '2024'
+  price: 1799
+  stock: 891
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Chardonnay_Reserve_Avanturist.png
+- art: '222'
+  producer: АВАНТЮРИСТ
+  name: Каберне Совиньон Авантюрист, крас сух 13,5% 0,75л 2022
+  region: Станица Раевская
+  grapes: Каберне Совиньон 100%
+  vintage: '2022'
+  price: 1444
+  stock: 821
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Cabernet_Sauvignon_Avanturist.png
+- art: '316'
+  producer: АВАНТЮРИСТ
+  name: Каберне Совиньон Резерв Авантюрист, крас сух 14,0% 0,75л 2023
+  region: Станица Раевская
+  grapes: Каберне Совиньон 100%
+  vintage: '2023'
+  price: 1799
+  stock: 810
+  photo: https://cs.hedonistwine.ru/PriceIMG/176png/Cabernet_Sauvignon_Reserve_Avanturist.png
+- art: '628'
+  producer: MAISON SHONIA
+  name: Шардоне Энтенс Мезон Шония, бел сух 13,0% 0,75л 2024
+  region: Верхнесадовое
+  grapes: Шардоне 100%
+  vintage: '2024'
+  price: 4800
+  stock: 685
+  photo: https://cs.hedonistwine.ru/PriceIMG/tr07-25/PNG/Shardone_Entens_Mezon_Shoniya.png
+- art: '648'
+  producer: MAISON SHONIA
+  name: Пино Блан Мезон Шония, бел сух 13,5% 0,75л 2023
+  region: Верхнесадовое
+  grapes: Пино Блан 100%
+  vintage: '2023'
+  price: 4800
+  stock: 423
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Maison_Shonia_Dantes_Peak_2023.png
+- art: '612'
+  producer: ВЛАДИМИР БОНДАРЧУК
+  name: Рислинг Цитрусы Владимир Бондарчук, бел сух 12,7% 0,75л 2024
+  region: Долина Реки Кача
+  grapes: Рислинг Рейнский 100%
+  vintage: '2024'
+  price: 4250
+  stock: 354
+  photo: https://cs.hedonistwine.ru/PriceIMG/24png/Risling_tcitrusy_Vladimir_Bondarchuk.png
+- art: '646'
+  producer: ВЛАДИМИР БОНДАРЧУК
+  name: Рислинг Владимир Бондарчук, бел сух 12,4% 0,75л 2023
+  region: Долина Реки Кача
+  grapes: Рислинг Рейнский 100%
+  vintage: '2023'
+  price: 5150
+  stock: 205
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Riesling_Bondarchuk_2023.png
+- art: '647'
+  producer: ВЛАДИМИР БОНДАРЧУК
+  name: Кокур Владимир Бондарчук, бел сух 12,8% 0,75л 2023
+  region: Долина Реки Кача
+  grapes: Кокур белый 100%
+  vintage: '2023'
+  price: 5150
+  stock: 77
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Kokur_Bondarchuk_2023.png
+- art: '609'
+  producer: ВЛАДИМИР БОНДАРЧУК
+  name: Шардоне Дрожжи-Бочки Владимир Бондарчук, бел сух 12,0% 0,75л 2024
+  region: Долина Реки Кача
+  grapes: Шардоне 100%
+  vintage: '2024'
+  price: 8300
+  stock: 157
+  photo: https://cs.hedonistwine.ru/PriceIMG/24png/Shardone_Drozhzhi-Bochki_Vladimir_Bondarchuk.png
+- art: '610'
+  producer: ВЛАДИМИР БОНДАРЧУК
+  name: Шардоне Холодное Брожение Владимир Бондарчук, бел сух 12,0% 0,75л 2024
+  region: Долина Реки Кача
+  grapes: Шардоне 100%
+  vintage: '2024'
+  price: 10500
+  stock: 65
+  photo: https://cs.hedonistwine.ru/PriceIMG/24png/Shardone_Holodnoe_Brozhenie_Vladimir_Bondarchuk.png
+- art: '608'
+  producer: ВЛАДИМИР БОНДАРЧУК
+  name: Каберне Совиньон Владимир Бондарчук, крас сух 13,7% 0,75л 2023
+  region: Долина Реки Кача
+  grapes: Каберне Совиньон 100%
+  vintage: '2023'
+  price: 4250
+  stock: 409
+  photo: https://cs.hedonistwine.ru/PriceIMG/24png/Kaberne_Sovinon_Vladimir_Bondarchuk.png
+- art: '645'
+  producer: ВЛАДИМИР БОНДАРЧУК
+  name: Романтик Владимир Бондарчук, крас сух 13,9% 0,75л 2023
+  region: Долина Реки Кача
+  grapes: Сира 72%, Каберне Совиньон 28%
+  vintage: '2023'
+  price: 6250
+  stock: 388
+  photo: https://cs.hedonistwine.ru/PriceIMG/01-26-83png/Romantik_Bondarchuk_2023.png
+- art: '657'
+  producer: ЯЙЛА
+  name: Мускат Оранж Яйла, бел сух 11,4% 0,75л 2025
+  region: Севастополь
+  grapes: Мускат белый 50%, Мускат белый 50%
+  vintage: '2025'
+  price: 4800
+  stock: 554
+  photo: https://cs.hedonistwine.ru/PriceIMG/Yayla/Muscat_Orange_Yayla_1.png
+- art: '658'
+  producer: ЯЙЛА
+  name: Рислинг Яйла, бел п.сух 11,7% 0,75л 2025
+  region: Севастополь
+  grapes: Рислинг Рейнский 100%
+  vintage: '2025'
+  price: 4800
+  stock: 589
+  photo: https://cs.hedonistwine.ru/PriceIMG/Yayla/Riesling_Yayla_1.png
+- art: '656'
+  producer: ЯЙЛА
+  name: Мальбек Яйла, крас сух 11,0% 0,75л 2025
+  region: Севастополь
+  grapes: Мальбек 100%
+  vintage: '2025'
+  price: 4800
+  stock: 550
+  photo: https://cs.hedonistwine.ru/PriceIMG/Yayla/Malbec_Yayla_1.png
+- art: Арт.
+  producer: ЯЙЛА
+  name: Наименование
+  region: Регион
+  grapes: Сортовой состав
+  vintage: Год урожая
+  price: 'Цена '
+  stock: Остаток
+  photo: null
+- art: '375'
+  producer: PODERI COLLA
+  name: Вермут Бонме Подери Колла/Vermouth Bonme Poderi Colla, бел слад 14,8% 0,5л 2022
+  region: Пьемонт
+  grapes: Москато 100%
+  vintage: '2022'
+  price: 11196
+  stock: 40
+  photo: https://cs.hedonistwine.ru/PriceIMG/24png/Vermouth_Bonme_Poderi_Colla.png
