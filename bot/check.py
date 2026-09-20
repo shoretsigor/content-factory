@@ -14,6 +14,24 @@ BANNED = ("уникальн", "изысканн", "танец вкус", "в к�
           "беспроигрышн", "легендарн", "культов", "роскошн")
 FAKE_SENSORY = (r"\bя\s+(открыл|попробовал|пил|почувствовал)", r"на вкус мне", r"мы пробовали")
 
+# Конструкции, которые вычищались вручную и возвращались. Список ведётся
+# по факту ошибок; пояснения в bot/generator-brief.md.
+ANTITHESIS = (
+    (r"[Нн]е\s+[^.,;:]{1,45},\s+а\s+[^.]{1,60}", "антитеза «не X, а Y»"),
+    (r"[^.!?]{0,70},\s+а\s+не\s+[^.!?]{1,55}", "антитеза «X, а не Y»"),
+    (r"[Нн]е только[^.]{1,70},\s*(?:но|а)\s", "антитеза «не только X, но и Y»"),
+    (r"[Вв]опрос не в том", "антитеза «вопрос не в том»"),
+    (r"[Рр]азница не в\b", "антитеза «разница не в»"),
+    (r"[Сс]мысл не в\b", "антитеза «смысл не в»"),
+)
+SCAFFOLDING = (
+    "теперь практическая часть", "проверим, что здесь правда", "от чего зависит ответ",
+    "смысл такого раздвоения", "отсюда понятно", "стоит понимать, что",
+)
+# Гарантии состояния бутылки запрещены политикой, раздел 9.4
+GUARANTEES = ("готово к употреблению", "готова к употреблению", "гарантированно",
+              "точно понравится", "будет храниться")
+
 
 def main() -> int:
     catalogue = yaml.safe_load((ROOT / "sources" / "wines.yml").read_text(encoding="utf-8"))["wines"]
@@ -60,6 +78,19 @@ def main() -> int:
         for pattern in FAKE_SENSORY:
             if re.search(pattern, body.lower()):
                 problems.append(f"{path.name}: дегустация от первого лица")
+        for pattern, name in ANTITHESIS:
+            for found in re.findall(pattern, body):
+                problems.append(f"{path.name}: {name}")
+        for phrase in SCAFFOLDING:
+            if phrase in body.lower():
+                problems.append(f"{path.name}: служебная связка «{phrase}»")
+        for phrase in GUARANTEES:
+            if phrase in body.lower():
+                problems.append(f"{path.name}: гарантия состояния бутылки «{phrase}»")
+        if body.count("—") > 3:
+            problems.append(f"{path.name}: тире {body.count('—')} штук, норма до трёх")
+        if sum(1 for p in body.split("\n\n") if p.startswith("<b>")) > 1:
+            problems.append(f"{path.name}: жирные врезки в начале абзацев")
         if meta.get("sensory_basis") == "none" and meta.get("status") == "ready":
             pass  # допустимо: пост без сенсорного блока
 
