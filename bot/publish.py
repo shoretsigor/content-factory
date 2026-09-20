@@ -47,7 +47,8 @@ def get_date() -> date:
 
 def is_active_day(day: date, config: dict) -> bool:
     delta = (day - config["start_date"]).days
-    return delta >= 0 and delta % config["publication_day_interval"] == 0
+    rhythm = config["rhythm"]
+    return delta >= 0 and delta % rhythm["cycle_days"] in rhythm["active_offsets"]
 
 
 def parse_post(path: Path) -> tuple[str, dict]:
