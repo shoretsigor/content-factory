@@ -148,6 +148,7 @@ wines:
   color: Шампанское
   group: Франция
   raw: Dom Perignon 2013
+  used: '2026-10-18'
 - id: w020
   name: Rose Brut Chanoine Freres
   vintage: NV
@@ -169,6 +170,7 @@ wines:
   color: Розовое игристое
   group: Франция
   raw: Rose de Saignee La Villeseniere 2016
+  used: '2026-10-28'
 - id: w023
   name: Blanc de Blancs Brut Tete de Cheval
   vintage: NV
@@ -294,6 +296,7 @@ wines:
   color: Белое
   group: Италия
   raw: Lafoa Sauvignon Colterenzio 2023, Alto Adige
+  used: '2026-10-22'
 - id: w040
   name: Gavi dei Gavi Etichetta Nera La Scolca
   vintage: '2024'
@@ -530,6 +533,7 @@ wines:
   color: Белое
   group: Остальная Европа
   raw: Riesling Beurer 2022, Württemberg, Germany
+  used: '2026-10-26'
 - id: w071
   name: Riesling GG Herrenberg Pfeffingen
   vintage: '2022'
@@ -1002,6 +1006,7 @@ wines:
   color: Красное
   group: Франция
   raw: Chateau Pape-Clement 2014, Pessac-Leognan, Bordeaux
+  used: '2026-10-24'
 - id: w134
   name: Corton-Marechaudes Grand Cru Domaine Doudet - Naudin
   vintage: '2021'
@@ -1067,6 +1072,7 @@ wines:
   color: Красное
   group: Остальная Европа
   raw: Blaufrankish Prellenkirchen Samt & Seide Dorli Muhr 2022, Carnuntum, Austria
+  used: '2026-10-20'
 - id: w143
   name: Protos '27
   vintage: null
@@ -1280,6 +1286,7 @@ wines:
   color: Оранжевое
   group: Оранжевое
   raw: Traminer Uncensored Bikicki 2021, Srem, Serbia
+  used: '2026-10-16'
 - id: w173
   name: Pinot Noir Rose Noble Selection Golubitskoe Estate
   vintage: '2023'
