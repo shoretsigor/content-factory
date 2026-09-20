@@ -200,6 +200,7 @@ wines:
   group: Игристое
   raw: Cava Brut Reserva Sumarroca 2021, Catalunia, Spain
   photo_ambiguous: true
+  used: '2026-10-25'
 - id: w027
   name: Blanc de Noirs Brut Usadba Divnomorskoe
   vintage: NV
@@ -350,6 +351,7 @@ wines:
   color: Белое
   group: Франция
   raw: Chardonnay Belles de Vigne Cazaban 2022, Languedoc, France
+  used: '2026-11-01'
 - id: w047
   name: Muscadet Sevre et Maine sur Lie la Mariniere
   vintage: '2023'
@@ -484,7 +486,7 @@ wines:
   color: Белое
   group: Франция
   raw: Chassagne-Montrachet Les Concis du Champs Domaine Hubert Lamy 2021, Bourgogne
-  photo_ambiguous: true
+  used: '2026-10-23'
 - id: w065
   name: Corton-Charlemagne Grand Cru Domaine Antonin Guyon
   vintage: '2022'
@@ -509,6 +511,7 @@ wines:
   color: Белое
   group: Остальная Европа
   raw: Gruner Veltliner Sonnhof 2022, Austria
+  used: '2026-10-29'
 - id: w068
   name: Weissburgunder Steingewann Hees
   vintage: '2023'
@@ -799,6 +802,7 @@ wines:
   group: Италия
   raw: Barolo Bussia Giacomo Fenocchio 2018, Piemonte
   photo_ambiguous: true
+  used: '2026-10-22'
 - id: w106
   name: Vignavento (Sangiovese Grosso) Enrico Fossi
   vintage: '2018'
@@ -899,6 +903,7 @@ wines:
   color: Красное
   group: Франция
   raw: Syrah Les Vignes d'a Cote Collines Rhodaniennes Yves Cuilleron 2023, Rhone
+  used: '2026-10-26'
 - id: w119
   name: Marcillac V.V. Domaine du Cros
   vintage: '2018'
@@ -913,6 +918,7 @@ wines:
   color: Красное
   group: Франция
   raw: Bourgogne Pinot Noir Domaine Bony Gachot 2023, Bourgogne
+  used: '2026-10-31'
 - id: w121
   name: Chateau Citran
   vintage: '2021'
@@ -1316,6 +1322,7 @@ wines:
   color: Розовое
   group: Розовое
   raw: Susucaru Rosato Frank Cornelissen 2024, Sicilia, Italy
+  used: '2026-10-20'
 - id: w177
   name: Cava Brut Josep Ventosa
   vintage: NV
@@ -1351,6 +1358,7 @@ wines:
   color: Магнум
   group: Магнум
   raw: Reserva Vina Real 2014, Rioja, Spain
+  used: '2026-10-28'
 - id: w182
   name: Reserva Protos
   vintage: '2015'
