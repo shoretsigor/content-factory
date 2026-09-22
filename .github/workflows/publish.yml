@@ -1,19 +1,21 @@
 name: Публикация в Telegram
 
-# Запускается каждый день в оба слота, но publish.py сам решает, публикационный
-# ли сегодня день (start_date + 2 x n из channel.yml). В неактивный день выходит молча.
+# Запуск ежечасный, потому что GitHub задерживает cron на часы, а иногда
+# пропускает целиком: наблюдались опоздания до семи часов и полный пропуск дня.
+# Слот выбирает publish.py по московскому времени, любой поздний запуск
+# догоняет пропущенный слот. Повторной отправки не будет: опубликованный
+# файл уезжает в published/, и следующий час его уже не находит.
 on:
   schedule:
-    - cron: '0 9 * * *'    # 12:00 МСК — основной пост
-    - cron: '0 16 * * *'   # 19:00 МСК — дополнение, если оно подготовлено
+    - cron: '0 * * * *'
   workflow_dispatch:
     inputs:
       slot:
-        description: 'Слот'
+        description: 'Слот (по умолчанию определяется по времени)'
         required: false
-        default: 'main'
+        default: ''
         type: choice
-        options: [main, companion]
+        options: ['', main, companion]
       date:
         description: 'Дата поста (YYYY-MM-DD) — для пропущенного выпуска'
         required: false
@@ -29,16 +31,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Определить слот
-        run: |
-          if [ "${{ github.event.schedule }}" = "0 9 * * *" ]; then
-            echo "SLOT=main" >> $GITHUB_ENV
-          elif [ "${{ github.event.schedule }}" = "0 16 * * *" ]; then
-            echo "SLOT=companion" >> $GITHUB_ENV
-          else
-            echo "SLOT=${{ github.event.inputs.slot || 'main' }}" >> $GITHUB_ENV
-          fi
-
       - name: Python
         uses: actions/setup-python@v5
         with:
@@ -51,6 +43,7 @@ jobs:
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
+          SLOT: ${{ github.event.inputs.slot }}
           DATE: ${{ github.event.inputs.date }}
         run: python bot/publish.py
 
@@ -59,5 +52,5 @@ jobs:
           git config user.name "Content Factory Bot"
           git config user.email "bot@content-factory"
           git add posts/ published/
-          git diff --cached --quiet || git commit -m "Опубликован пост $(date +'%Y-%m-%d'), слот ${SLOT}"
+          git diff --cached --quiet || git commit -m "Опубликован пост $(date +'%Y-%m-%d')"
           git push

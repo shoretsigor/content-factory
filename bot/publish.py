@@ -3,6 +3,7 @@ import re
 import shutil
 from datetime import date, datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import requests
 import yaml
@@ -31,11 +32,19 @@ def load_config() -> dict:
     return yaml.safe_load(CONFIG_PATH.read_text(encoding="utf-8"))
 
 
-def get_slot() -> str:
-    slot = os.environ.get("SLOT")
-    if slot not in SLOTS:
-        raise ValueError(f"SLOT должен быть main или companion, получено: {slot!r}")
-    return slot
+def due_slots(config: dict) -> list[str]:
+    """Слоты, время которых сегодня уже наступило, в порядке возрастания.
+
+    Запуск идёт ежечасно, потому что GitHub задерживает cron на часы, а то и
+    пропускает его целиком. Любой поздний запуск догоняет пропущенный слот.
+    """
+    now = datetime.now(ZoneInfo(config["timezone"]))
+    passed = []
+    for name, slot in config["slots"].items():
+        hours, minutes = (int(x) for x in slot["time"].split(":"))
+        if (now.hour, now.minute) >= (hours, minutes):
+            passed.append(((hours, minutes), name))
+    return [name for _, name in sorted(passed)]
 
 
 def get_date() -> date:
@@ -116,27 +125,15 @@ def archive(post_path: Path, image: Path | None) -> None:
         shutil.move(str(image), str(PUBLISHED_DIR / image.name))
 
 
-def main():
-    config = load_config()
-    slot = get_slot()
-    day = get_date()
-
-    if not is_active_day(day, config):
-        print(f"{day} — не публикационный день, пропускаем")
-        return
-
+def publish_slot(day: date, slot: str) -> bool:
     post_path = POSTS_DIR / f"{day}-{slot}.md"
     if not post_path.exists():
-        if slot == "companion":
-            print(f"Дополнения на {day} нет — штатный пропуск")
-        else:
-            print(f"✗ Нет основного поста на {day}: {post_path.name}")
-        return
+        return False
 
     body, meta = parse_post(post_path)
     if meta.get("status") != "ready":
         print(f"Статус {meta.get('status')!r}, не публикуем: {post_path.name}")
-        return
+        return False
 
     image = find_image(post_path)
     result = send_message(body, image)
@@ -147,6 +144,33 @@ def main():
     record_publication(post_path, result)
     archive(post_path, image)
     print(f"✓ Опубликован {slot} {day}: {meta.get('wine', '?')} ({len(body)} знаков)")
+    return True
+
+
+def main():
+    config = load_config()
+    day = get_date()
+
+    if not is_active_day(day, config):
+        print(f"{day} — не публикационный день, пропускаем")
+        return
+
+    override = os.environ.get("SLOT")
+    if override:
+        if override not in SLOTS:
+            raise ValueError(f"SLOT должен быть main или companion, получено: {override!r}")
+        slots = [override]
+    else:
+        slots = due_slots(config)
+        if not slots:
+            print(f"{day} — время первого слота ещё не наступило")
+            return
+
+    # первый же слот с готовым файлом: так поздний запуск догоняет пропущенный
+    for slot in slots:
+        if publish_slot(day, slot):
+            return
+    print(f"{day} — готовых материалов в слотах {', '.join(slots)} нет")
 
 
 if __name__ == "__main__":
