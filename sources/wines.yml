@@ -59,6 +59,7 @@ wines:
   color: Розовое игристое
   group: Италия
   raw: Rose Brut Franciacorta Cuvee Prestige Ca'Del Bosco NV, Lombardia
+  used: '2026-11-03'
 - id: w008
   name: Brut Petronille Alain Bailly
   vintage: NV
@@ -156,6 +157,7 @@ wines:
   color: Розовое игристое
   group: Франция
   raw: Rose Brut Chanoine Freres NV
+  used: '2026-11-06'
 - id: w021
   name: Brut Rose de Saignee Premier Cru Geoffroy
   vintage: NV
@@ -755,6 +757,7 @@ wines:
   color: Красное
   group: Италия
   raw: Villa Donoratico Tenuta Argentiera 2022, Toscsana
+  used: '2026-11-07'
 - id: w100
   name: Gattinara Travaglini
   vintage: '2021'
@@ -947,6 +950,7 @@ wines:
   color: Красное
   group: Франция
   raw: Closerie Saint Roc 2019, Bordeaux
+  used: '2026-11-04'
 - id: w125
   name: Crozes-Hermitage Rouge Domaine Marc Sorrel
   vintage: '2023'
