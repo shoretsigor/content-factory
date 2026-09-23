@@ -75,3 +75,7 @@
 | WIMMER-CZERNY | ВИММЕР ЧЕРНИ |
 | АВАНТЮРИСТ | АВАНТЮРИСТ |
 | ВЛАДИМИР БОНДАРЧУК | ВЛАДИМИР БОНДАРЧУК |
+
+## Уточнения идентификации
+
+**MICHEL GUIGNIER** — производитель вин **Les Améthystes**. Владелец подтвердил это 23 сентября 2026 года. Официальные сайты: [Michel Guignier — Les Améthystes](https://www.michelguignier.fr/) и [Morgon Michel Guignier](https://morgon-michel-guignier.fr/). В ассортименте есть Beaujolais, Mâcon-Villages, Morgon Canon и Côte du Py. При исследовании не переносить на него сведения о тёзке из Vauxrenard. Les Améthystes также работает с другими производителями: [описание линейки](https://morgon-michel-guignier.fr/amethystes/), поэтому происхождение каждого кюве проверять отдельно.
