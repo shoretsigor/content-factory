@@ -59,7 +59,7 @@ wines:
   color: Розовое игристое
   group: Италия
   raw: Rose Brut Franciacorta Cuvee Prestige Ca'Del Bosco NV, Lombardia
-  used: '2026-11-03'
+  used: '2026-12-01'
 - id: w008
   name: Brut Petronille Alain Bailly
   vintage: NV
@@ -157,7 +157,7 @@ wines:
   color: Розовое игристое
   group: Франция
   raw: Rose Brut Chanoine Freres NV
-  used: '2026-11-06'
+  used: '2026-12-08'
 - id: w021
   name: Brut Rose de Saignee Premier Cru Geoffroy
   vintage: NV
@@ -172,7 +172,7 @@ wines:
   color: Розовое игристое
   group: Франция
   raw: Rose de Saignee La Villeseniere 2016
-  used: '2026-10-28'
+  used: '2026-10-27'
 - id: w023
   name: Blanc de Blancs Brut Tete de Cheval
   vintage: NV
@@ -202,7 +202,7 @@ wines:
   group: Игристое
   raw: Cava Brut Reserva Sumarroca 2021, Catalunia, Spain
   photo_ambiguous: true
-  used: '2026-10-25'
+  used: '2026-11-10'
 - id: w027
   name: Blanc de Noirs Brut Usadba Divnomorskoe
   vintage: NV
@@ -299,7 +299,7 @@ wines:
   color: Белое
   group: Италия
   raw: Lafoa Sauvignon Colterenzio 2023, Alto Adige
-  used: '2026-10-22'
+  used: '2026-10-17'
 - id: w040
   name: Gavi dei Gavi Etichetta Nera La Scolca
   vintage: '2024'
@@ -353,7 +353,7 @@ wines:
   color: Белое
   group: Франция
   raw: Chardonnay Belles de Vigne Cazaban 2022, Languedoc, France
-  used: '2026-11-01'
+  used: '2026-11-28'
 - id: w047
   name: Muscadet Sevre et Maine sur Lie la Mariniere
   vintage: '2023'
@@ -488,7 +488,7 @@ wines:
   color: Белое
   group: Франция
   raw: Chassagne-Montrachet Les Concis du Champs Domaine Hubert Lamy 2021, Bourgogne
-  used: '2026-10-23'
+  used: '2026-11-07'
 - id: w065
   name: Corton-Charlemagne Grand Cru Domaine Antonin Guyon
   vintage: '2022'
@@ -513,7 +513,7 @@ wines:
   color: Белое
   group: Остальная Европа
   raw: Gruner Veltliner Sonnhof 2022, Austria
-  used: '2026-10-29'
+  used: '2026-11-21'
 - id: w068
   name: Weissburgunder Steingewann Hees
   vintage: '2023'
@@ -538,7 +538,7 @@ wines:
   color: Белое
   group: Остальная Европа
   raw: Riesling Beurer 2022, Württemberg, Germany
-  used: '2026-10-26'
+  used: '2026-10-24'
 - id: w071
   name: Riesling GG Herrenberg Pfeffingen
   vintage: '2022'
@@ -757,7 +757,7 @@ wines:
   color: Красное
   group: Италия
   raw: Villa Donoratico Tenuta Argentiera 2022, Toscsana
-  used: '2026-11-07'
+  used: '2026-12-12'
 - id: w100
   name: Gattinara Travaglini
   vintage: '2021'
@@ -805,7 +805,7 @@ wines:
   group: Италия
   raw: Barolo Bussia Giacomo Fenocchio 2018, Piemonte
   photo_ambiguous: true
-  used: '2026-10-22'
+  used: '2026-11-03'
 - id: w106
   name: Vignavento (Sangiovese Grosso) Enrico Fossi
   vintage: '2018'
@@ -906,7 +906,7 @@ wines:
   color: Красное
   group: Франция
   raw: Syrah Les Vignes d'a Cote Collines Rhodaniennes Yves Cuilleron 2023, Rhone
-  used: '2026-10-26'
+  used: '2026-11-14'
 - id: w119
   name: Marcillac V.V. Domaine du Cros
   vintage: '2018'
@@ -921,7 +921,7 @@ wines:
   color: Красное
   group: Франция
   raw: Bourgogne Pinot Noir Domaine Bony Gachot 2023, Bourgogne
-  used: '2026-10-31'
+  used: '2026-11-24'
 - id: w121
   name: Chateau Citran
   vintage: '2021'
@@ -950,7 +950,7 @@ wines:
   color: Красное
   group: Франция
   raw: Closerie Saint Roc 2019, Bordeaux
-  used: '2026-11-04'
+  used: '2026-12-05'
 - id: w125
   name: Crozes-Hermitage Rouge Domaine Marc Sorrel
   vintage: '2023'
@@ -1016,7 +1016,7 @@ wines:
   color: Красное
   group: Франция
   raw: Chateau Pape-Clement 2014, Pessac-Leognan, Bordeaux
-  used: '2026-10-24'
+  used: '2026-10-20'
 - id: w134
   name: Corton-Marechaudes Grand Cru Domaine Doudet - Naudin
   vintage: '2021'
@@ -1326,7 +1326,7 @@ wines:
   color: Розовое
   group: Розовое
   raw: Susucaru Rosato Frank Cornelissen 2024, Sicilia, Italy
-  used: '2026-10-20'
+  used: '2026-10-31'
 - id: w177
   name: Cava Brut Josep Ventosa
   vintage: NV
@@ -1362,7 +1362,7 @@ wines:
   color: Магнум
   group: Магнум
   raw: Reserva Vina Real 2014, Rioja, Spain
-  used: '2026-10-28'
+  used: '2026-11-17'
 - id: w182
   name: Reserva Protos
   vintage: '2015'

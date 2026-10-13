@@ -32,13 +32,15 @@ def load_config() -> dict:
     return yaml.safe_load(CONFIG_PATH.read_text(encoding="utf-8"))
 
 
-def due_slots(config: dict) -> list[str]:
+def due_slots(config: dict, now: datetime | None = None) -> list[str]:
     """Слоты, время которых сегодня уже наступило, в порядке возрастания.
 
-    Запуск идёт ежечасно, потому что GitHub задерживает cron на часы, а то и
-    пропускает его целиком. Любой поздний запуск догоняет пропущенный слот.
+    Первый запуск назначен на 14:05 МСК; следующие в тот же день страхуют
+    задержанный или пропущенный запуск GitHub Actions.
     """
-    now = datetime.now(ZoneInfo(config["timezone"]))
+    now = (now or datetime.now(ZoneInfo(config["timezone"]))).astimezone(
+        ZoneInfo(config["timezone"])
+    )
     passed = []
     for name, slot in config["slots"].items():
         hours, minutes = (int(x) for x in slot["time"].split(":"))
@@ -47,17 +49,16 @@ def due_slots(config: dict) -> list[str]:
     return [name for _, name in sorted(passed)]
 
 
-def get_date() -> date:
+def get_date(config: dict, now: datetime | None = None) -> date:
     override = os.environ.get("DATE")
     if override:
         return datetime.strptime(override, "%Y-%m-%d").date()
-    return date.today()
+    now = now or datetime.now(ZoneInfo(config["timezone"]))
+    return now.astimezone(ZoneInfo(config["timezone"])).date()
 
 
 def is_active_day(day: date, config: dict) -> bool:
-    delta = (day - config["start_date"]).days
-    rhythm = config["rhythm"]
-    return delta >= 0 and delta % rhythm["cycle_days"] in rhythm["active_offsets"]
+    return day >= config["effective_date"] and day.isoweekday() in config["publication_weekdays"]
 
 
 def parse_post(path: Path) -> tuple[str, dict]:
@@ -149,7 +150,7 @@ def publish_slot(day: date, slot: str) -> bool:
 
 def main():
     config = load_config()
-    day = get_date()
+    day = get_date(config)
 
     if not is_active_day(day, config):
         print(f"{day} — не публикационный день, пропускаем")

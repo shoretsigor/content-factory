@@ -1,6 +1,7 @@
 """Проверка готовых постов перед выпуском. Запускать: python bot/check.py"""
 import re
 import sys
+from datetime import date
 from pathlib import Path
 
 import yaml
@@ -35,6 +36,7 @@ GUARANTEES = ("готово к употреблению", "готова к уп�
 
 def main() -> int:
     catalogue = yaml.safe_load((ROOT / "sources" / "wines.yml").read_text(encoding="utf-8"))["wines"]
+    schedule = yaml.safe_load((ROOT / "channel.yml").read_text(encoding="utf-8"))
     by_id = {w["id"]: w for w in catalogue}
     problems = []
 
@@ -54,6 +56,17 @@ def main() -> int:
             problems.append(f"{path.name}: неизвестный статус {meta.get('status')!r}")
         if meta.get("slot") != ("companion" if "companion" in path.stem else "main"):
             problems.append(f"{path.name}: slot не совпадает с именем файла")
+        try:
+            file_date = date.fromisoformat(path.name[:10])
+            if str(meta.get("date")) != file_date.isoformat():
+                problems.append(f"{path.name}: date не совпадает с именем файла")
+            if meta.get("status") == "ready" and (
+                file_date < schedule["effective_date"]
+                or file_date.isoweekday() not in schedule["publication_weekdays"]
+            ):
+                problems.append(f"{path.name}: дата вне публикационных дней")
+        except ValueError:
+            problems.append(f"{path.name}: неверная дата в имени файла")
 
         # бутылка должна существовать в каталоге, а строка прайса — совпадать дословно
         ids = str(meta.get("wine_id", "")).split("+")
